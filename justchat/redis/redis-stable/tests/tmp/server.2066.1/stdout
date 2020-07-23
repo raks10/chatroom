@@ -1,0 +1,58 @@
+2094:C 21 Jul 2020 17:58:31.078 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2094:C 21 Jul 2020 17:58:31.078 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2094, just started
+2094:C 21 Jul 2020 17:58:31.078 # Configuration loaded
+2094:M 21 Jul 2020 17:58:31.080 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 22611
+ |    `-._   `._    /     _.-'    |     PID: 2094
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2094:M 21 Jul 2020 17:58:31.176 # Server initialized
+2094:M 21 Jul 2020 17:58:31.176 * Ready to accept connections
+2094:M 21 Jul 2020 17:58:31.177 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2066.1/socket
+2094:M 21 Jul 2020 17:58:31.266 - Accepted 127.0.0.1:55637
+2094:M 21 Jul 2020 17:58:31.267 - Client closed connection
+2094:M 21 Jul 2020 17:58:31.319 - Accepted 127.0.0.1:55648
+2094:M 21 Jul 2020 17:58:31.324 - Accepted 127.0.0.1:55651
+2094:M 21 Jul 2020 17:58:31.332 - Accepted 127.0.0.1:55658
+2094:M 21 Jul 2020 17:58:31.338 - Accepted 127.0.0.1:55662
+2094:M 21 Jul 2020 17:58:31.339 - Protocol error (invalid mbulk count) from client: id=8 addr=127.0.0.1:55662 fd=15 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=11 qbuf-free=32757 obl=47 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: '*20000000..'
+2094:M 21 Jul 2020 17:58:31.341 - Accepted 127.0.0.1:55663
+2094:M 21 Jul 2020 17:58:31.346 - Protocol error (expected $ but got something else) from client: id=9 addr=127.0.0.1:55663 fd=15 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=26 qbuf-free=32742 obl=44 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: 'fooz..'
+2094:M 21 Jul 2020 17:58:31.350 - Accepted 127.0.0.1:55664
+2094:M 21 Jul 2020 17:58:31.355 - Protocol error (invalid bulk length) from client: id=10 addr=127.0.0.1:55664 fd=15 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=26 qbuf-free=32742 obl=42 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: '$-10..'
+2094:M 21 Jul 2020 17:58:31.355 - Accepted 127.0.0.1:55665
+2094:M 21 Jul 2020 17:58:31.364 - Protocol error (invalid bulk length) from client: id=11 addr=127.0.0.1:55665 fd=15 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=33 qbuf-free=32735 obl=42 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: '$2000000000..'
+2094:M 21 Jul 2020 17:58:31.366 - Accepted 127.0.0.1:55666
+2094:M 21 Jul 2020 17:58:31.378 - Protocol error (invalid bulk length) from client: id=12 addr=127.0.0.1:55666 fd=15 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=29 qbuf-free=32739 obl=42 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: '$blabla..'
+2094:M 21 Jul 2020 17:58:31.381 - Accepted 127.0.0.1:55671
+2094:M 21 Jul 2020 17:58:31.393 - Protocol error (expected $ but got something else) from client: id=13 addr=127.0.0.1:55671 fd=15 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=9 qbuf-free=32759 obl=44 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: 'foo..'
+2094:M 21 Jul 2020 17:58:31.394 - Accepted 127.0.0.1:55672
+2094:M 21 Jul 2020 17:58:31.404 - Accepted 127.0.0.1:55675
+2094:M 21 Jul 2020 17:58:31.407 - Protocol error (unbalanced quotes in inline request) from client: id=15 addr=127.0.0.1:55675 fd=16 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=37 qbuf-free=32731 obl=51 oll=0 omem=0 events=r cmd=select user=default. Query buffer during protocol error: 'set """test-key""" test-value..ping..'
+2094:M 21 Jul 2020 17:58:31.416 - Accepted 127.0.0.1:55676
+2094:M 21 Jul 2020 17:58:31.996 - Protocol error (too big inline request) from client: id=16 addr=127.0.0.1:55676 fd=16 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=65549 qbuf-free=34771 obl=45 oll=0 omem=0 events=r cmd=NULL user=default. Query buffer during protocol error: '' (... more 65421 bytes ...) 'dpayloadpayloadpayloadpayloadpayloadpayloadpayloadpayloadpayload'
+2094:M 21 Jul 2020 17:58:31.997 - Accepted 127.0.0.1:55709
+2094:M 21 Jul 2020 17:58:32.486 - Protocol error (too big mbulk count string) from client: id=17 addr=127.0.0.1:55709 fd=16 name= age=1 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=65557 qbuf-free=36669 obl=49 oll=0 omem=0 events=r cmd=NULL user=default. Query buffer during protocol error: '*' (... more 65429 bytes ...) 'dpayloadpayloadpayloadpayloadpayloadpayloadpayloadpayloadpayload'
+2094:M 21 Jul 2020 17:58:32.487 - Accepted 127.0.0.1:55717
+2094:M 21 Jul 2020 17:58:32.905 - Protocol error (too big inline request) from client: id=18 addr=127.0.0.1:55717 fd=16 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=65543 qbuf-free=34849 obl=45 oll=0 omem=0 events=r cmd=NULL user=default. Query buffer during protocol error: '$' (... more 65415 bytes ...) 'dpayloadpayloadpayloadpayloadpayloadpayloadpayloadpayloadpayload'
+2094:signal-handler (1595334513) Received SIGTERM scheduling shutdown...
+2094:M 21 Jul 2020 17:58:33.834 # User requested shutdown...
+2094:M 21 Jul 2020 17:58:33.834 * Saving the final RDB snapshot before exiting.
+2094:M 21 Jul 2020 17:58:33.836 * DB saved on disk
+2094:M 21 Jul 2020 17:58:33.836 * Removing the pid file.
+2094:M 21 Jul 2020 17:58:33.836 * Removing the unix socket file.
+2094:M 21 Jul 2020 17:58:33.836 # Redis is now ready to exit, bye bye...

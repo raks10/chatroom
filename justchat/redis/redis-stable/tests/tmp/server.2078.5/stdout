@@ -1,0 +1,46 @@
+2475:C 21 Jul 2020 17:58:35.642 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2475:C 21 Jul 2020 17:58:35.643 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2475, just started
+2475:C 21 Jul 2020 17:58:35.643 # Configuration loaded
+2475:M 21 Jul 2020 17:58:35.645 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 28613
+ |    `-._   `._    /     _.-'    |     PID: 2475
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2475:M 21 Jul 2020 17:58:35.647 # Server initialized
+2475:M 21 Jul 2020 17:58:35.648 * Ready to accept connections
+2475:M 21 Jul 2020 17:58:35.648 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2078.5/socket
+2475:M 21 Jul 2020 17:58:35.778 - Accepted 127.0.0.1:55798
+2475:M 21 Jul 2020 17:58:35.778 - Client closed connection
+2475:M 21 Jul 2020 17:58:35.807 - Accepted 127.0.0.1:55799
+2475:M 21 Jul 2020 17:58:35.810 * Background append only file rewriting started by pid 2490
+2475:M 21 Jul 2020 17:58:35.834 * AOF rewrite child asks to stop sending diffs.
+2490:C 21 Jul 2020 17:58:35.834 * Parent agreed to stop sending diffs. Finalizing AOF...
+2490:C 21 Jul 2020 17:58:35.834 * Concatenating 0.00 MB of AOF diff received from parent.
+2490:C 21 Jul 2020 17:58:35.835 * SYNC append only file rewrite performed
+2475:M 21 Jul 2020 17:58:35.851 * Background AOF rewrite terminated with success
+2475:M 21 Jul 2020 17:58:35.851 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+2475:M 21 Jul 2020 17:58:35.852 * Background AOF rewrite finished successfully
+2475:M 21 Jul 2020 17:58:35.852 - Background AOF rewrite signal handler took 528us
+2475:M 21 Jul 2020 17:58:36.812 # Append Only File loaded by DEBUG LOADAOF
+2475:signal-handler (1595334517) Received SIGTERM scheduling shutdown...
+2475:M 21 Jul 2020 17:58:37.708 # User requested shutdown...
+2475:M 21 Jul 2020 17:58:37.708 * Calling fsync() on the AOF file.
+2475:M 21 Jul 2020 17:58:37.708 * Saving the final RDB snapshot before exiting.
+2475:M 21 Jul 2020 17:58:37.710 * DB saved on disk
+2475:M 21 Jul 2020 17:58:37.710 * Removing the pid file.
+2475:M 21 Jul 2020 17:58:37.710 * Removing the unix socket file.
+2475:M 21 Jul 2020 17:58:37.710 # Redis is now ready to exit, bye bye...

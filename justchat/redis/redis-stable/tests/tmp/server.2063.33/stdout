@@ -1,0 +1,60 @@
+4156:C 21 Jul 2020 17:59:33.632 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4156:C 21 Jul 2020 17:59:33.632 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4156, just started
+4156:C 21 Jul 2020 17:59:33.632 # Configuration loaded
+4156:M 21 Jul 2020 17:59:33.635 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21127
+ |    `-._   `._    /     _.-'    |     PID: 4156
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4156:M 21 Jul 2020 17:59:33.637 # Server initialized
+4156:M 21 Jul 2020 17:59:33.637 * Ready to accept connections
+4156:M 21 Jul 2020 17:59:33.637 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2063.33/socket
+4156:M 21 Jul 2020 17:59:33.769 - Accepted 127.0.0.1:56615
+4156:M 21 Jul 2020 17:59:33.769 - Client closed connection
+4156:M 21 Jul 2020 17:59:33.796 - Accepted 127.0.0.1:56616
+4156:M 21 Jul 2020 17:59:33.827 - Accepted 127.0.0.1:56617
+4156:M 21 Jul 2020 17:59:37.190 - Client closed connection
+4156:M 21 Jul 2020 17:59:37.197 * DB saved on disk
+4156:M 21 Jul 2020 17:59:37.202 * Background append only file rewriting started by pid 4230
+4156:M 21 Jul 2020 17:59:37.230 * AOF rewrite child asks to stop sending diffs.
+4230:C 21 Jul 2020 17:59:37.231 * Parent agreed to stop sending diffs. Finalizing AOF...
+4230:C 21 Jul 2020 17:59:37.231 * Concatenating 0.00 MB of AOF diff received from parent.
+4230:C 21 Jul 2020 17:59:37.233 * SYNC append only file rewrite performed
+4156:M 21 Jul 2020 17:59:37.279 * Background AOF rewrite terminated with success
+4156:M 21 Jul 2020 17:59:37.279 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+4156:M 21 Jul 2020 17:59:37.279 * Background AOF rewrite finished successfully
+4156:M 21 Jul 2020 17:59:37.279 - Background AOF rewrite signal handler took 546us
+4156:S 21 Jul 2020 17:59:37.320 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+4156:S 21 Jul 2020 17:59:37.320 * REPLICAOF 127.0.0.1:0 enabled (user request from 'id=5 addr=127.0.0.1:56616 fd=12 name= age=4 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=39 qbuf-free=32729 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+4156:S 21 Jul 2020 17:59:37.320 * Reading RDB preamble from AOF file...
+4156:S 21 Jul 2020 17:59:37.320 * Loading RDB produced by version 6.0.6
+4156:S 21 Jul 2020 17:59:37.320 * RDB age 0 seconds
+4156:S 21 Jul 2020 17:59:37.321 * RDB memory usage when created 1.02 Mb
+4156:S 21 Jul 2020 17:59:37.321 * RDB has an AOF tail
+4156:S 21 Jul 2020 17:59:37.321 * Reading the remaining AOF tail...
+4156:S 21 Jul 2020 17:59:37.321 # Append Only File loaded by DEBUG LOADAOF
+4156:M 21 Jul 2020 17:59:37.321 * Discarding previously cached master state.
+4156:M 21 Jul 2020 17:59:37.321 # Setting secondary replication ID to 088245d6697f5b35df953fa98f680524a9fa3920, valid up to offset: 1. New replication ID is 869fb11edaca98989bb0f12e0c80df7a2d97d4a4
+4156:M 21 Jul 2020 17:59:37.322 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:56616 fd=12 name= age=4 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=34 qbuf-free=32734 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+4156:signal-handler (1595334578) Received SIGTERM scheduling shutdown...
+4156:M 21 Jul 2020 17:59:38.235 # User requested shutdown...
+4156:M 21 Jul 2020 17:59:38.235 * Calling fsync() on the AOF file.
+4156:M 21 Jul 2020 17:59:38.235 * Saving the final RDB snapshot before exiting.
+4156:M 21 Jul 2020 17:59:38.237 * DB saved on disk
+4156:M 21 Jul 2020 17:59:38.237 * Removing the pid file.
+4156:M 21 Jul 2020 17:59:38.237 * Removing the unix socket file.
+4156:M 21 Jul 2020 17:59:38.238 # Redis is now ready to exit, bye bye...

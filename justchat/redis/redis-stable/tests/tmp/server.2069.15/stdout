@@ -1,0 +1,57 @@
+4110:C 21 Jul 2020 17:59:31.079 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4110:C 21 Jul 2020 17:59:31.079 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4110, just started
+4110:C 21 Jul 2020 17:59:31.079 # Configuration loaded
+4110:M 21 Jul 2020 17:59:31.081 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 24118
+ |    `-._   `._    /     _.-'    |     PID: 4110
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4110:M 21 Jul 2020 17:59:31.083 # Server initialized
+4110:M 21 Jul 2020 17:59:31.084 * Ready to accept connections
+4110:M 21 Jul 2020 17:59:31.084 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2069.15/socket
+4110:M 21 Jul 2020 17:59:31.215 - Accepted 127.0.0.1:56569
+4110:M 21 Jul 2020 17:59:31.215 - Client closed connection
+4110:M 21 Jul 2020 17:59:31.242 - Accepted 127.0.0.1:56570
+4110:M 21 Jul 2020 17:59:31.455 - Accepted 127.0.0.1:56575
+4110:M 21 Jul 2020 17:59:31.459 - Accepted 127.0.0.1:56576
+4110:M 21 Jul 2020 17:59:31.462 - Accepted 127.0.0.1:56577
+4110:M 21 Jul 2020 17:59:32.277 - Accepted 127.0.0.1:56588
+4110:M 21 Jul 2020 17:59:32.278 * Replica 127.0.0.1:24119 asks for synchronization
+4110:M 21 Jul 2020 17:59:32.278 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '54a2ecd7bb3285c390b1572d4d76bf7043270108', my replication IDs are '989f8b12aa0a3d625afae9f7767cf65d25199723' and '0000000000000000000000000000000000000000')
+4110:M 21 Jul 2020 17:59:32.278 * Replication backlog created, my new replication IDs are '67a040f7d975de938aea30ef657b0985ff89b929' and '0000000000000000000000000000000000000000'
+4110:M 21 Jul 2020 17:59:32.278 * Starting BGSAVE for SYNC with target: disk
+4110:M 21 Jul 2020 17:59:32.279 * Background saving started by pid 4136
+4136:C 21 Jul 2020 17:59:32.284 * DB saved on disk
+4110:M 21 Jul 2020 17:59:32.309 * Background saving terminated with success
+4110:M 21 Jul 2020 17:59:32.309 * Synchronization with replica 127.0.0.1:24119 succeeded
+4110:M 21 Jul 2020 17:59:32.585 - Reading from client: Connection reset by peer
+4110:M 21 Jul 2020 17:59:32.585 # Connection with replica client id #9 lost.
+4110:M 21 Jul 2020 17:59:36.197 - Accepted 127.0.0.1:56651
+4110:M 21 Jul 2020 17:59:36.199 * Replica 127.0.0.1:24119 asks for synchronization
+4110:M 21 Jul 2020 17:59:36.201 * Partial resynchronization request from 127.0.0.1:24119 accepted. Sending 519988 bytes of backlog starting from offset 33125.
+4110:M 21 Jul 2020 17:59:36.807 - DB 9: 856 keys (0 volatile) in 1024 slots HT.
+4110:M 21 Jul 2020 17:59:36.807 - DB 11: 851 keys (0 volatile) in 1024 slots HT.
+4110:M 21 Jul 2020 17:59:36.807 - DB 12: 904 keys (0 volatile) in 1024 slots HT.
+4110:M 21 Jul 2020 17:59:37.656 - Client closed connection
+4110:M 21 Jul 2020 17:59:37.656 # Connection with replica 127.0.0.1:24119 lost.
+4110:M 21 Jul 2020 17:59:41.225 - Accepted 127.0.0.1:56723
+4110:M 21 Jul 2020 17:59:41.226 * Replica 127.0.0.1:24119 asks for synchronization
+4110:M 21 Jul 2020 17:59:41.227 * Partial resynchronization request from 127.0.0.1:24119 accepted. Sending 477882 bytes of backlog starting from offset 743280.
+4110:M 21 Jul 2020 17:59:41.568 - Reading from client: Connection reset by peer
+4110:M 21 Jul 2020 17:59:41.739 - Reading from client: Connection reset by peer
+4110:M 21 Jul 2020 17:59:41.739 - Reading from client: Connection reset by peer
+4110:M 21 Jul 2020 17:59:41.739 - Reading from client: Connection reset by peer

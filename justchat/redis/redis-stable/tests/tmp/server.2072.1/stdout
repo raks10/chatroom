@@ -1,0 +1,46 @@
+2110:C 21 Jul 2020 17:58:31.084 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2110:C 21 Jul 2020 17:58:31.084 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2110, just started
+2110:C 21 Jul 2020 17:58:31.084 # Configuration loaded
+2110:M 21 Jul 2020 17:58:31.087 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25611
+ |    `-._   `._    /     _.-'    |     PID: 2110
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2110:M 21 Jul 2020 17:58:31.179 # Server initialized
+2110:M 21 Jul 2020 17:58:31.179 * Ready to accept connections
+2110:M 21 Jul 2020 17:58:31.179 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2072.1/socket
+2110:M 21 Jul 2020 17:58:31.259 - Accepted 127.0.0.1:55634
+2110:M 21 Jul 2020 17:58:31.260 - Client closed connection
+2110:M 21 Jul 2020 17:58:31.296 - Accepted 127.0.0.1:55644
+2110:M 21 Jul 2020 17:58:36.214 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:58:41.261 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:58:46.285 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:58:51.304 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:58:56.350 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:01.375 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:06.412 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:11.509 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:16.543 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:21.612 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:26.646 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:31.684 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:32.087 * 10000 changes in 60 seconds. Saving...
+2110:M 21 Jul 2020 17:59:32.089 * Background saving started by pid 4135
+4135:C 21 Jul 2020 17:59:32.091 * DB saved on disk
+2110:M 21 Jul 2020 17:59:32.190 * Background saving terminated with success
+2110:M 21 Jul 2020 17:59:36.718 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2110:M 21 Jul 2020 17:59:41.665 - Reading from client: Connection reset by peer

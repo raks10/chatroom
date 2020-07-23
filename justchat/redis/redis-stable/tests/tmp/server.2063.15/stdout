@@ -1,0 +1,36 @@
+3661:C 21 Jul 2020 17:59:25.701 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3661:C 21 Jul 2020 17:59:25.702 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3661, just started
+3661:C 21 Jul 2020 17:59:25.702 # Configuration loaded
+3661:M 21 Jul 2020 17:59:25.704 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21118
+ |    `-._   `._    /     _.-'    |     PID: 3661
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3661:M 21 Jul 2020 17:59:25.706 # Server initialized
+3661:M 21 Jul 2020 17:59:25.706 * Ready to accept connections
+3661:M 21 Jul 2020 17:59:25.706 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2063.15/socket
+3661:M 21 Jul 2020 17:59:25.840 - Accepted 127.0.0.1:56407
+3661:M 21 Jul 2020 17:59:25.840 - Client closed connection
+3661:M 21 Jul 2020 17:59:25.879 - Accepted 127.0.0.1:56408
+3661:M 21 Jul 2020 17:59:25.881 - Accepted 127.0.0.1:56409
+3661:signal-handler (1595334565) Received SIGTERM scheduling shutdown...
+3661:M 21 Jul 2020 17:59:25.908 # User requested shutdown...
+3661:M 21 Jul 2020 17:59:25.908 * Saving the final RDB snapshot before exiting.
+3661:M 21 Jul 2020 17:59:25.910 * DB saved on disk
+3661:M 21 Jul 2020 17:59:25.910 * Removing the pid file.
+3661:M 21 Jul 2020 17:59:25.910 * Removing the unix socket file.
+3661:M 21 Jul 2020 17:59:25.910 # Redis is now ready to exit, bye bye...

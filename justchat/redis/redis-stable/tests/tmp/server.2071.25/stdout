@@ -1,0 +1,51 @@
+3762:C 21 Jul 2020 17:59:26.822 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3762:C 21 Jul 2020 17:59:26.822 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3762, just started
+3762:C 21 Jul 2020 17:59:26.822 # Configuration loaded
+3762:M 21 Jul 2020 17:59:26.824 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25123
+ |    `-._   `._    /     _.-'    |     PID: 3762
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3762:M 21 Jul 2020 17:59:26.826 # Server initialized
+3762:M 21 Jul 2020 17:59:26.826 * Ready to accept connections
+3762:M 21 Jul 2020 17:59:26.826 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.25/socket
+3762:M 21 Jul 2020 17:59:26.961 - Accepted 127.0.0.1:56436
+3762:M 21 Jul 2020 17:59:26.961 - Client closed connection
+3762:M 21 Jul 2020 17:59:27.003 - Accepted 127.0.0.1:56439
+3762:S 21 Jul 2020 17:59:32.473 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3762:S 21 Jul 2020 17:59:32.473 * REPLICAOF 127.0.0.1:25122 enabled (user request from 'id=5 addr=127.0.0.1:56439 fd=12 name= age=6 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3762:S 21 Jul 2020 17:59:32.894 * Connecting to MASTER 127.0.0.1:25122
+3762:S 21 Jul 2020 17:59:32.895 * MASTER <-> REPLICA sync started
+3762:S 21 Jul 2020 17:59:32.895 * Non blocking connect for SYNC fired the event.
+3762:S 21 Jul 2020 17:59:32.895 * Master replied to PING, replication can continue...
+3762:S 21 Jul 2020 17:59:32.895 * Trying a partial resynchronization (request 8355d7b264d33a175a4c5068a49dba6d87c0fafb:1).
+3762:S 21 Jul 2020 17:59:32.898 * Full resync from master: 44edf3e79aff732a8f30458fc86daf9fad2126e5:0
+3762:S 21 Jul 2020 17:59:32.898 * Discarding previously cached master state.
+3762:S 21 Jul 2020 17:59:33.121 * MASTER <-> REPLICA sync: receiving 916505 bytes from master to parser
+3762:S 21 Jul 2020 17:59:33.121 * MASTER <-> REPLICA sync: Flushing old data
+3762:S 21 Jul 2020 17:59:33.121 * MASTER <-> REPLICA sync: Loading DB in memory
+3762:S 21 Jul 2020 17:59:33.121 * Loading RDB produced by version 6.0.6
+3762:S 21 Jul 2020 17:59:33.121 * RDB age 1 seconds
+3762:S 21 Jul 2020 17:59:33.121 * RDB memory usage when created 4.89 Mb
+3762:S 21 Jul 2020 17:59:33.181 * MASTER <-> REPLICA sync: Finished with success
+3762:S 21 Jul 2020 17:59:38.278 - DB 9: 20960 keys (0 volatile) in 32768 slots HT.
+3762:S 21 Jul 2020 17:59:38.278 - DB 11: 787 keys (0 volatile) in 1024 slots HT.
+3762:S 21 Jul 2020 17:59:38.278 - DB 12: 775 keys (0 volatile) in 1024 slots HT.
+3762:S 21 Jul 2020 17:59:41.654 - Client closed connection
+3762:S 21 Jul 2020 17:59:41.864 - Client closed connection
+3762:S 21 Jul 2020 17:59:41.864 # Connection with master lost.
+3762:S 21 Jul 2020 17:59:41.864 * Caching the disconnected master state.

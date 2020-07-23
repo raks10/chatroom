@@ -1,0 +1,88 @@
+3365:C 21 Jul 2020 17:59:17.207 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3365:C 21 Jul 2020 17:59:17.208 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3365, just started
+3365:C 21 Jul 2020 17:59:17.208 # Configuration loaded
+3365:M 21 Jul 2020 17:59:17.210 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 24116
+ |    `-._   `._    /     _.-'    |     PID: 3365
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3365:M 21 Jul 2020 17:59:17.212 # Server initialized
+3365:M 21 Jul 2020 17:59:17.212 * Ready to accept connections
+3365:M 21 Jul 2020 17:59:17.212 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2069.11/socket
+3365:M 21 Jul 2020 17:59:17.344 - Accepted 127.0.0.1:56263
+3365:M 21 Jul 2020 17:59:17.345 - Client closed connection
+3365:M 21 Jul 2020 17:59:17.373 - Accepted 127.0.0.1:56264
+3365:M 21 Jul 2020 17:59:17.632 - Accepted 127.0.0.1:56271
+3365:M 21 Jul 2020 17:59:17.632 - Accepted 127.0.0.1:56272
+3365:M 21 Jul 2020 17:59:17.632 - Accepted 127.0.0.1:56273
+3365:M 21 Jul 2020 17:59:18.428 - Accepted 127.0.0.1:56284
+3365:M 21 Jul 2020 17:59:18.438 * Replica 127.0.0.1:24117 asks for synchronization
+3365:M 21 Jul 2020 17:59:18.439 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '9d47e2e98813fcf044c55aaf713de83ab4755447', my replication IDs are 'a500770405b3ba5e253bc06e729deba6d22e09cc' and '0000000000000000000000000000000000000000')
+3365:M 21 Jul 2020 17:59:18.439 * Replication backlog created, my new replication IDs are '16de3487bdc4e56fae30a79bbf253f14527e6f30' and '0000000000000000000000000000000000000000'
+3365:M 21 Jul 2020 17:59:18.439 * Starting BGSAVE for SYNC with target: disk
+3418:C 21 Jul 2020 17:59:18.447 * DB saved on disk
+3365:M 21 Jul 2020 17:59:18.448 * Background saving started by pid 3418
+3365:M 21 Jul 2020 17:59:18.516 * Background saving terminated with success
+3365:M 21 Jul 2020 17:59:18.516 * Synchronization with replica 127.0.0.1:24117 succeeded
+3365:M 21 Jul 2020 17:59:18.703 - Client closed connection
+3365:M 21 Jul 2020 17:59:18.703 # Connection with replica 127.0.0.1:24117 lost.
+3365:M 21 Jul 2020 17:59:19.915 - Accepted 127.0.0.1:56323
+3365:M 21 Jul 2020 17:59:19.915 * Replica 127.0.0.1:24117 asks for synchronization
+3365:M 21 Jul 2020 17:59:19.916 * Unable to partial resync with replica 127.0.0.1:24117 for lack of backlog (Replica request was: 37153).
+3365:M 21 Jul 2020 17:59:19.916 * Starting BGSAVE for SYNC with target: disk
+3365:M 21 Jul 2020 17:59:19.917 * Background saving started by pid 3511
+3511:C 21 Jul 2020 17:59:19.925 * DB saved on disk
+3365:M 21 Jul 2020 17:59:20.021 * Background saving terminated with success
+3365:M 21 Jul 2020 17:59:20.022 * Synchronization with replica 127.0.0.1:24117 succeeded
+3365:M 21 Jul 2020 17:59:21.253 - Client closed connection
+3365:M 21 Jul 2020 17:59:21.256 # Connection with replica 127.0.0.1:24117 lost.
+3365:M 21 Jul 2020 17:59:22.359 - Accepted 127.0.0.1:56356
+3365:M 21 Jul 2020 17:59:22.359 * Replica 127.0.0.1:24117 asks for synchronization
+3365:M 21 Jul 2020 17:59:22.359 * Unable to partial resync with replica 127.0.0.1:24117 for lack of backlog (Replica request was: 465253).
+3365:M 21 Jul 2020 17:59:22.359 * Starting BGSAVE for SYNC with target: disk
+3365:M 21 Jul 2020 17:59:22.361 * Background saving started by pid 3562
+3562:C 21 Jul 2020 17:59:22.374 * DB saved on disk
+3365:M 21 Jul 2020 17:59:22.390 * Background saving terminated with success
+3365:M 21 Jul 2020 17:59:22.390 * Synchronization with replica 127.0.0.1:24117 succeeded
+3365:M 21 Jul 2020 17:59:22.723 - DB 9: 972 keys (0 volatile) in 1024 slots HT.
+3365:M 21 Jul 2020 17:59:22.723 - DB 11: 923 keys (0 volatile) in 1024 slots HT.
+3365:M 21 Jul 2020 17:59:22.723 - DB 12: 960 keys (0 volatile) in 1024 slots HT.
+3365:M 21 Jul 2020 17:59:23.766 - Client closed connection
+3365:M 21 Jul 2020 17:59:23.766 # Connection with replica 127.0.0.1:24117 lost.
+3365:M 21 Jul 2020 17:59:24.774 - Accepted 127.0.0.1:56394
+3365:M 21 Jul 2020 17:59:24.775 * Replica 127.0.0.1:24117 asks for synchronization
+3365:M 21 Jul 2020 17:59:24.775 * Unable to partial resync with replica 127.0.0.1:24117 for lack of backlog (Replica request was: 884891).
+3365:M 21 Jul 2020 17:59:24.775 * Starting BGSAVE for SYNC with target: disk
+3365:M 21 Jul 2020 17:59:24.776 * Background saving started by pid 3623
+3623:C 21 Jul 2020 17:59:24.796 * DB saved on disk
+3365:M 21 Jul 2020 17:59:24.827 * Background saving terminated with success
+3365:M 21 Jul 2020 17:59:24.828 * Synchronization with replica 127.0.0.1:24117 succeeded
+3365:M 21 Jul 2020 17:59:26.213 - Client closed connection
+3365:M 21 Jul 2020 17:59:26.520 - Reading from client: Connection reset by peer
+3365:M 21 Jul 2020 17:59:26.526 - Reading from client: Connection reset by peer
+3365:M 21 Jul 2020 17:59:28.875 - DB 9: 1502 keys (0 volatile) in 2048 slots HT.
+3365:M 21 Jul 2020 17:59:28.875 - DB 11: 1468 keys (0 volatile) in 2048 slots HT.
+3365:M 21 Jul 2020 17:59:28.875 - DB 12: 1538 keys (0 volatile) in 2048 slots HT.
+3365:M 21 Jul 2020 17:59:29.512 - Client closed connection
+3365:M 21 Jul 2020 17:59:29.512 # Connection with replica 127.0.0.1:24117 lost.
+3365:signal-handler (1595334570) Received SIGTERM scheduling shutdown...
+3365:M 21 Jul 2020 17:59:31.003 # User requested shutdown...
+3365:M 21 Jul 2020 17:59:31.003 * Saving the final RDB snapshot before exiting.
+3365:M 21 Jul 2020 17:59:31.025 * DB saved on disk
+3365:M 21 Jul 2020 17:59:31.025 * Removing the pid file.
+3365:M 21 Jul 2020 17:59:31.026 * Removing the unix socket file.
+3365:M 21 Jul 2020 17:59:31.026 # Redis is now ready to exit, bye bye...

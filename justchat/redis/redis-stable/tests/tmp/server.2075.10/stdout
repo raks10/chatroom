@@ -1,0 +1,133 @@
+3497:C 21 Jul 2020 17:59:19.769 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3497:C 21 Jul 2020 17:59:19.770 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3497, just started
+3497:C 21 Jul 2020 17:59:19.770 # Configuration loaded
+3497:M 21 Jul 2020 17:59:19.772 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27115
+ |    `-._   `._    /     _.-'    |     PID: 3497
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3497:M 21 Jul 2020 17:59:19.774 # Server initialized
+3497:M 21 Jul 2020 17:59:19.774 * Ready to accept connections
+3497:M 21 Jul 2020 17:59:19.774 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.10/socket
+3497:M 21 Jul 2020 17:59:19.906 - Accepted 127.0.0.1:56322
+3497:M 21 Jul 2020 17:59:19.907 - Client closed connection
+3497:M 21 Jul 2020 17:59:19.934 - Accepted 127.0.0.1:56324
+3497:S 21 Jul 2020 17:59:20.322 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3497:S 21 Jul 2020 17:59:20.322 * REPLICAOF 127.0.0.1:27117 enabled (user request from 'id=5 addr=127.0.0.1:56324 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3497:S 21 Jul 2020 17:59:20.782 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:20.783 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:20.783 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:20.783 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:20.783 * Trying a partial resynchronization (request 7c2bb125479a12491d6843630759ce854ff37e31:1).
+3497:S 21 Jul 2020 17:59:20.785 * Full resync from master: 945965ce682fae20903140b329f7e2f4055638b1:0
+3497:S 21 Jul 2020 17:59:20.785 * Discarding previously cached master state.
+3497:S 21 Jul 2020 17:59:20.866 * MASTER <-> REPLICA sync: receiving 189 bytes from master to disk
+3497:S 21 Jul 2020 17:59:20.866 * MASTER <-> REPLICA sync: Flushing old data
+3497:S 21 Jul 2020 17:59:20.866 * MASTER <-> REPLICA sync: Loading DB in memory
+3497:S 21 Jul 2020 17:59:20.866 * Loading RDB produced by version 6.0.6
+3497:S 21 Jul 2020 17:59:20.866 * RDB age 0 seconds
+3497:S 21 Jul 2020 17:59:20.866 * RDB memory usage when created 2.03 Mb
+3497:S 21 Jul 2020 17:59:20.867 * MASTER <-> REPLICA sync: Finished with success
+3497:S 21 Jul 2020 17:59:21.431 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:21.431 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:21.809 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:21.809 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:21.809 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:21.810 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:21.810 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:1).
+3497:S 21 Jul 2020 17:59:21.810 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:21.810 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:23.145 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:23.145 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:23.830 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:23.831 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:23.831 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:23.831 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:23.831 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:1).
+3497:S 21 Jul 2020 17:59:23.831 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:23.831 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:24.358 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:24.359 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:24.842 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3497:S 21 Jul 2020 17:59:24.842 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:24.842 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:24.842 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:24.843 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:24.843 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:1).
+3497:S 21 Jul 2020 17:59:24.843 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:24.843 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:25.880 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:25.880 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:26.869 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:26.869 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:26.870 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:26.870 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:26.870 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:1).
+3497:S 21 Jul 2020 17:59:26.870 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:26.870 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:29.459 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:29.459 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:29.902 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3497:S 21 Jul 2020 17:59:29.902 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:29.903 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:29.903 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:29.903 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:29.903 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:1).
+3497:S 21 Jul 2020 17:59:29.903 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:29.903 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:30.880 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:30.880 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:30.909 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:30.909 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:30.909 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:30.909 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:30.909 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:15).
+3497:S 21 Jul 2020 17:59:30.910 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:30.910 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:33.822 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:33.822 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:33.931 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:33.931 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:33.931 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:33.932 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:33.932 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:15).
+3497:S 21 Jul 2020 17:59:33.932 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:33.932 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:34.230 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:34.230 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:34.935 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3497:S 21 Jul 2020 17:59:34.935 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:34.936 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:34.936 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:34.936 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:34.936 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:15).
+3497:S 21 Jul 2020 17:59:34.936 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:34.936 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:35.882 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:35.882 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:35.953 * Connecting to MASTER 127.0.0.1:27117
+3497:S 21 Jul 2020 17:59:35.953 * MASTER <-> REPLICA sync started
+3497:S 21 Jul 2020 17:59:35.953 * Non blocking connect for SYNC fired the event.
+3497:S 21 Jul 2020 17:59:35.954 * Master replied to PING, replication can continue...
+3497:S 21 Jul 2020 17:59:35.954 * Trying a partial resynchronization (request 945965ce682fae20903140b329f7e2f4055638b1:15).
+3497:S 21 Jul 2020 17:59:35.954 * Successful partial resynchronization with master.
+3497:S 21 Jul 2020 17:59:35.954 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3497:S 21 Jul 2020 17:59:39.993 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3497:S 21 Jul 2020 17:59:41.475 - Client closed connection
+3497:S 21 Jul 2020 17:59:41.475 # Connection with master lost.
+3497:S 21 Jul 2020 17:59:41.475 * Caching the disconnected master state.
+3497:S 21 Jul 2020 17:59:41.554 - Client closed connection

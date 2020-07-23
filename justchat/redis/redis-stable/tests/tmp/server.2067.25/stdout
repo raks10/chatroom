@@ -1,0 +1,39 @@
+3231:C 21 Jul 2020 17:59:13.602 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3231:C 21 Jul 2020 17:59:13.602 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3231, just started
+3231:C 21 Jul 2020 17:59:13.602 # Configuration loaded
+3231:M 21 Jul 2020 17:59:13.604 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23122
+ |    `-._   `._    /     _.-'    |     PID: 3231
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3231:M 21 Jul 2020 17:59:13.606 # Server initialized
+3231:M 21 Jul 2020 17:59:13.607 * Ready to accept connections
+3231:M 21 Jul 2020 17:59:13.607 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.25/socket
+3231:M 21 Jul 2020 17:59:13.744 - Accepted 127.0.0.1:56217
+3231:M 21 Jul 2020 17:59:13.744 - Client closed connection
+3231:M 21 Jul 2020 17:59:13.771 - Accepted 127.0.0.1:56218
+3231:M 21 Jul 2020 17:59:13.776 * Background saving started by pid 3244
+3244:signal-handler (1595334553) Received SIGUSR1 in child, exiting now.
+3231:M 21 Jul 2020 17:59:13.779 * DB saved on disk
+3231:M 21 Jul 2020 17:59:13.808 # Background saving terminated by signal 30
+3231:signal-handler (1595334554) Received SIGTERM scheduling shutdown...
+3231:M 21 Jul 2020 17:59:14.772 # User requested shutdown...
+3231:M 21 Jul 2020 17:59:14.772 * Saving the final RDB snapshot before exiting.
+3231:M 21 Jul 2020 17:59:14.775 * DB saved on disk
+3231:M 21 Jul 2020 17:59:14.775 * Removing the pid file.
+3231:M 21 Jul 2020 17:59:14.775 * Removing the unix socket file.
+3231:M 21 Jul 2020 17:59:14.775 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,47 @@
+2889:C 21 Jul 2020 17:59:04.830 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2889:C 21 Jul 2020 17:59:04.831 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2889, just started
+2889:C 21 Jul 2020 17:59:04.831 # Configuration loaded
+2889:M 21 Jul 2020 17:59:04.833 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25116
+ |    `-._   `._    /     _.-'    |     PID: 2889
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2889:M 21 Jul 2020 17:59:04.835 # Server initialized
+2889:M 21 Jul 2020 17:59:04.836 * Ready to accept connections
+2889:M 21 Jul 2020 17:59:04.836 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.11/socket
+2889:M 21 Jul 2020 17:59:04.968 - Accepted 127.0.0.1:56088
+2889:M 21 Jul 2020 17:59:04.968 - Client closed connection
+2889:M 21 Jul 2020 17:59:04.996 - Accepted 127.0.0.1:56089
+2889:M 21 Jul 2020 17:59:06.032 - Accepted 127.0.0.1:56098
+2889:M 21 Jul 2020 17:59:06.033 * Replica 127.0.0.1:25117 asks for synchronization
+2889:M 21 Jul 2020 17:59:06.033 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'a998d5f22008d3b8d3e32c4f359e71d69a3957c0', my replication IDs are '2fb56b50e73cac1eb4c796c9bf2158a9f792d061' and '0000000000000000000000000000000000000000')
+2889:M 21 Jul 2020 17:59:06.033 * Replication backlog created, my new replication IDs are '7cca4e7b0587bab4e3c532a0b5d0b28981f071be' and '0000000000000000000000000000000000000000'
+2889:M 21 Jul 2020 17:59:06.033 * Starting BGSAVE for SYNC with target: disk
+2889:M 21 Jul 2020 17:59:06.034 * Background saving started by pid 2918
+2918:C 21 Jul 2020 17:59:06.036 * DB saved on disk
+2889:M 21 Jul 2020 17:59:06.052 * Background saving terminated with success
+2889:M 21 Jul 2020 17:59:06.052 * Synchronization with replica 127.0.0.1:25117 succeeded
+2889:M 21 Jul 2020 17:59:06.061 * DB saved on disk
+2889:M 21 Jul 2020 17:59:07.101 - Client closed connection
+2889:M 21 Jul 2020 17:59:07.102 # Connection with replica 127.0.0.1:25117 lost.
+2889:signal-handler (1595334547) Received SIGTERM scheduling shutdown...
+2889:M 21 Jul 2020 17:59:08.094 # User requested shutdown...
+2889:M 21 Jul 2020 17:59:08.094 * Saving the final RDB snapshot before exiting.
+2889:M 21 Jul 2020 17:59:08.096 * DB saved on disk
+2889:M 21 Jul 2020 17:59:08.096 * Removing the pid file.
+2889:M 21 Jul 2020 17:59:08.096 * Removing the unix socket file.
+2889:M 21 Jul 2020 17:59:08.096 # Redis is now ready to exit, bye bye...

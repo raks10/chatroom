@@ -1,0 +1,99 @@
+2108:C 21 Jul 2020 17:58:31.072 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2108:C 21 Jul 2020 17:58:31.072 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2108, just started
+2108:C 21 Jul 2020 17:58:31.072 # Configuration loaded
+2108:M 21 Jul 2020 17:58:31.074 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25111
+ |    `-._   `._    /     _.-'    |     PID: 2108
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2108:M 21 Jul 2020 17:58:31.174 # Server initialized
+2108:M 21 Jul 2020 17:58:31.175 * Ready to accept connections
+2108:M 21 Jul 2020 17:58:31.175 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.1/socket
+2108:M 21 Jul 2020 17:58:31.257 - Accepted 127.0.0.1:55632
+2108:M 21 Jul 2020 17:58:31.259 - Client closed connection
+2108:M 21 Jul 2020 17:58:31.298 - Accepted 127.0.0.1:55645
+2108:M 21 Jul 2020 17:58:31.480 - Accepted 127.0.0.1:55677
+2108:M 21 Jul 2020 17:58:31.490 - Accepted 127.0.0.1:55678
+2108:M 21 Jul 2020 17:58:31.501 - Accepted 127.0.0.1:55679
+2108:M 21 Jul 2020 17:58:31.512 - Accepted 127.0.0.1:55680
+2108:M 21 Jul 2020 17:58:31.522 - Accepted 127.0.0.1:55681
+2108:M 21 Jul 2020 17:58:31.531 - Accepted 127.0.0.1:55682
+2108:M 21 Jul 2020 17:58:31.545 - Accepted 127.0.0.1:55687
+2108:M 21 Jul 2020 17:58:31.567 - Accepted 127.0.0.1:55688
+2108:M 21 Jul 2020 17:58:31.574 - Accepted 127.0.0.1:55689
+2108:M 21 Jul 2020 17:58:31.577 - Accepted 127.0.0.1:55690
+2108:M 21 Jul 2020 17:58:31.581 - Accepted 127.0.0.1:55691
+2108:M 21 Jul 2020 17:58:31.584 - Accepted 127.0.0.1:55692
+2108:M 21 Jul 2020 17:58:31.586 - Accepted 127.0.0.1:55693
+2108:M 21 Jul 2020 17:58:31.588 - Accepted 127.0.0.1:55694
+2108:M 21 Jul 2020 17:58:32.600 - Accepted 127.0.0.1:55726
+2108:M 21 Jul 2020 17:58:32.601 - Accepted 127.0.0.1:55727
+2108:M 21 Jul 2020 17:58:33.605 - Accepted 127.0.0.1:55745
+2108:M 21 Jul 2020 17:58:33.606 - Accepted 127.0.0.1:55746
+2108:M 21 Jul 2020 17:58:33.607 - Accepted 127.0.0.1:55747
+2108:M 21 Jul 2020 17:58:34.609 - Accepted 127.0.0.1:55758
+2108:M 21 Jul 2020 17:58:34.610 - Accepted 127.0.0.1:55759
+2108:M 21 Jul 2020 17:58:34.611 - Accepted 127.0.0.1:55760
+2108:M 21 Jul 2020 17:58:34.612 - Accepted 127.0.0.1:55761
+2108:M 21 Jul 2020 17:58:34.612 - Accepted 127.0.0.1:55762
+2108:M 21 Jul 2020 17:58:34.613 - Accepted 127.0.0.1:55763
+2108:M 21 Jul 2020 17:58:34.614 - Accepted 127.0.0.1:55764
+2108:M 21 Jul 2020 17:58:34.615 - Accepted 127.0.0.1:55765
+2108:M 21 Jul 2020 17:58:34.617 - Accepted 127.0.0.1:55766
+2108:M 21 Jul 2020 17:58:34.617 - Accepted 127.0.0.1:55767
+2108:M 21 Jul 2020 17:58:34.619 - Accepted 127.0.0.1:55768
+2108:M 21 Jul 2020 17:58:34.619 - Accepted 127.0.0.1:55769
+2108:M 21 Jul 2020 17:58:34.620 - Accepted 127.0.0.1:55770
+2108:M 21 Jul 2020 17:58:36.224 - DB 9: 14 keys (0 volatile) in 16 slots HT.
+2108:M 21 Jul 2020 17:58:36.621 - Accepted 127.0.0.1:55810
+2108:M 21 Jul 2020 17:58:36.622 - Accepted 127.0.0.1:55811
+2108:M 21 Jul 2020 17:58:36.624 - Accepted 127.0.0.1:55812
+2108:M 21 Jul 2020 17:58:36.625 - Accepted 127.0.0.1:55813
+2108:M 21 Jul 2020 17:58:36.625 - Accepted 127.0.0.1:55814
+2108:M 21 Jul 2020 17:58:36.626 - Accepted 127.0.0.1:55815
+2108:M 21 Jul 2020 17:58:37.630 - Accepted 127.0.0.1:55827
+2108:M 21 Jul 2020 17:58:37.631 - Accepted 127.0.0.1:55828
+2108:M 21 Jul 2020 17:58:38.637 - Accepted 127.0.0.1:55839
+2108:M 21 Jul 2020 17:58:38.639 - Accepted 127.0.0.1:55840
+2108:M 21 Jul 2020 17:58:38.640 - Accepted 127.0.0.1:55841
+2108:M 21 Jul 2020 17:58:38.640 - Accepted 127.0.0.1:55842
+2108:M 21 Jul 2020 17:58:38.641 - Accepted 127.0.0.1:55843
+2108:M 21 Jul 2020 17:58:39.642 - Accepted 127.0.0.1:55859
+2108:M 21 Jul 2020 17:58:39.643 - Accepted 127.0.0.1:55860
+2108:M 21 Jul 2020 17:58:40.744 - Accepted 127.0.0.1:55870
+2108:M 21 Jul 2020 17:58:41.045 * DB saved on disk
+2108:M 21 Jul 2020 17:58:41.045 * Loading RDB produced by version 6.0.6
+2108:M 21 Jul 2020 17:58:41.045 * RDB age 0 seconds
+2108:M 21 Jul 2020 17:58:41.045 * RDB memory usage when created 1.83 Mb
+2108:M 21 Jul 2020 17:58:41.045 # DB reloaded by DEBUG RELOAD
+2108:M 21 Jul 2020 17:58:41.247 - DB 9: 16 keys (0 volatile) in 16 slots HT.
+2108:M 21 Jul 2020 17:58:42.638 * DB saved on disk
+2108:M 21 Jul 2020 17:58:42.638 * Loading RDB produced by version 6.0.6
+2108:M 21 Jul 2020 17:58:42.638 * RDB age 0 seconds
+2108:M 21 Jul 2020 17:58:42.638 * RDB memory usage when created 1.84 Mb
+2108:M 21 Jul 2020 17:58:42.639 # DB reloaded by DEBUG RELOAD
+2108:M 21 Jul 2020 17:58:43.954 - Accepted 127.0.0.1:55883
+2108:M 21 Jul 2020 17:58:43.955 - Accepted 127.0.0.1:55884
+2108:M 21 Jul 2020 17:58:44.956 - Reading from client: Connection reset by peer
+2108:M 21 Jul 2020 17:58:44.956 - Reading from client: Connection reset by peer
+2108:signal-handler (1595334525) Received SIGTERM scheduling shutdown...
+2108:M 21 Jul 2020 17:58:45.603 # User requested shutdown...
+2108:M 21 Jul 2020 17:58:45.603 * Saving the final RDB snapshot before exiting.
+2108:M 21 Jul 2020 17:58:45.605 * DB saved on disk
+2108:M 21 Jul 2020 17:58:45.605 * Removing the pid file.
+2108:M 21 Jul 2020 17:58:45.606 * Removing the unix socket file.
+2108:M 21 Jul 2020 17:58:45.606 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,109 @@
+3442:C 21 Jul 2020 17:59:18.838 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3442:C 21 Jul 2020 17:59:18.839 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3442, just started
+3442:C 21 Jul 2020 17:59:18.839 # Configuration loaded
+3442:M 21 Jul 2020 17:59:18.841 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 22115
+ |    `-._   `._    /     _.-'    |     PID: 3442
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3442:M 21 Jul 2020 17:59:18.843 # Server initialized
+3442:M 21 Jul 2020 17:59:18.844 * Ready to accept connections
+3442:M 21 Jul 2020 17:59:18.844 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2065.10/socket
+3442:M 21 Jul 2020 17:59:18.981 - Accepted 127.0.0.1:56295
+3442:M 21 Jul 2020 17:59:18.982 - Client closed connection
+3442:M 21 Jul 2020 17:59:19.019 - Accepted 127.0.0.1:56296
+3442:S 21 Jul 2020 17:59:19.817 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3442:S 21 Jul 2020 17:59:19.817 * REPLICAOF 127.0.0.1:22117 enabled (user request from 'id=5 addr=127.0.0.1:56296 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3442:S 21 Jul 2020 17:59:19.852 * Connecting to MASTER 127.0.0.1:22117
+3442:S 21 Jul 2020 17:59:19.852 * MASTER <-> REPLICA sync started
+3442:S 21 Jul 2020 17:59:19.852 * Non blocking connect for SYNC fired the event.
+3442:S 21 Jul 2020 17:59:19.852 * Master replied to PING, replication can continue...
+3442:S 21 Jul 2020 17:59:19.852 * Trying a partial resynchronization (request 1bb5ff17e0abee057dca503dd3dbda113c2e980c:1).
+3442:S 21 Jul 2020 17:59:19.853 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+3442:S 21 Jul 2020 17:59:20.861 * Connecting to MASTER 127.0.0.1:22117
+3442:S 21 Jul 2020 17:59:20.861 * MASTER <-> REPLICA sync started
+3442:S 21 Jul 2020 17:59:20.862 * Non blocking connect for SYNC fired the event.
+3442:S 21 Jul 2020 17:59:20.862 * Master replied to PING, replication can continue...
+3442:S 21 Jul 2020 17:59:20.862 * Trying a partial resynchronization (request 1bb5ff17e0abee057dca503dd3dbda113c2e980c:1).
+3442:S 21 Jul 2020 17:59:20.864 * Full resync from master: 88da3c3954885b69dd6e59b4a6f28161a593d43f:14
+3442:S 21 Jul 2020 17:59:20.864 * Discarding previously cached master state.
+3442:S 21 Jul 2020 17:59:20.870 * MASTER <-> REPLICA sync: receiving 185 bytes from master to disk
+3442:S 21 Jul 2020 17:59:20.870 * MASTER <-> REPLICA sync: Flushing old data
+3442:S 21 Jul 2020 17:59:20.870 * MASTER <-> REPLICA sync: Loading DB in memory
+3442:S 21 Jul 2020 17:59:20.871 * Loading RDB produced by version 6.0.6
+3442:S 21 Jul 2020 17:59:20.871 * RDB age 0 seconds
+3442:S 21 Jul 2020 17:59:20.871 * RDB memory usage when created 2.09 Mb
+3442:S 21 Jul 2020 17:59:20.871 * MASTER <-> REPLICA sync: Finished with success
+3442:S 21 Jul 2020 17:59:23.830 # Connection with master lost.
+3442:S 21 Jul 2020 17:59:23.830 * Caching the disconnected master state.
+3442:S 21 Jul 2020 17:59:23.893 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3442:S 21 Jul 2020 17:59:23.893 * Connecting to MASTER 127.0.0.1:22117
+3442:S 21 Jul 2020 17:59:23.893 * MASTER <-> REPLICA sync started
+3442:S 21 Jul 2020 17:59:23.894 * Non blocking connect for SYNC fired the event.
+3442:S 21 Jul 2020 17:59:23.894 * Master replied to PING, replication can continue...
+3442:S 21 Jul 2020 17:59:23.894 * Trying a partial resynchronization (request 88da3c3954885b69dd6e59b4a6f28161a593d43f:109868).
+3442:S 21 Jul 2020 17:59:23.894 * Successful partial resynchronization with master.
+3442:S 21 Jul 2020 17:59:23.894 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3442:S 21 Jul 2020 17:59:26.837 - Client closed connection
+3442:S 21 Jul 2020 17:59:26.837 # Connection with master lost.
+3442:S 21 Jul 2020 17:59:26.837 * Caching the disconnected master state.
+3442:S 21 Jul 2020 17:59:26.839 * REPLICAOF would result into synchronization with the master we are already connected with. No operation performed.
+3442:S 21 Jul 2020 17:59:26.906 * Connecting to MASTER 127.0.0.1:22117
+3442:S 21 Jul 2020 17:59:26.906 * MASTER <-> REPLICA sync started
+3442:S 21 Jul 2020 17:59:26.906 * Non blocking connect for SYNC fired the event.
+3442:S 21 Jul 2020 17:59:26.906 * Master replied to PING, replication can continue...
+3442:S 21 Jul 2020 17:59:26.907 * Trying a partial resynchronization (request 88da3c3954885b69dd6e59b4a6f28161a593d43f:244142).
+3442:S 21 Jul 2020 17:59:26.907 * Successful partial resynchronization with master.
+3442:S 21 Jul 2020 17:59:26.907 # Master replication ID changed to 1dced2d5f5244354ca69198cbb487e3c61aee9fb
+3442:S 21 Jul 2020 17:59:26.907 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3442:S 21 Jul 2020 17:59:28.921 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3442:S 21 Jul 2020 17:59:29.849 # Connection with master lost.
+3442:S 21 Jul 2020 17:59:29.849 * Caching the disconnected master state.
+3442:S 21 Jul 2020 17:59:29.930 * Connecting to MASTER 127.0.0.1:22117
+3442:S 21 Jul 2020 17:59:29.930 * MASTER <-> REPLICA sync started
+3442:S 21 Jul 2020 17:59:29.930 * Non blocking connect for SYNC fired the event.
+3442:S 21 Jul 2020 17:59:29.983 * Master replied to PING, replication can continue...
+3442:S 21 Jul 2020 17:59:29.983 * Trying a partial resynchronization (request 1dced2d5f5244354ca69198cbb487e3c61aee9fb:317308).
+3442:S 21 Jul 2020 17:59:29.983 * Successful partial resynchronization with master.
+3442:S 21 Jul 2020 17:59:29.983 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3442:S 21 Jul 2020 17:59:32.849 # Connection with master lost.
+3442:S 21 Jul 2020 17:59:32.849 * Caching the disconnected master state.
+3442:M 21 Jul 2020 17:59:32.857 * Discarding previously cached master state.
+3442:M 21 Jul 2020 17:59:32.858 # Setting secondary replication ID to 1dced2d5f5244354ca69198cbb487e3c61aee9fb, valid up to offset: 435923. New replication ID is 48f98fb330d8868f3452e95601eb56e20069815f
+3442:M 21 Jul 2020 17:59:32.858 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:56296 fd=12 name= age=14 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=34 qbuf-free=32734 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3442:M 21 Jul 2020 17:59:33.151 - Accepted 127.0.0.1:56602
+3442:M 21 Jul 2020 17:59:33.152 * Replica 127.0.0.1:22117 asks for synchronization
+3442:M 21 Jul 2020 17:59:33.152 * Partial resynchronization request from 127.0.0.1:22117 accepted. Sending 0 bytes of backlog starting from offset 435923.
+3442:M 21 Jul 2020 17:59:33.542 - Accepted 127.0.0.1:56607
+3442:M 21 Jul 2020 17:59:33.543 * Replica 127.0.0.1:22118 asks for synchronization
+3442:M 21 Jul 2020 17:59:33.543 * Partial resynchronization request from 127.0.0.1:22118 accepted. Sending 0 bytes of backlog starting from offset 435923.
+3442:M 21 Jul 2020 17:59:33.946 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3442:M 21 Jul 2020 17:59:39.083 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3442:M 21 Jul 2020 17:59:40.067 - Client closed connection
+3442:M 21 Jul 2020 17:59:40.067 # Connection with replica 127.0.0.1:22117 lost.
+3442:S 21 Jul 2020 17:59:40.069 # Connection with replica 127.0.0.1:22118 lost.
+3442:S 21 Jul 2020 17:59:40.069 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3442:S 21 Jul 2020 17:59:40.069 * REPLICAOF 127.0.0.1:22117 enabled (user request from 'id=5 addr=127.0.0.1:56296 fd=12 name= age=22 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3442:S 21 Jul 2020 17:59:40.228 * Connecting to MASTER 127.0.0.1:22117
+3442:S 21 Jul 2020 17:59:40.228 * MASTER <-> REPLICA sync started
+3442:S 21 Jul 2020 17:59:40.228 * Non blocking connect for SYNC fired the event.
+3442:S 21 Jul 2020 17:59:40.228 * Master replied to PING, replication can continue...
+3442:S 21 Jul 2020 17:59:40.229 * Trying a partial resynchronization (request 48f98fb330d8868f3452e95601eb56e20069815f:651364).
+3442:S 21 Jul 2020 17:59:40.229 * Successful partial resynchronization with master.
+3442:S 21 Jul 2020 17:59:40.229 # Master replication ID changed to 389b6eded90ea647e5bb6c7d747fe1c8f50a1601
+3442:S 21 Jul 2020 17:59:40.229 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3442:S 21 Jul 2020 17:59:41.589 - Client closed connection

@@ -1,0 +1,77 @@
+2385:C 21 Jul 2020 17:58:32.728 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2385:C 21 Jul 2020 17:58:32.728 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2385, just started
+2385:C 21 Jul 2020 17:58:32.728 # Configuration loaded
+2385:M 21 Jul 2020 17:58:32.731 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 28612
+ |    `-._   `._    /     _.-'    |     PID: 2385
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2385:M 21 Jul 2020 17:58:32.733 # Server initialized
+2385:M 21 Jul 2020 17:58:32.733 * Ready to accept connections
+2385:M 21 Jul 2020 17:58:32.733 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2078.3/socket
+2385:M 21 Jul 2020 17:58:32.869 - Accepted 127.0.0.1:55730
+2385:M 21 Jul 2020 17:58:32.870 - Client closed connection
+2385:M 21 Jul 2020 17:58:32.896 - Accepted 127.0.0.1:55731
+2385:S 21 Jul 2020 17:58:32.896 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2385:S 21 Jul 2020 17:58:32.897 * REPLICAOF 127.0.0.1:28611 enabled (user request from 'id=5 addr=127.0.0.1:55731 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2385:S 21 Jul 2020 17:58:33.745 * Connecting to MASTER 127.0.0.1:28611
+2385:S 21 Jul 2020 17:58:33.745 * MASTER <-> REPLICA sync started
+2385:S 21 Jul 2020 17:58:33.745 * Non blocking connect for SYNC fired the event.
+2385:S 21 Jul 2020 17:58:33.745 * Master replied to PING, replication can continue...
+2385:S 21 Jul 2020 17:58:33.745 * Trying a partial resynchronization (request bf1441017cdd732104ab4269aa51d189fc2213f6:1).
+2385:S 21 Jul 2020 17:58:33.748 * Full resync from master: 53cfcbe85d30026e9d3f8dc4945dc1e4b08cadac:0
+2385:S 21 Jul 2020 17:58:33.748 * Discarding previously cached master state.
+2385:S 21 Jul 2020 17:58:33.814 * MASTER <-> REPLICA sync: receiving 1138 bytes from master to disk
+2385:S 21 Jul 2020 17:58:33.815 * MASTER <-> REPLICA sync: Flushing old data
+2385:S 21 Jul 2020 17:58:33.815 * MASTER <-> REPLICA sync: Loading DB in memory
+2385:S 21 Jul 2020 17:58:33.815 * Loading RDB produced by version 6.0.6
+2385:S 21 Jul 2020 17:58:33.815 * RDB age 0 seconds
+2385:S 21 Jul 2020 17:58:33.815 * RDB memory usage when created 2.10 Mb
+2385:S 21 Jul 2020 17:58:33.815 * MASTER <-> REPLICA sync: Finished with success
+2385:M 21 Jul 2020 17:58:33.818 # Connection with master lost.
+2385:M 21 Jul 2020 17:58:33.818 * Caching the disconnected master state.
+2385:M 21 Jul 2020 17:58:33.818 * Discarding previously cached master state.
+2385:M 21 Jul 2020 17:58:33.818 # Setting secondary replication ID to 53cfcbe85d30026e9d3f8dc4945dc1e4b08cadac, valid up to offset: 790. New replication ID is ec278308bfa4be3b4e0138cfe5207c682c2ff94d
+2385:M 21 Jul 2020 17:58:33.818 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:55731 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=34 qbuf-free=32734 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2385:S 21 Jul 2020 17:58:33.819 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2385:S 21 Jul 2020 17:58:33.819 * REPLICAOF 127.0.0.1:28611 enabled (user request from 'id=5 addr=127.0.0.1:55731 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2385:S 21 Jul 2020 17:58:34.750 * Connecting to MASTER 127.0.0.1:28611
+2385:S 21 Jul 2020 17:58:34.750 * MASTER <-> REPLICA sync started
+2385:S 21 Jul 2020 17:58:34.751 * Non blocking connect for SYNC fired the event.
+2385:S 21 Jul 2020 17:58:34.751 * Master replied to PING, replication can continue...
+2385:S 21 Jul 2020 17:58:34.751 * Trying a partial resynchronization (request ec278308bfa4be3b4e0138cfe5207c682c2ff94d:1012).
+2385:S 21 Jul 2020 17:58:34.753 * Full resync from master: 53cfcbe85d30026e9d3f8dc4945dc1e4b08cadac:789
+2385:S 21 Jul 2020 17:58:34.753 * Discarding previously cached master state.
+2385:S 21 Jul 2020 17:58:34.817 * MASTER <-> REPLICA sync: receiving 1261 bytes from master to disk
+2385:S 21 Jul 2020 17:58:34.817 * MASTER <-> REPLICA sync: Flushing old data
+2385:S 21 Jul 2020 17:58:34.817 * MASTER <-> REPLICA sync: Loading DB in memory
+2385:S 21 Jul 2020 17:58:34.818 * Loading RDB produced by version 6.0.6
+2385:S 21 Jul 2020 17:58:34.818 * RDB age 0 seconds
+2385:S 21 Jul 2020 17:58:34.818 * RDB memory usage when created 2.10 Mb
+2385:S 21 Jul 2020 17:58:34.818 * MASTER <-> REPLICA sync: Finished with success
+2385:M 21 Jul 2020 17:58:34.835 # Connection with master lost.
+2385:M 21 Jul 2020 17:58:34.835 * Caching the disconnected master state.
+2385:M 21 Jul 2020 17:58:34.835 * Discarding previously cached master state.
+2385:M 21 Jul 2020 17:58:34.835 # Setting secondary replication ID to 53cfcbe85d30026e9d3f8dc4945dc1e4b08cadac, valid up to offset: 1232. New replication ID is acded88a2c8252487f6fc59b89636335f6e0aff1
+2385:M 21 Jul 2020 17:58:34.835 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:55731 fd=12 name= age=2 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=34 qbuf-free=32734 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2385:signal-handler (1595334515) Received SIGTERM scheduling shutdown...
+2385:M 21 Jul 2020 17:58:35.589 # User requested shutdown...
+2385:M 21 Jul 2020 17:58:35.590 * Saving the final RDB snapshot before exiting.
+2385:M 21 Jul 2020 17:58:35.591 * DB saved on disk
+2385:M 21 Jul 2020 17:58:35.592 * Removing the pid file.
+2385:M 21 Jul 2020 17:58:35.592 * Removing the unix socket file.
+2385:M 21 Jul 2020 17:58:35.592 # Redis is now ready to exit, bye bye...

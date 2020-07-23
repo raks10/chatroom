@@ -1,0 +1,81 @@
+2845:C 21 Jul 2020 17:59:02.356 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2845:C 21 Jul 2020 17:59:02.356 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2845, just started
+2845:C 21 Jul 2020 17:59:02.356 # Configuration loaded
+2845:M 21 Jul 2020 17:59:02.358 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 24115
+ |    `-._   `._    /     _.-'    |     PID: 2845
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2845:M 21 Jul 2020 17:59:02.360 # Server initialized
+2845:M 21 Jul 2020 17:59:02.360 * Ready to accept connections
+2845:M 21 Jul 2020 17:59:02.360 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2069.9/socket
+2845:M 21 Jul 2020 17:59:02.490 - Accepted 127.0.0.1:56058
+2845:M 21 Jul 2020 17:59:02.491 - Client closed connection
+2845:M 21 Jul 2020 17:59:02.519 - Accepted 127.0.0.1:56059
+2845:S 21 Jul 2020 17:59:02.532 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2845:S 21 Jul 2020 17:59:02.532 * REPLICAOF 127.0.0.1:24114 enabled (user request from 'id=5 addr=127.0.0.1:56059 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2845:S 21 Jul 2020 17:59:03.380 * Connecting to MASTER 127.0.0.1:24114
+2845:S 21 Jul 2020 17:59:03.380 * MASTER <-> REPLICA sync started
+2845:S 21 Jul 2020 17:59:03.381 * Non blocking connect for SYNC fired the event.
+2845:S 21 Jul 2020 17:59:03.392 * Master replied to PING, replication can continue...
+2845:S 21 Jul 2020 17:59:03.397 * Trying a partial resynchronization (request 7bcf866413bd6b72d23e880568ce187bb2d1afa2:1).
+2845:S 21 Jul 2020 17:59:03.402 * Full resync from master: 85e3d05a13fa53e2f171987e13725ae8412f1140:0
+2845:S 21 Jul 2020 17:59:03.402 * Discarding previously cached master state.
+2845:S 21 Jul 2020 17:59:03.517 * MASTER <-> REPLICA sync: receiving 50325 bytes from master to disk
+2845:S 21 Jul 2020 17:59:03.518 * MASTER <-> REPLICA sync: Flushing old data
+2845:S 21 Jul 2020 17:59:03.518 * MASTER <-> REPLICA sync: Loading DB in memory
+2845:S 21 Jul 2020 17:59:03.518 * Loading RDB produced by version 6.0.6
+2845:S 21 Jul 2020 17:59:03.518 * RDB age 0 seconds
+2845:S 21 Jul 2020 17:59:03.518 * RDB memory usage when created 96.61 Mb
+2845:S 21 Jul 2020 17:59:03.520 * MASTER <-> REPLICA sync: Finished with success
+2845:S 21 Jul 2020 17:59:03.663 # Connection with master lost.
+2845:S 21 Jul 2020 17:59:03.663 * Caching the disconnected master state.
+2845:S 21 Jul 2020 17:59:04.392 * Connecting to MASTER 127.0.0.1:24114
+2845:S 21 Jul 2020 17:59:04.392 * MASTER <-> REPLICA sync started
+2845:S 21 Jul 2020 17:59:04.392 * Non blocking connect for SYNC fired the event.
+2845:S 21 Jul 2020 17:59:04.392 * Master replied to PING, replication can continue...
+2845:S 21 Jul 2020 17:59:04.393 * Trying a partial resynchronization (request 85e3d05a13fa53e2f171987e13725ae8412f1140:25502).
+2845:S 21 Jul 2020 17:59:04.393 * Successful partial resynchronization with master.
+2845:S 21 Jul 2020 17:59:04.393 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+2845:S 21 Jul 2020 17:59:05.700 # Connection with master lost.
+2845:S 21 Jul 2020 17:59:05.700 * Caching the disconnected master state.
+2845:S 21 Jul 2020 17:59:06.416 * Connecting to MASTER 127.0.0.1:24114
+2845:S 21 Jul 2020 17:59:06.416 * MASTER <-> REPLICA sync started
+2845:S 21 Jul 2020 17:59:06.416 * Non blocking connect for SYNC fired the event.
+2845:S 21 Jul 2020 17:59:06.416 * Master replied to PING, replication can continue...
+2845:S 21 Jul 2020 17:59:06.417 * Trying a partial resynchronization (request 85e3d05a13fa53e2f171987e13725ae8412f1140:313364).
+2845:S 21 Jul 2020 17:59:06.417 * Successful partial resynchronization with master.
+2845:S 21 Jul 2020 17:59:06.417 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+2845:S 21 Jul 2020 17:59:07.420 - DB 9: 768 keys (0 volatile) in 1024 slots HT.
+2845:S 21 Jul 2020 17:59:07.420 - DB 11: 754 keys (0 volatile) in 1024 slots HT.
+2845:S 21 Jul 2020 17:59:07.420 - DB 12: 792 keys (0 volatile) in 1024 slots HT.
+2845:S 21 Jul 2020 17:59:07.734 # Connection with master lost.
+2845:S 21 Jul 2020 17:59:07.734 * Caching the disconnected master state.
+2845:S 21 Jul 2020 17:59:08.431 * Connecting to MASTER 127.0.0.1:24114
+2845:S 21 Jul 2020 17:59:08.432 * MASTER <-> REPLICA sync started
+2845:S 21 Jul 2020 17:59:08.432 * Non blocking connect for SYNC fired the event.
+2845:S 21 Jul 2020 17:59:08.432 * Master replied to PING, replication can continue...
+2845:S 21 Jul 2020 17:59:08.432 * Trying a partial resynchronization (request 85e3d05a13fa53e2f171987e13725ae8412f1140:560831).
+2845:S 21 Jul 2020 17:59:08.432 * Successful partial resynchronization with master.
+2845:S 21 Jul 2020 17:59:08.432 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+2845:signal-handler (1595334552) Received SIGTERM scheduling shutdown...
+2845:S 21 Jul 2020 17:59:12.556 # User requested shutdown...
+2845:S 21 Jul 2020 17:59:12.557 * Saving the final RDB snapshot before exiting.
+2845:S 21 Jul 2020 17:59:12.574 * DB saved on disk
+2845:S 21 Jul 2020 17:59:12.574 * Removing the pid file.
+2845:S 21 Jul 2020 17:59:12.574 * Removing the unix socket file.
+2845:S 21 Jul 2020 17:59:12.574 # Redis is now ready to exit, bye bye...

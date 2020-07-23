@@ -1,0 +1,40 @@
+4392:C 21 Jul 2020 17:59:40.735 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4392:C 21 Jul 2020 17:59:40.735 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4392, just started
+4392:C 21 Jul 2020 17:59:40.735 # Configuration loaded
+4392:M 21 Jul 2020 17:59:40.737 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21130
+ |    `-._   `._    /     _.-'    |     PID: 4392
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4392:M 21 Jul 2020 17:59:40.740 # Server initialized
+4392:M 21 Jul 2020 17:59:40.741 * Ready to accept connections
+4392:M 21 Jul 2020 17:59:40.741 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2063.39/socket
+4392:M 21 Jul 2020 17:59:40.872 - Accepted 127.0.0.1:56717
+4392:M 21 Jul 2020 17:59:40.872 - Client closed connection
+4392:M 21 Jul 2020 17:59:40.913 - Accepted 127.0.0.1:56719
+4392:M 21 Jul 2020 17:59:41.563 - Accepted 127.0.0.1:56729
+4392:M 21 Jul 2020 17:59:41.563 * Replica 127.0.0.1:21129 asks for synchronization
+4392:M 21 Jul 2020 17:59:41.563 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'fadf6d71923d3d8bdbc33080c42032795ec180b6', my replication IDs are '80acaa02219e870cc0f61c953b2d3d5ec4898bdb' and '0000000000000000000000000000000000000000')
+4392:M 21 Jul 2020 17:59:41.563 * Replication backlog created, my new replication IDs are '0e8fef47c17afa47dca97491603016437ad202cc' and '0000000000000000000000000000000000000000'
+4392:M 21 Jul 2020 17:59:41.563 * Starting BGSAVE for SYNC with target: disk
+4392:M 21 Jul 2020 17:59:41.566 * Background saving started by pid 4441
+4392:M 21 Jul 2020 17:59:41.567 - Client closed connection
+4441:C 21 Jul 2020 17:59:41.569 * DB saved on disk
+4392:M 21 Jul 2020 17:59:41.650 * Background saving terminated with success
+4392:M 21 Jul 2020 17:59:41.650 * Synchronization with replica 127.0.0.1:21129 succeeded
+4392:M 21 Jul 2020 17:59:41.924 - Client closed connection
+4392:M 21 Jul 2020 17:59:41.924 # Connection with replica 127.0.0.1:21129 lost.

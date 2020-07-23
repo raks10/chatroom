@@ -1,0 +1,86 @@
+4021:C 21 Jul 2020 17:59:29.351 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4021:C 21 Jul 2020 17:59:29.351 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4021, just started
+4021:C 21 Jul 2020 17:59:29.351 # Configuration loaded
+4021:M 21 Jul 2020 17:59:29.354 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21616
+ |    `-._   `._    /     _.-'    |     PID: 4021
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4021:M 21 Jul 2020 17:59:29.356 # Server initialized
+4021:M 21 Jul 2020 17:59:29.356 * Ready to accept connections
+4021:M 21 Jul 2020 17:59:29.356 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.11/socket
+4021:M 21 Jul 2020 17:59:29.501 - Accepted 127.0.0.1:56502
+4021:M 21 Jul 2020 17:59:29.503 - Client closed connection
+4021:M 21 Jul 2020 17:59:29.540 - Accepted 127.0.0.1:56510
+4021:S 21 Jul 2020 17:59:29.938 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+4021:S 21 Jul 2020 17:59:29.938 * REPLICAOF 127.0.0.1:21615 enabled (user request from 'id=5 addr=127.0.0.1:56510 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=45 qbuf-free=32723 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+4021:S 21 Jul 2020 17:59:30.364 * Connecting to MASTER 127.0.0.1:21615
+4021:S 21 Jul 2020 17:59:30.364 * MASTER <-> REPLICA sync started
+4021:S 21 Jul 2020 17:59:30.364 * Non blocking connect for SYNC fired the event.
+4021:S 21 Jul 2020 17:59:30.364 * Master replied to PING, replication can continue...
+4021:S 21 Jul 2020 17:59:30.364 * Trying a partial resynchronization (request 6e49eeaa286c23945c31a415651a6ad69581b543:1).
+4021:S 21 Jul 2020 17:59:30.366 * Full resync from master: 5b2865952f86360ae08a91d5b9a50871bdf2fd5e:0
+4021:S 21 Jul 2020 17:59:30.366 * Discarding previously cached master state.
+4021:S 21 Jul 2020 17:59:30.376 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+4021:S 21 Jul 2020 17:59:30.376 * MASTER <-> REPLICA sync: Flushing old data
+4021:S 21 Jul 2020 17:59:30.376 * MASTER <-> REPLICA sync: Loading DB in memory
+4021:S 21 Jul 2020 17:59:30.376 * Loading RDB produced by version 6.0.6
+4021:S 21 Jul 2020 17:59:30.376 * RDB age 0 seconds
+4021:S 21 Jul 2020 17:59:30.376 * RDB memory usage when created 2.03 Mb
+4021:S 21 Jul 2020 17:59:30.376 * MASTER <-> REPLICA sync: Finished with success
+4021:M 21 Jul 2020 17:59:30.944 # Connection with master lost.
+4021:M 21 Jul 2020 17:59:30.944 * Caching the disconnected master state.
+4021:M 21 Jul 2020 17:59:30.944 * Discarding previously cached master state.
+4021:M 21 Jul 2020 17:59:30.944 # Setting secondary replication ID to 5b2865952f86360ae08a91d5b9a50871bdf2fd5e, valid up to offset: 45. New replication ID is 76fdc368407582c8b0c77fd1c697be9304ebf0e1
+4021:M 21 Jul 2020 17:59:30.944 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:56510 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=36 qbuf-free=32732 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+4021:M 21 Jul 2020 17:59:32.792 - Accepted 127.0.0.1:56595
+4021:M 21 Jul 2020 17:59:32.793 * Replica 127.0.0.1:21618 asks for synchronization
+4021:M 21 Jul 2020 17:59:32.793 * Partial resynchronization not accepted: Requested offset for second ID was 73, but I can reply up to 45
+4021:M 21 Jul 2020 17:59:32.793 * Starting BGSAVE for SYNC with target: disk
+4021:M 21 Jul 2020 17:59:32.795 * Background saving started by pid 4143
+4143:C 21 Jul 2020 17:59:32.797 * DB saved on disk
+4021:M 21 Jul 2020 17:59:32.878 * Background saving terminated with success
+4021:M 21 Jul 2020 17:59:32.878 * Synchronization with replica 127.0.0.1:21618 succeeded
+4021:M 21 Jul 2020 17:59:33.195 - Accepted 127.0.0.1:56604
+4021:M 21 Jul 2020 17:59:33.195 * Replica 127.0.0.1:21615 asks for synchronization
+4021:M 21 Jul 2020 17:59:33.195 * Partial resynchronization not accepted: Requested offset for second ID was 73, but I can reply up to 45
+4021:M 21 Jul 2020 17:59:33.195 * Starting BGSAVE for SYNC with target: disk
+4021:M 21 Jul 2020 17:59:33.197 * Background saving started by pid 4146
+4146:C 21 Jul 2020 17:59:33.199 * DB saved on disk
+4021:M 21 Jul 2020 17:59:33.280 * Background saving terminated with success
+4021:M 21 Jul 2020 17:59:33.281 * Synchronization with replica 127.0.0.1:21615 succeeded
+4021:M 21 Jul 2020 17:59:34.394 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+4021:M 21 Jul 2020 17:59:34.457 - Client closed connection
+4021:M 21 Jul 2020 17:59:34.457 # Connection with replica 127.0.0.1:21615 lost.
+4021:M 21 Jul 2020 17:59:34.457 - Client closed connection
+4021:M 21 Jul 2020 17:59:34.457 # Connection with replica 127.0.0.1:21618 lost.
+4021:M 21 Jul 2020 17:59:34.816 - Accepted 127.0.0.1:56630
+4021:M 21 Jul 2020 17:59:34.817 * Replica 127.0.0.1:21618 asks for synchronization
+4021:M 21 Jul 2020 17:59:34.817 * Partial resynchronization request from 127.0.0.1:21618 accepted. Sending 21 bytes of backlog starting from offset 89.
+4021:M 21 Jul 2020 17:59:35.212 - Accepted 127.0.0.1:56637
+4021:M 21 Jul 2020 17:59:35.212 * Replica 127.0.0.1:21615 asks for synchronization
+4021:M 21 Jul 2020 17:59:35.212 * Partial resynchronization request from 127.0.0.1:21615 accepted. Sending 21 bytes of backlog starting from offset 89.
+4021:M 21 Jul 2020 17:59:38.356 - Client closed connection
+4021:M 21 Jul 2020 17:59:38.356 # Connection with replica 127.0.0.1:21618 lost.
+4021:M 21 Jul 2020 17:59:39.463 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+4021:signal-handler (1595334580) Received SIGTERM scheduling shutdown...
+4021:M 21 Jul 2020 17:59:40.323 # User requested shutdown...
+4021:M 21 Jul 2020 17:59:40.323 * Saving the final RDB snapshot before exiting.
+4021:M 21 Jul 2020 17:59:40.325 * DB saved on disk
+4021:M 21 Jul 2020 17:59:40.325 * Removing the pid file.
+4021:M 21 Jul 2020 17:59:40.326 * Removing the unix socket file.
+4021:M 21 Jul 2020 17:59:40.326 # Redis is now ready to exit, bye bye...

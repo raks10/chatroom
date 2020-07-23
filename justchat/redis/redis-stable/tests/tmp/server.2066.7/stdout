@@ -1,0 +1,92 @@
+2485:C 21 Jul 2020 17:58:35.769 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2485:C 21 Jul 2020 17:58:35.770 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2485, just started
+2485:C 21 Jul 2020 17:58:35.770 # Configuration loaded
+2485:M 21 Jul 2020 17:58:35.772 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 22614
+ |    `-._   `._    /     _.-'    |     PID: 2485
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2485:M 21 Jul 2020 17:58:35.774 # Server initialized
+2485:M 21 Jul 2020 17:58:35.774 * Ready to accept connections
+2485:M 21 Jul 2020 17:58:35.774 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2066.7/socket
+2485:M 21 Jul 2020 17:58:35.908 - Accepted 127.0.0.1:55800
+2485:M 21 Jul 2020 17:58:35.909 - Client closed connection
+2485:M 21 Jul 2020 17:58:35.935 - Accepted 127.0.0.1:55801
+2485:M 21 Jul 2020 17:58:35.937 * Background append only file rewriting started by pid 2496
+2485:M 21 Jul 2020 17:58:35.961 * AOF rewrite child asks to stop sending diffs.
+2496:C 21 Jul 2020 17:58:35.961 * Parent agreed to stop sending diffs. Finalizing AOF...
+2496:C 21 Jul 2020 17:58:35.961 * Concatenating 0.00 MB of AOF diff received from parent.
+2496:C 21 Jul 2020 17:58:35.962 * SYNC append only file rewrite performed
+2485:M 21 Jul 2020 17:58:35.978 * Background AOF rewrite terminated with success
+2485:M 21 Jul 2020 17:58:35.978 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+2485:M 21 Jul 2020 17:58:35.978 * Background AOF rewrite finished successfully
+2485:M 21 Jul 2020 17:58:35.978 - Background AOF rewrite signal handler took 696us
+2485:M 21 Jul 2020 17:58:36.964 - Accepted 127.0.0.1:55816
+2485:M 21 Jul 2020 17:58:36.970 - Accepted 127.0.0.1:55817
+2485:M 21 Jul 2020 17:58:36.987 - Accepted 127.0.0.1:55818
+2485:M 21 Jul 2020 17:58:36.990 - Accepted 127.0.0.1:55819
+2485:M 21 Jul 2020 17:58:36.990 - Accepted 127.0.0.1:55820
+2485:M 21 Jul 2020 17:58:40.279 * Background append only file rewriting started by pid 2573
+2485:M 21 Jul 2020 17:58:40.510 * AOF rewrite child asks to stop sending diffs.
+2573:C 21 Jul 2020 17:58:40.510 * Parent agreed to stop sending diffs. Finalizing AOF...
+2573:C 21 Jul 2020 17:58:40.511 * Concatenating 0.06 MB of AOF diff received from parent.
+2573:C 21 Jul 2020 17:58:40.513 * SYNC append only file rewrite performed
+2485:M 21 Jul 2020 17:58:40.654 * Background AOF rewrite terminated with success
+2485:M 21 Jul 2020 17:58:40.654 * Residual parent diff successfully flushed to the rewritten AOF (0.17 MB)
+2485:M 21 Jul 2020 17:58:40.654 * Background AOF rewrite finished successfully
+2485:M 21 Jul 2020 17:58:40.655 - Background AOF rewrite signal handler took 1057us
+2485:M 21 Jul 2020 17:58:42.651 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:42.651 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:42.651 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:42.651 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:42.661 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:45.748 * Reading RDB preamble from AOF file...
+2485:M 21 Jul 2020 17:58:45.748 * Loading RDB produced by version 6.0.6
+2485:M 21 Jul 2020 17:58:45.748 * RDB age 5 seconds
+2485:M 21 Jul 2020 17:58:45.748 * RDB memory usage when created 6.03 Mb
+2485:M 21 Jul 2020 17:58:45.748 * RDB has an AOF tail
+2485:M 21 Jul 2020 17:58:46.144 * Reading the remaining AOF tail...
+2485:M 21 Jul 2020 17:58:48.333 # Append Only File loaded by DEBUG LOADAOF
+2485:M 21 Jul 2020 17:58:50.923 - Accepted 127.0.0.1:55951
+2485:M 21 Jul 2020 17:58:50.923 - Accepted 127.0.0.1:55952
+2485:M 21 Jul 2020 17:58:50.923 - Accepted 127.0.0.1:55953
+2485:M 21 Jul 2020 17:58:50.923 - Accepted 127.0.0.1:55954
+2485:M 21 Jul 2020 17:58:50.923 - Accepted 127.0.0.1:55955
+2485:M 21 Jul 2020 17:58:51.221 - DB 9: 65877 keys (0 volatile) in 196608 slots HT.
+2485:M 21 Jul 2020 17:58:54.059 * Background append only file rewriting started by pid 2715
+2485:M 21 Jul 2020 17:58:55.360 * AOF rewrite child asks to stop sending diffs.
+2715:C 21 Jul 2020 17:58:55.360 * Parent agreed to stop sending diffs. Finalizing AOF...
+2715:C 21 Jul 2020 17:58:55.361 * Concatenating 0.77 MB of AOF diff received from parent.
+2715:C 21 Jul 2020 17:58:55.365 * SYNC append only file rewrite performed
+2485:M 21 Jul 2020 17:58:55.501 * Background AOF rewrite terminated with success
+2485:M 21 Jul 2020 17:58:55.502 * Residual parent diff successfully flushed to the rewritten AOF (0.17 MB)
+2485:M 21 Jul 2020 17:58:55.502 * Background AOF rewrite finished successfully
+2485:M 21 Jul 2020 17:58:55.504 - Background AOF rewrite signal handler took 2370us
+2485:M 21 Jul 2020 17:58:57.740 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:57.740 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:57.740 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:57.740 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:58:57.740 - Error writing to client: Broken pipe
+2485:M 21 Jul 2020 17:59:23.664 # Append Only File loaded by DEBUG LOADAOF
+2485:signal-handler (1595334578) Received SIGTERM scheduling shutdown...
+2485:M 21 Jul 2020 17:59:39.013 # User requested shutdown...
+2485:M 21 Jul 2020 17:59:39.013 * Calling fsync() on the AOF file.
+2485:M 21 Jul 2020 17:59:39.013 * Saving the final RDB snapshot before exiting.
+2485:M 21 Jul 2020 17:59:40.264 * DB saved on disk
+2485:M 21 Jul 2020 17:59:40.264 * Removing the pid file.
+2485:M 21 Jul 2020 17:59:40.264 * Removing the unix socket file.
+2485:M 21 Jul 2020 17:59:40.264 # Redis is now ready to exit, bye bye...

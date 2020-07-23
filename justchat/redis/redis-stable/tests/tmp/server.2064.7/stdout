@@ -1,0 +1,63 @@
+3522:C 21 Jul 2020 17:59:19.994 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3522:C 21 Jul 2020 17:59:19.994 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3522, just started
+3522:C 21 Jul 2020 17:59:19.994 # Configuration loaded
+3522:M 21 Jul 2020 17:59:19.996 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21614
+ |    `-._   `._    /     _.-'    |     PID: 3522
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3522:M 21 Jul 2020 17:59:19.998 # Server initialized
+3522:M 21 Jul 2020 17:59:19.998 * Ready to accept connections
+3522:M 21 Jul 2020 17:59:19.998 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.7/socket
+3522:M 21 Jul 2020 17:59:20.010 - Accepted 127.0.0.1:56331
+3522:M 21 Jul 2020 17:59:20.010 - Client closed connection
+3522:M 21 Jul 2020 17:59:20.038 - Accepted 127.0.0.1:56332
+3522:M 21 Jul 2020 17:59:20.813 - Accepted 127.0.0.1:56347
+3522:M 21 Jul 2020 17:59:20.813 * Replica 127.0.0.1:21613 asks for synchronization
+3522:M 21 Jul 2020 17:59:20.814 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'f6a12854c1dd8e25922e104e3d200551a4efb7fc', my replication IDs are 'ae6eea2d94ff5bff2256c5027d8869d883d676c7' and '0000000000000000000000000000000000000000')
+3522:M 21 Jul 2020 17:59:20.814 * Replication backlog created, my new replication IDs are '0da4f5b5bab63adcd2be75b886334bdb5895123b' and '0000000000000000000000000000000000000000'
+3522:M 21 Jul 2020 17:59:20.814 * Starting BGSAVE for SYNC with target: disk
+3522:M 21 Jul 2020 17:59:20.815 * Background saving started by pid 3544
+3544:C 21 Jul 2020 17:59:20.817 * DB saved on disk
+3522:M 21 Jul 2020 17:59:20.905 * Background saving terminated with success
+3522:M 21 Jul 2020 17:59:20.905 * Synchronization with replica 127.0.0.1:21613 succeeded
+3522:M 21 Jul 2020 17:59:25.056 - DB 9: 2 keys (0 volatile) in 4 slots HT.
+3522:M 21 Jul 2020 17:59:26.048 - Reading from client: Connection reset by peer
+3522:M 21 Jul 2020 17:59:26.048 # Connection with replica client id #6 lost.
+3522:S 21 Jul 2020 17:59:26.049 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3522:S 21 Jul 2020 17:59:26.050 * REPLICAOF 127.0.0.1:21613 enabled (user request from 'id=5 addr=127.0.0.1:56332 fd=12 name= age=6 idle=1 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=45 qbuf-free=32723 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+3522:S 21 Jul 2020 17:59:26.064 * Connecting to MASTER 127.0.0.1:21613
+3522:S 21 Jul 2020 17:59:26.064 * MASTER <-> REPLICA sync started
+3522:S 21 Jul 2020 17:59:26.064 * Non blocking connect for SYNC fired the event.
+3522:S 21 Jul 2020 17:59:26.064 * Master replied to PING, replication can continue...
+3522:S 21 Jul 2020 17:59:26.064 * Trying a partial resynchronization (request 0da4f5b5bab63adcd2be75b886334bdb5895123b:175).
+3522:S 21 Jul 2020 17:59:26.066 * Full resync from master: 1f63963466b2e2a176a4fb89eab05d95927a096e:118
+3522:S 21 Jul 2020 17:59:26.066 * Discarding previously cached master state.
+3522:S 21 Jul 2020 17:59:26.149 * MASTER <-> REPLICA sync: receiving 200 bytes from master to disk
+3522:S 21 Jul 2020 17:59:26.149 * MASTER <-> REPLICA sync: Flushing old data
+3522:S 21 Jul 2020 17:59:26.149 * MASTER <-> REPLICA sync: Loading DB in memory
+3522:S 21 Jul 2020 17:59:26.149 * Loading RDB produced by version 6.0.6
+3522:S 21 Jul 2020 17:59:26.149 * RDB age 0 seconds
+3522:S 21 Jul 2020 17:59:26.149 * RDB memory usage when created 2.08 Mb
+3522:S 21 Jul 2020 17:59:26.150 * MASTER <-> REPLICA sync: Finished with success
+3522:signal-handler (1595334568) Received SIGTERM scheduling shutdown...
+3522:S 21 Jul 2020 17:59:28.100 # User requested shutdown...
+3522:S 21 Jul 2020 17:59:28.100 * Saving the final RDB snapshot before exiting.
+3522:S 21 Jul 2020 17:59:28.102 * DB saved on disk
+3522:S 21 Jul 2020 17:59:28.102 * Removing the pid file.
+3522:S 21 Jul 2020 17:59:28.102 * Removing the unix socket file.
+3522:S 21 Jul 2020 17:59:28.102 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,57 @@
+2555:C 21 Jul 2020 17:58:39.303 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2555:C 21 Jul 2020 17:58:39.303 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2555, just started
+2555:C 21 Jul 2020 17:58:39.303 # Configuration loaded
+2555:M 21 Jul 2020 17:58:39.306 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23114
+ |    `-._   `._    /     _.-'    |     PID: 2555
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2555:M 21 Jul 2020 17:58:39.307 # Server initialized
+2555:M 21 Jul 2020 17:58:39.308 * Ready to accept connections
+2555:M 21 Jul 2020 17:58:39.308 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.7/socket
+2555:M 21 Jul 2020 17:58:39.438 - Accepted 127.0.0.1:55850
+2555:M 21 Jul 2020 17:58:39.438 - Client closed connection
+2555:M 21 Jul 2020 17:58:39.465 - Accepted 127.0.0.1:55851
+2555:M 21 Jul 2020 17:58:39.678 - Accepted 127.0.0.1:55862
+2555:M 21 Jul 2020 17:58:39.682 - Accepted 127.0.0.1:55863
+2555:M 21 Jul 2020 17:58:39.685 - Accepted 127.0.0.1:55864
+2555:M 21 Jul 2020 17:58:40.502 - Accepted 127.0.0.1:55865
+2555:M 21 Jul 2020 17:58:40.503 * Replica 127.0.0.1:23115 asks for synchronization
+2555:M 21 Jul 2020 17:58:40.503 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '8e78540c23a2602cc330e3e4bfa289a7d182d72b', my replication IDs are '5c1ad1b028fa96e7888a097219fce1fd9adca91c' and '0000000000000000000000000000000000000000')
+2555:M 21 Jul 2020 17:58:40.503 * Replication backlog created, my new replication IDs are '350fe3fb2c735558478f27681087b8c52ca2c073' and '0000000000000000000000000000000000000000'
+2555:M 21 Jul 2020 17:58:40.503 * Starting BGSAVE for SYNC with target: disk
+2555:M 21 Jul 2020 17:58:40.504 * Background saving started by pid 2574
+2574:C 21 Jul 2020 17:58:40.507 * DB saved on disk
+2555:M 21 Jul 2020 17:58:40.514 * Background saving terminated with success
+2555:M 21 Jul 2020 17:58:40.514 * Synchronization with replica 127.0.0.1:23115 succeeded
+2555:M 21 Jul 2020 17:58:44.353 - DB 9: 6 keys (0 volatile) in 8 slots HT.
+2555:M 21 Jul 2020 17:58:49.418 - DB 9: 6 keys (0 volatile) in 8 slots HT.
+2555:M 21 Jul 2020 17:58:54.450 - DB 9: 8 keys (0 volatile) in 8 slots HT.
+2555:M 21 Jul 2020 17:58:59.492 - DB 9: 13 keys (0 volatile) in 16 slots HT.
+2555:M 21 Jul 2020 17:59:04.554 - DB 9: 11 keys (0 volatile) in 16 slots HT.
+2555:M 21 Jul 2020 17:59:05.682 - Client closed connection
+2555:M 21 Jul 2020 17:59:05.688 - Client closed connection
+2555:M 21 Jul 2020 17:59:05.694 - Client closed connection
+2555:M 21 Jul 2020 17:59:06.792 - Client closed connection
+2555:M 21 Jul 2020 17:59:06.792 # Connection with replica 127.0.0.1:23115 lost.
+2555:signal-handler (1595334547) Received SIGTERM scheduling shutdown...
+2555:M 21 Jul 2020 17:59:07.835 # User requested shutdown...
+2555:M 21 Jul 2020 17:59:07.836 * Saving the final RDB snapshot before exiting.
+2555:M 21 Jul 2020 17:59:07.838 * DB saved on disk
+2555:M 21 Jul 2020 17:59:07.838 * Removing the pid file.
+2555:M 21 Jul 2020 17:59:07.838 * Removing the unix socket file.
+2555:M 21 Jul 2020 17:59:07.838 # Redis is now ready to exit, bye bye...

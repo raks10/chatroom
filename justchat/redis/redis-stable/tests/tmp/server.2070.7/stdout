@@ -1,0 +1,54 @@
+2674:C 21 Jul 2020 17:58:49.511 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2674:C 21 Jul 2020 17:58:49.511 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2674, just started
+2674:C 21 Jul 2020 17:58:49.511 # Configuration loaded
+2674:M 21 Jul 2020 17:58:49.513 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 24614
+ |    `-._   `._    /     _.-'    |     PID: 2674
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2674:M 21 Jul 2020 17:58:49.515 # Server initialized
+2674:M 21 Jul 2020 17:58:49.515 * Ready to accept connections
+2674:M 21 Jul 2020 17:58:49.515 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2070.7/socket
+2674:M 21 Jul 2020 17:58:49.653 - Accepted 127.0.0.1:55944
+2674:M 21 Jul 2020 17:58:49.653 - Client closed connection
+2674:M 21 Jul 2020 17:58:49.680 - Accepted 127.0.0.1:55945
+2674:M 21 Jul 2020 17:58:50.336 - Accepted 127.0.0.1:55946
+2674:M 21 Jul 2020 17:58:50.336 * Replica 127.0.0.1:24613 asks for synchronization
+2674:M 21 Jul 2020 17:58:50.336 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'ff8189941fa212636676c3efbe2d0da688e28326', my replication IDs are '09e4fd6dd6e2320c2ee419f4c76a4f7091b9382e' and '0000000000000000000000000000000000000000')
+2674:M 21 Jul 2020 17:58:50.336 * Replication backlog created, my new replication IDs are '737524f01303776bedfdde089de50943c8fbed39' and '0000000000000000000000000000000000000000'
+2674:M 21 Jul 2020 17:58:50.336 * Starting BGSAVE for SYNC with target: disk
+2674:M 21 Jul 2020 17:58:50.338 * Background saving started by pid 2682
+2682:C 21 Jul 2020 17:58:50.340 * DB saved on disk
+2674:M 21 Jul 2020 17:58:50.423 * Background saving terminated with success
+2674:M 21 Jul 2020 17:58:50.423 * Synchronization with replica 127.0.0.1:24613 succeeded
+2674:M 21 Jul 2020 17:58:54.553 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2674:M 21 Jul 2020 17:58:56.500 * DB saved on disk
+2674:M 21 Jul 2020 17:58:59.593 - DB 9: 511 keys (0 volatile) in 512 slots HT.
+2674:M 21 Jul 2020 17:59:04.621 - DB 9: 1351 keys (0 volatile) in 2048 slots HT.
+2674:M 21 Jul 2020 17:59:09.659 - DB 9: 2054 keys (0 volatile) in 6144 slots HT.
+2674:M 21 Jul 2020 17:59:14.683 - DB 9: 2674 keys (0 volatile) in 4096 slots HT.
+2674:M 21 Jul 2020 17:59:19.734 - DB 9: 3418 keys (0 volatile) in 4096 slots HT.
+2674:M 21 Jul 2020 17:59:24.774 - DB 9: 4186 keys (0 volatile) in 8192 slots HT.
+2674:M 21 Jul 2020 17:59:29.828 - DB 9: 4778 keys (0 volatile) in 8192 slots HT.
+2674:M 21 Jul 2020 17:59:35.244 - DB 9: 5251 keys (0 volatile) in 8192 slots HT.
+2674:signal-handler (1595334576) Received SIGTERM scheduling shutdown...
+2674:M 21 Jul 2020 17:59:36.534 # User requested shutdown...
+2674:M 21 Jul 2020 17:59:36.534 * Saving the final RDB snapshot before exiting.
+2674:M 21 Jul 2020 17:59:36.573 * DB saved on disk
+2674:M 21 Jul 2020 17:59:36.573 * Removing the pid file.
+2674:M 21 Jul 2020 17:59:36.573 * Removing the unix socket file.
+2674:M 21 Jul 2020 17:59:36.573 # Redis is now ready to exit, bye bye...

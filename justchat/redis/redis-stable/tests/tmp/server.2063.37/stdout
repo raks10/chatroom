@@ -1,0 +1,45 @@
+4379:C 21 Jul 2020 17:59:40.538 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4379:C 21 Jul 2020 17:59:40.538 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4379, just started
+4379:C 21 Jul 2020 17:59:40.538 # Configuration loaded
+4379:M 21 Jul 2020 17:59:40.541 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21129
+ |    `-._   `._    /     _.-'    |     PID: 4379
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4379:M 21 Jul 2020 17:59:40.543 # Server initialized
+4379:M 21 Jul 2020 17:59:40.543 * Ready to accept connections
+4379:M 21 Jul 2020 17:59:40.543 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2063.37/socket
+4379:M 21 Jul 2020 17:59:40.678 - Accepted 127.0.0.1:56709
+4379:M 21 Jul 2020 17:59:40.678 - Client closed connection
+4379:M 21 Jul 2020 17:59:40.706 - Accepted 127.0.0.1:56710
+4379:S 21 Jul 2020 17:59:40.914 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+4379:S 21 Jul 2020 17:59:40.914 * REPLICAOF 127.0.0.1:21130 enabled (user request from 'id=5 addr=127.0.0.1:56710 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+4379:S 21 Jul 2020 17:59:41.562 * Connecting to MASTER 127.0.0.1:21130
+4379:S 21 Jul 2020 17:59:41.562 * MASTER <-> REPLICA sync started
+4379:S 21 Jul 2020 17:59:41.563 * Non blocking connect for SYNC fired the event.
+4379:S 21 Jul 2020 17:59:41.563 * Master replied to PING, replication can continue...
+4379:S 21 Jul 2020 17:59:41.563 * Trying a partial resynchronization (request fadf6d71923d3d8bdbc33080c42032795ec180b6:1).
+4379:S 21 Jul 2020 17:59:41.566 - Client closed connection
+4379:S 21 Jul 2020 17:59:41.567 * Full resync from master: 0e8fef47c17afa47dca97491603016437ad202cc:0
+4379:S 21 Jul 2020 17:59:41.567 * Discarding previously cached master state.
+4379:S 21 Jul 2020 17:59:41.650 * MASTER <-> REPLICA sync: receiving 279 bytes from master to disk
+4379:S 21 Jul 2020 17:59:41.650 * MASTER <-> REPLICA sync: Flushing old data
+4379:S 21 Jul 2020 17:59:41.650 * MASTER <-> REPLICA sync: Loading DB in memory
+4379:S 21 Jul 2020 17:59:41.650 * Loading RDB produced by version 6.0.6
+4379:S 21 Jul 2020 17:59:41.651 * RDB age 0 seconds
+4379:S 21 Jul 2020 17:59:41.651 * RDB memory usage when created 2.03 Mb
+4379:S 21 Jul 2020 17:59:41.651 * MASTER <-> REPLICA sync: Finished with success

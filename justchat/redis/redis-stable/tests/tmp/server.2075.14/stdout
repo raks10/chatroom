@@ -1,0 +1,152 @@
+3534:C 21 Jul 2020 17:59:20.151 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3534:C 21 Jul 2020 17:59:20.151 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3534, just started
+3534:C 21 Jul 2020 17:59:20.151 # Configuration loaded
+3534:M 21 Jul 2020 17:59:20.153 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27117
+ |    `-._   `._    /     _.-'    |     PID: 3534
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3534:M 21 Jul 2020 17:59:20.156 # Server initialized
+3534:M 21 Jul 2020 17:59:20.156 * Ready to accept connections
+3534:M 21 Jul 2020 17:59:20.156 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.14/socket
+3534:M 21 Jul 2020 17:59:20.294 - Accepted 127.0.0.1:56339
+3534:M 21 Jul 2020 17:59:20.294 - Client closed connection
+3534:M 21 Jul 2020 17:59:20.321 - Accepted 127.0.0.1:56340
+3534:M 21 Jul 2020 17:59:20.783 - Accepted 127.0.0.1:56346
+3534:M 21 Jul 2020 17:59:20.783 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:20.783 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '7c2bb125479a12491d6843630759ce854ff37e31', my replication IDs are '785e9c3c61690e6e9b1fcb08419538891440d1cc' and '0000000000000000000000000000000000000000')
+3534:M 21 Jul 2020 17:59:20.783 * Replication backlog created, my new replication IDs are '945965ce682fae20903140b329f7e2f4055638b1' and '0000000000000000000000000000000000000000'
+3534:M 21 Jul 2020 17:59:20.783 * Starting BGSAVE for SYNC with target: disk
+3534:M 21 Jul 2020 17:59:20.785 * Background saving started by pid 3543
+3543:C 21 Jul 2020 17:59:20.787 * DB saved on disk
+3534:M 21 Jul 2020 17:59:20.866 * Background saving terminated with success
+3534:M 21 Jul 2020 17:59:20.866 * Synchronization with replica 127.0.0.1:27115 succeeded
+3534:M 21 Jul 2020 17:59:20.976 - Accepted 127.0.0.1:56349
+3534:M 21 Jul 2020 17:59:20.976 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:20.976 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'f472a533242baa5f1dc1f92935457e3a0b8e1de9', my replication IDs are '945965ce682fae20903140b329f7e2f4055638b1' and '0000000000000000000000000000000000000000')
+3534:M 21 Jul 2020 17:59:20.976 * Starting BGSAVE for SYNC with target: disk
+3534:M 21 Jul 2020 17:59:20.978 * Background saving started by pid 3553
+3553:C 21 Jul 2020 17:59:20.980 * DB saved on disk
+3534:M 21 Jul 2020 17:59:21.071 * Background saving terminated with success
+3534:M 21 Jul 2020 17:59:21.071 * Synchronization with replica 127.0.0.1:27116 succeeded
+3534:M 21 Jul 2020 17:59:21.431 - Client closed connection
+3534:M 21 Jul 2020 17:59:21.431 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:21.617 - Accepted connection to /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.14/socket
+3534:M 21 Jul 2020 17:59:21.618 - Client closed connection
+3534:M 21 Jul 2020 17:59:21.618 - Accepted connection to /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.14/socket
+3534:M 21 Jul 2020 17:59:21.618 - Accepted connection to /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.14/socket
+3534:M 21 Jul 2020 17:59:21.618 - Client closed connection
+3534:M 21 Jul 2020 17:59:21.619 - Client closed connection
+3534:M 21 Jul 2020 17:59:21.732 - Client closed connection
+3534:M 21 Jul 2020 17:59:21.732 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:21.809 - Accepted 127.0.0.1:56354
+3534:M 21 Jul 2020 17:59:21.810 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:21.810 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:21.986 - Accepted 127.0.0.1:56355
+3534:M 21 Jul 2020 17:59:21.987 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:21.987 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:23.145 - Client closed connection
+3534:M 21 Jul 2020 17:59:23.145 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:23.831 - Accepted 127.0.0.1:56370
+3534:M 21 Jul 2020 17:59:23.831 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:23.831 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:24.359 - Client closed connection
+3534:M 21 Jul 2020 17:59:24.359 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:24.842 - Accepted 127.0.0.1:56395
+3534:M 21 Jul 2020 17:59:24.843 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:24.843 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:25.225 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3534:M 21 Jul 2020 17:59:25.374 - Client closed connection
+3534:M 21 Jul 2020 17:59:25.374 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:25.880 - Client closed connection
+3534:M 21 Jul 2020 17:59:25.880 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:26.036 - Accepted 127.0.0.1:56412
+3534:M 21 Jul 2020 17:59:26.037 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:26.037 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:26.292 - Client closed connection
+3534:M 21 Jul 2020 17:59:26.292 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:26.870 - Accepted 127.0.0.1:56432
+3534:M 21 Jul 2020 17:59:26.870 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:26.870 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:27.044 - Accepted 127.0.0.1:56442
+3534:M 21 Jul 2020 17:59:27.044 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:27.044 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:29.459 - Client closed connection
+3534:M 21 Jul 2020 17:59:29.459 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:29.903 - Accepted 127.0.0.1:56544
+3534:M 21 Jul 2020 17:59:29.903 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:29.903 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 1.
+3534:M 21 Jul 2020 17:59:30.286 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3534:M 21 Jul 2020 17:59:30.775 - Client closed connection
+3534:M 21 Jul 2020 17:59:30.775 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:30.881 - Client closed connection
+3534:M 21 Jul 2020 17:59:30.881 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:30.909 - Accepted 127.0.0.1:56560
+3534:M 21 Jul 2020 17:59:30.910 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:30.910 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:31.083 - Accepted 127.0.0.1:56565
+3534:M 21 Jul 2020 17:59:31.083 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:31.083 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:31.088 - Client closed connection
+3534:M 21 Jul 2020 17:59:31.088 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:32.092 - Accepted 127.0.0.1:56586
+3534:M 21 Jul 2020 17:59:32.093 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:32.093 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:33.822 - Client closed connection
+3534:M 21 Jul 2020 17:59:33.822 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:33.931 - Accepted 127.0.0.1:56620
+3534:M 21 Jul 2020 17:59:33.932 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:33.932 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:34.230 - Client closed connection
+3534:M 21 Jul 2020 17:59:34.230 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:34.536 - Client closed connection
+3534:M 21 Jul 2020 17:59:34.536 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:34.936 - Accepted 127.0.0.1:56633
+3534:M 21 Jul 2020 17:59:34.936 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:34.936 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:35.122 - Accepted 127.0.0.1:56634
+3534:M 21 Jul 2020 17:59:35.123 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:35.123 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:35.262 - Client closed connection
+3534:M 21 Jul 2020 17:59:35.263 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:35.315 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3534:M 21 Jul 2020 17:59:35.882 - Client closed connection
+3534:M 21 Jul 2020 17:59:35.882 # Connection with replica 127.0.0.1:27115 lost.
+3534:M 21 Jul 2020 17:59:35.954 - Accepted 127.0.0.1:56649
+3534:M 21 Jul 2020 17:59:35.954 * Replica 127.0.0.1:27115 asks for synchronization
+3534:M 21 Jul 2020 17:59:35.954 * Partial resynchronization request from 127.0.0.1:27115 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:36.134 - Accepted 127.0.0.1:56650
+3534:M 21 Jul 2020 17:59:36.134 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:36.134 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:37.096 - Client closed connection
+3534:M 21 Jul 2020 17:59:37.096 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:37.145 - Accepted 127.0.0.1:56660
+3534:M 21 Jul 2020 17:59:37.146 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:37.146 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 15.
+3534:M 21 Jul 2020 17:59:40.354 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3534:M 21 Jul 2020 17:59:40.686 - Client closed connection
+3534:M 21 Jul 2020 17:59:40.686 # Connection with replica 127.0.0.1:27116 lost.
+3534:M 21 Jul 2020 17:59:41.181 - Accepted 127.0.0.1:56722
+3534:M 21 Jul 2020 17:59:41.181 * Replica 127.0.0.1:27116 asks for synchronization
+3534:M 21 Jul 2020 17:59:41.182 * Partial resynchronization request from 127.0.0.1:27116 accepted. Sending 0 bytes of backlog starting from offset 29.
+3534:signal-handler (1595334581) Received SIGTERM scheduling shutdown...
+3534:M 21 Jul 2020 17:59:41.472 # User requested shutdown...
+3534:M 21 Jul 2020 17:59:41.472 * Saving the final RDB snapshot before exiting.
+3534:M 21 Jul 2020 17:59:41.473 * DB saved on disk
+3534:M 21 Jul 2020 17:59:41.473 * Removing the pid file.
+3534:M 21 Jul 2020 17:59:41.474 * Removing the unix socket file.
+3534:M 21 Jul 2020 17:59:41.474 # Redis is now ready to exit, bye bye...

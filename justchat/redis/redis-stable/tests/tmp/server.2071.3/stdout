@@ -1,0 +1,52 @@
+2592:C 21 Jul 2020 17:58:45.654 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2592:C 21 Jul 2020 17:58:45.654 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2592, just started
+2592:C 21 Jul 2020 17:58:45.654 # Configuration loaded
+2592:M 21 Jul 2020 17:58:45.656 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25112
+ |    `-._   `._    /     _.-'    |     PID: 2592
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2592:M 21 Jul 2020 17:58:45.658 # Server initialized
+2592:M 21 Jul 2020 17:58:45.658 * Ready to accept connections
+2592:M 21 Jul 2020 17:58:45.658 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.3/socket
+2592:M 21 Jul 2020 17:58:45.797 - Accepted 127.0.0.1:55895
+2592:M 21 Jul 2020 17:58:45.797 - Client closed connection
+2592:M 21 Jul 2020 17:58:45.824 - Accepted 127.0.0.1:55896
+2592:S 21 Jul 2020 17:58:46.020 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2592:S 21 Jul 2020 17:58:46.020 * REPLICAOF 127.0.0.1:25113 enabled (user request from 'id=5 addr=127.0.0.1:55896 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2592:S 21 Jul 2020 17:58:46.664 * Connecting to MASTER 127.0.0.1:25113
+2592:S 21 Jul 2020 17:58:46.664 * MASTER <-> REPLICA sync started
+2592:S 21 Jul 2020 17:58:46.664 * Non blocking connect for SYNC fired the event.
+2592:S 21 Jul 2020 17:58:46.665 * Master replied to PING, replication can continue...
+2592:S 21 Jul 2020 17:58:46.665 * Trying a partial resynchronization (request 097e062ac6e51d5270a0df5f8d22e74a9d220e60:1).
+2592:S 21 Jul 2020 17:58:52.723 # Timeout connecting to the MASTER...
+2592:S 21 Jul 2020 17:58:52.724 * Connecting to MASTER 127.0.0.1:25113
+2592:S 21 Jul 2020 17:58:52.724 * MASTER <-> REPLICA sync started
+2592:S 21 Jul 2020 17:58:52.724 * Non blocking connect for SYNC fired the event.
+2592:S 21 Jul 2020 17:58:57.023 * Master replied to PING, replication can continue...
+2592:S 21 Jul 2020 17:58:57.024 * Trying a partial resynchronization (request 097e062ac6e51d5270a0df5f8d22e74a9d220e60:1).
+2592:S 21 Jul 2020 17:58:58.211 # Unexpected reply to PSYNC from master: -Reading from master: Operation now in progress
+2592:S 21 Jul 2020 17:58:58.211 * Discarding previously cached master state.
+2592:S 21 Jul 2020 17:58:58.211 * Retrying with SYNC...
+2592:S 21 Jul 2020 17:58:58.212 # I/O error reading bulk count from MASTER: Connection reset by peer
+2592:signal-handler (1595334539) Received SIGTERM scheduling shutdown...
+2592:S 21 Jul 2020 17:58:59.334 # User requested shutdown...
+2592:S 21 Jul 2020 17:58:59.334 * Saving the final RDB snapshot before exiting.
+2592:S 21 Jul 2020 17:58:59.336 * DB saved on disk
+2592:S 21 Jul 2020 17:58:59.336 * Removing the pid file.
+2592:S 21 Jul 2020 17:58:59.336 * Removing the unix socket file.
+2592:S 21 Jul 2020 17:58:59.336 # Redis is now ready to exit, bye bye...

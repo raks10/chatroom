@@ -1,0 +1,37 @@
+2997:C 21 Jul 2020 17:59:07.902 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2997:C 21 Jul 2020 17:59:07.902 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2997, just started
+2997:C 21 Jul 2020 17:59:07.902 # Configuration loaded
+2997:M 21 Jul 2020 17:59:07.904 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23116
+ |    `-._   `._    /     _.-'    |     PID: 2997
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2997:M 21 Jul 2020 17:59:07.906 # Server initialized
+2997:M 21 Jul 2020 17:59:07.907 * DB loaded from disk: 0.000 seconds
+2997:M 21 Jul 2020 17:59:07.907 * Ready to accept connections
+2997:M 21 Jul 2020 17:59:07.907 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.12/socket
+2997:M 21 Jul 2020 17:59:07.907 - DB 0: 13 keys (0 volatile) in 24 slots HT.
+2997:M 21 Jul 2020 17:59:08.038 - Accepted 127.0.0.1:56124
+2997:M 21 Jul 2020 17:59:08.039 - Client closed connection
+2997:M 21 Jul 2020 17:59:08.066 - Accepted 127.0.0.1:56125
+2997:signal-handler (1595334549) Received SIGTERM scheduling shutdown...
+2997:M 21 Jul 2020 17:59:09.092 # User requested shutdown...
+2997:M 21 Jul 2020 17:59:09.092 * Saving the final RDB snapshot before exiting.
+2997:M 21 Jul 2020 17:59:09.094 * DB saved on disk
+2997:M 21 Jul 2020 17:59:09.094 * Removing the pid file.
+2997:M 21 Jul 2020 17:59:09.094 * Removing the unix socket file.
+2997:M 21 Jul 2020 17:59:09.094 # Redis is now ready to exit, bye bye...

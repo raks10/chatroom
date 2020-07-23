@@ -1,0 +1,98 @@
+2408:C 21 Jul 2020 17:58:33.384 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2408:C 21 Jul 2020 17:58:33.384 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2408, just started
+2408:C 21 Jul 2020 17:58:33.384 # Configuration loaded
+2408:M 21 Jul 2020 17:58:33.388 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 22113
+ |    `-._   `._    /     _.-'    |     PID: 2408
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2408:M 21 Jul 2020 17:58:33.390 # Server initialized
+2408:M 21 Jul 2020 17:58:33.390 * Ready to accept connections
+2408:M 21 Jul 2020 17:58:33.390 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2065.5/socket
+2408:M 21 Jul 2020 17:58:33.521 - Accepted 127.0.0.1:55736
+2408:M 21 Jul 2020 17:58:33.522 - Client closed connection
+2408:M 21 Jul 2020 17:58:33.549 - Accepted 127.0.0.1:55740
+2408:M 21 Jul 2020 17:58:33.553 * DB saved on disk
+2408:M 21 Jul 2020 17:58:38.417 - DB 9: 5 keys (0 volatile) in 8 slots HT.
+2408:M 21 Jul 2020 17:58:42.925 * DB saved on disk
+2408:M 21 Jul 2020 17:58:42.927 * Background saving started by pid 2581
+2581:C 21 Jul 2020 17:58:42.929 * DB saved on disk
+2408:M 21 Jul 2020 17:58:42.949 * Background saving terminated with success
+2408:M 21 Jul 2020 17:58:43.454 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2408:M 21 Jul 2020 17:58:43.931 * DB saved on disk
+2408:M 21 Jul 2020 17:58:43.931 * Loading RDB produced by version 6.0.6
+2408:M 21 Jul 2020 17:58:43.931 * RDB age 0 seconds
+2408:M 21 Jul 2020 17:58:43.932 * RDB memory usage when created 1.02 Mb
+2408:M 21 Jul 2020 17:58:43.932 # DB reloaded by DEBUG RELOAD
+2408:M 21 Jul 2020 17:58:48.494 - DB 9: 592 keys (0 volatile) in 1024 slots HT.
+2408:M 21 Jul 2020 17:58:48.906 * DB saved on disk
+2408:M 21 Jul 2020 17:58:48.907 * Loading RDB produced by version 6.0.6
+2408:M 21 Jul 2020 17:58:48.907 * RDB age 0 seconds
+2408:M 21 Jul 2020 17:58:48.907 * RDB memory usage when created 1.15 Mb
+2408:M 21 Jul 2020 17:58:48.909 # DB reloaded by DEBUG RELOAD
+2408:M 21 Jul 2020 17:58:48.919 * Background append only file rewriting started by pid 2658
+2408:M 21 Jul 2020 17:58:48.945 * AOF rewrite child asks to stop sending diffs.
+2658:C 21 Jul 2020 17:58:48.945 * Parent agreed to stop sending diffs. Finalizing AOF...
+2658:C 21 Jul 2020 17:58:48.946 * Concatenating 0.00 MB of AOF diff received from parent.
+2658:C 21 Jul 2020 17:58:48.946 * SYNC append only file rewrite performed
+2408:M 21 Jul 2020 17:58:48.994 * Background AOF rewrite terminated with success
+2408:M 21 Jul 2020 17:58:48.995 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+2408:M 21 Jul 2020 17:58:48.995 * Background AOF rewrite finished successfully
+2408:M 21 Jul 2020 17:58:48.995 - Background AOF rewrite signal handler took 556us
+2408:M 21 Jul 2020 17:58:49.933 # Unable to obtain the AOF file length. stat: Bad file descriptor
+2408:M 21 Jul 2020 17:58:49.933 # Append Only File loaded by DEBUG LOADAOF
+2408:M 21 Jul 2020 17:58:49.943 * DB saved on disk
+2408:M 21 Jul 2020 17:58:49.945 * DB saved on disk
+2408:M 21 Jul 2020 17:58:49.945 * Loading RDB produced by version 6.0.6
+2408:M 21 Jul 2020 17:58:49.946 * RDB age 0 seconds
+2408:M 21 Jul 2020 17:58:49.946 * RDB memory usage when created 1.04 Mb
+2408:M 21 Jul 2020 17:58:49.946 # DB reloaded by DEBUG RELOAD
+2408:M 21 Jul 2020 17:58:49.947 * Background append only file rewriting started by pid 2681
+2408:M 21 Jul 2020 17:58:49.973 * AOF rewrite child asks to stop sending diffs.
+2681:C 21 Jul 2020 17:58:49.973 * Parent agreed to stop sending diffs. Finalizing AOF...
+2681:C 21 Jul 2020 17:58:49.973 * Concatenating 0.00 MB of AOF diff received from parent.
+2681:C 21 Jul 2020 17:58:49.974 * SYNC append only file rewrite performed
+2408:M 21 Jul 2020 17:58:49.997 * Background AOF rewrite terminated with success
+2408:M 21 Jul 2020 17:58:49.997 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+2408:M 21 Jul 2020 17:58:49.998 * Background AOF rewrite finished successfully
+2408:M 21 Jul 2020 17:58:49.998 - Background AOF rewrite signal handler took 677us
+2408:M 21 Jul 2020 17:58:50.949 # Unable to obtain the AOF file length. stat: Bad file descriptor
+2408:M 21 Jul 2020 17:58:50.949 # Append Only File loaded by DEBUG LOADAOF
+2408:M 21 Jul 2020 17:58:50.951 * Background append only file rewriting started by pid 2688
+2408:M 21 Jul 2020 17:58:50.975 * AOF rewrite child asks to stop sending diffs.
+2688:C 21 Jul 2020 17:58:50.975 * Parent agreed to stop sending diffs. Finalizing AOF...
+2688:C 21 Jul 2020 17:58:50.976 * Concatenating 0.00 MB of AOF diff received from parent.
+2688:C 21 Jul 2020 17:58:50.977 * SYNC append only file rewrite performed
+2408:M 21 Jul 2020 17:58:51.012 * Background AOF rewrite terminated with success
+2408:M 21 Jul 2020 17:58:51.012 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+2408:M 21 Jul 2020 17:58:51.013 * Background AOF rewrite finished successfully
+2408:M 21 Jul 2020 17:58:51.013 - Background AOF rewrite signal handler took 570us
+2408:M 21 Jul 2020 17:58:53.521 - DB 9: 6 keys (6 volatile) in 8 slots HT.
+2408:M 21 Jul 2020 17:58:53.960 # Append Only File loaded by DEBUG LOADAOF
+2408:M 21 Jul 2020 17:58:53.961 - Accepted 127.0.0.1:55981
+2408:M 21 Jul 2020 17:59:00.475 - DB 9: 36510 keys (6 volatile) in 65536 slots HT.
+2408:M 21 Jul 2020 17:59:07.309 - DB 9: 74491 keys (6 volatile) in 131072 slots HT.
+2408:M 21 Jul 2020 17:59:13.792 - DB 9: 100006 keys (6 volatile) in 131072 slots HT.
+2408:M 21 Jul 2020 17:59:14.589 - Client closed connection
+2408:M 21 Jul 2020 17:59:17.027 * DB saved on disk
+2408:signal-handler (1595334557) Received SIGTERM scheduling shutdown...
+2408:M 21 Jul 2020 17:59:17.642 # User requested shutdown...
+2408:M 21 Jul 2020 17:59:17.642 * Saving the final RDB snapshot before exiting.
+2408:M 21 Jul 2020 17:59:17.644 * DB saved on disk
+2408:M 21 Jul 2020 17:59:17.644 * Removing the pid file.
+2408:M 21 Jul 2020 17:59:17.645 * Removing the unix socket file.
+2408:M 21 Jul 2020 17:59:17.645 # Redis is now ready to exit, bye bye...

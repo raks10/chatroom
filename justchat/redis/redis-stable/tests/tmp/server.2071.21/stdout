@@ -1,0 +1,51 @@
+3048:C 21 Jul 2020 17:59:08.731 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3048:C 21 Jul 2020 17:59:08.731 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3048, just started
+3048:C 21 Jul 2020 17:59:08.731 # Configuration loaded
+3048:M 21 Jul 2020 17:59:08.733 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25121
+ |    `-._   `._    /     _.-'    |     PID: 3048
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3048:M 21 Jul 2020 17:59:08.735 # Server initialized
+3048:M 21 Jul 2020 17:59:08.736 * Ready to accept connections
+3048:M 21 Jul 2020 17:59:08.736 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.21/socket
+3048:M 21 Jul 2020 17:59:08.883 - Accepted 127.0.0.1:56148
+3048:M 21 Jul 2020 17:59:08.883 - Client closed connection
+3048:M 21 Jul 2020 17:59:08.911 - Accepted 127.0.0.1:56149
+3048:S 21 Jul 2020 17:59:13.961 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3048:S 21 Jul 2020 17:59:13.961 * REPLICAOF 127.0.0.1:25118 enabled (user request from 'id=5 addr=127.0.0.1:56149 fd=12 name= age=5 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3048:S 21 Jul 2020 17:59:14.787 * Connecting to MASTER 127.0.0.1:25118
+3048:S 21 Jul 2020 17:59:14.787 * MASTER <-> REPLICA sync started
+3048:S 21 Jul 2020 17:59:14.787 * Non blocking connect for SYNC fired the event.
+3048:S 21 Jul 2020 17:59:14.788 * Master replied to PING, replication can continue...
+3048:S 21 Jul 2020 17:59:14.788 * Trying a partial resynchronization (request 337c58c2fa73610a27457dce0ab780d4da256bf6:1).
+3048:S 21 Jul 2020 17:59:14.790 * Full resync from master: 8726947da0f822b8b7f49dc9f5095d6619f88994:63436
+3048:S 21 Jul 2020 17:59:14.790 * Discarding previously cached master state.
+3048:S 21 Jul 2020 17:59:14.970 * MASTER <-> REPLICA sync: receiving 969546 bytes from master to disk
+3048:S 21 Jul 2020 17:59:15.009 * MASTER <-> REPLICA sync: Flushing old data
+3048:S 21 Jul 2020 17:59:15.009 * MASTER <-> REPLICA sync: Loading DB in memory
+3048:S 21 Jul 2020 17:59:15.010 * Loading RDB produced by version 6.0.6
+3048:S 21 Jul 2020 17:59:15.010 * RDB age 1 seconds
+3048:S 21 Jul 2020 17:59:15.010 * RDB memory usage when created 5.05 Mb
+3048:S 21 Jul 2020 17:59:15.141 * MASTER <-> REPLICA sync: Finished with success
+3048:signal-handler (1595334560) Received SIGTERM scheduling shutdown...
+3048:S 21 Jul 2020 17:59:20.936 # User requested shutdown...
+3048:S 21 Jul 2020 17:59:20.936 * Saving the final RDB snapshot before exiting.
+3048:S 21 Jul 2020 17:59:20.983 * DB saved on disk
+3048:S 21 Jul 2020 17:59:20.983 * Removing the pid file.
+3048:S 21 Jul 2020 17:59:20.983 * Removing the unix socket file.
+3048:S 21 Jul 2020 17:59:20.983 # Redis is now ready to exit, bye bye...

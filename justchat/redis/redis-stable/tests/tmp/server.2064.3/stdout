@@ -1,0 +1,44 @@
+2335:C 21 Jul 2020 17:58:31.645 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2335:C 21 Jul 2020 17:58:31.645 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2335, just started
+2335:C 21 Jul 2020 17:58:31.645 # Configuration loaded
+2335:M 21 Jul 2020 17:58:31.648 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21612
+ |    `-._   `._    /     _.-'    |     PID: 2335
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2335:M 21 Jul 2020 17:58:31.650 # Server initialized
+2335:M 21 Jul 2020 17:58:31.651 * Ready to accept connections
+2335:M 21 Jul 2020 17:58:31.651 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.3/socket
+2335:M 21 Jul 2020 17:58:31.781 - Accepted 127.0.0.1:55704
+2335:M 21 Jul 2020 17:58:31.781 - Client closed connection
+2335:M 21 Jul 2020 17:58:31.809 - Accepted 127.0.0.1:55705
+2335:M 21 Jul 2020 17:58:36.678 - DB 9: 6707 keys (0 volatile) in 8192 slots HT.
+2335:M 21 Jul 2020 17:58:41.842 - DB 9: 15168 keys (0 volatile) in 16384 slots HT.
+2335:M 21 Jul 2020 17:58:46.912 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:M 21 Jul 2020 17:58:51.967 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:M 21 Jul 2020 17:58:57.084 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:M 21 Jul 2020 17:59:02.388 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:M 21 Jul 2020 17:59:07.580 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:M 21 Jul 2020 17:59:12.628 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:M 21 Jul 2020 17:59:17.928 - DB 9: 20001 keys (0 volatile) in 32768 slots HT.
+2335:signal-handler (1595334559) Received SIGTERM scheduling shutdown...
+2335:M 21 Jul 2020 17:59:19.742 # User requested shutdown...
+2335:M 21 Jul 2020 17:59:19.742 * Saving the final RDB snapshot before exiting.
+2335:M 21 Jul 2020 17:59:19.744 * DB saved on disk
+2335:M 21 Jul 2020 17:59:19.744 * Removing the pid file.
+2335:M 21 Jul 2020 17:59:19.744 * Removing the unix socket file.
+2335:M 21 Jul 2020 17:59:19.745 # Redis is now ready to exit, bye bye...

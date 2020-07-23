@@ -1,0 +1,29 @@
+4417:C 21 Jul 2020 17:59:41.391 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4417:C 21 Jul 2020 17:59:41.391 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4417, just started
+4417:C 21 Jul 2020 17:59:41.391 # Configuration loaded
+4417:M 21 Jul 2020 17:59:41.394 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21621
+ |    `-._   `._    /     _.-'    |     PID: 4417
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4417:M 21 Jul 2020 17:59:41.396 # Server initialized
+4417:M 21 Jul 2020 17:59:41.396 * Ready to accept connections
+4417:M 21 Jul 2020 17:59:41.396 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.21/socket
+4417:M 21 Jul 2020 17:59:41.536 - Accepted 127.0.0.1:56728
+4417:M 21 Jul 2020 17:59:41.536 - Client closed connection
+4417:M 21 Jul 2020 17:59:41.570 - Accepted 127.0.0.1:56730
+4417:M 21 Jul 2020 17:59:41.579 - Client closed connection

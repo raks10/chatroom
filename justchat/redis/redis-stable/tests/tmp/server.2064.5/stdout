@@ -1,0 +1,66 @@
+3503:C 21 Jul 2020 17:59:19.801 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3503:C 21 Jul 2020 17:59:19.802 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3503, just started
+3503:C 21 Jul 2020 17:59:19.802 # Configuration loaded
+3503:M 21 Jul 2020 17:59:19.804 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21613
+ |    `-._   `._    /     _.-'    |     PID: 3503
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3503:M 21 Jul 2020 17:59:19.806 # Server initialized
+3503:M 21 Jul 2020 17:59:19.807 * Ready to accept connections
+3503:M 21 Jul 2020 17:59:19.807 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.5/socket
+3503:M 21 Jul 2020 17:59:19.939 - Accepted 127.0.0.1:56325
+3503:M 21 Jul 2020 17:59:19.939 - Client closed connection
+3503:M 21 Jul 2020 17:59:19.967 - Accepted 127.0.0.1:56328
+3503:S 21 Jul 2020 17:59:20.040 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3503:S 21 Jul 2020 17:59:20.040 * REPLICAOF 127.0.0.1:21614 enabled (user request from 'id=5 addr=127.0.0.1:56328 fd=12 name= age=1 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=45 qbuf-free=32723 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+3503:S 21 Jul 2020 17:59:20.813 * Connecting to MASTER 127.0.0.1:21614
+3503:S 21 Jul 2020 17:59:20.813 * MASTER <-> REPLICA sync started
+3503:S 21 Jul 2020 17:59:20.813 * Non blocking connect for SYNC fired the event.
+3503:S 21 Jul 2020 17:59:20.813 * Master replied to PING, replication can continue...
+3503:S 21 Jul 2020 17:59:20.813 * Trying a partial resynchronization (request f6a12854c1dd8e25922e104e3d200551a4efb7fc:1).
+3503:S 21 Jul 2020 17:59:20.815 * Full resync from master: 0da4f5b5bab63adcd2be75b886334bdb5895123b:0
+3503:S 21 Jul 2020 17:59:20.815 * Discarding previously cached master state.
+3503:S 21 Jul 2020 17:59:20.905 * MASTER <-> REPLICA sync: receiving 189 bytes from master to disk
+3503:S 21 Jul 2020 17:59:20.905 * MASTER <-> REPLICA sync: Flushing old data
+3503:S 21 Jul 2020 17:59:20.905 * MASTER <-> REPLICA sync: Loading DB in memory
+3503:S 21 Jul 2020 17:59:20.905 * Loading RDB produced by version 6.0.6
+3503:S 21 Jul 2020 17:59:20.905 * RDB age 0 seconds
+3503:S 21 Jul 2020 17:59:20.905 * RDB memory usage when created 2.03 Mb
+3503:S 21 Jul 2020 17:59:20.906 * MASTER <-> REPLICA sync: Finished with success
+3503:M 21 Jul 2020 17:59:26.048 # Connection with master lost.
+3503:M 21 Jul 2020 17:59:26.048 * Caching the disconnected master state.
+3503:M 21 Jul 2020 17:59:26.048 * Discarding previously cached master state.
+3503:M 21 Jul 2020 17:59:26.048 # Setting secondary replication ID to 0da4f5b5bab63adcd2be75b886334bdb5895123b, valid up to offset: 119. New replication ID is 1f63963466b2e2a176a4fb89eab05d95927a096e
+3503:M 21 Jul 2020 17:59:26.048 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:56328 fd=12 name= age=7 idle=5 flags=x db=9 sub=0 psub=0 multi=2 qbuf=14 qbuf-free=32754 obl=9 oll=0 omem=0 events=r cmd=exec user=default')
+3503:M 21 Jul 2020 17:59:26.064 - Accepted 127.0.0.1:56413
+3503:M 21 Jul 2020 17:59:26.065 * Replica 127.0.0.1:21614 asks for synchronization
+3503:M 21 Jul 2020 17:59:26.065 * Partial resynchronization not accepted: Requested offset for second ID was 175, but I can reply up to 119
+3503:M 21 Jul 2020 17:59:26.065 * Starting BGSAVE for SYNC with target: disk
+3503:M 21 Jul 2020 17:59:26.066 * Background saving started by pid 3693
+3693:C 21 Jul 2020 17:59:26.068 * DB saved on disk
+3503:M 21 Jul 2020 17:59:26.148 * Background saving terminated with success
+3503:M 21 Jul 2020 17:59:26.149 * Synchronization with replica 127.0.0.1:21614 succeeded
+3503:M 21 Jul 2020 17:59:28.103 - Client closed connection
+3503:M 21 Jul 2020 17:59:28.103 # Connection with replica 127.0.0.1:21614 lost.
+3503:signal-handler (1595334569) Received SIGTERM scheduling shutdown...
+3503:M 21 Jul 2020 17:59:29.107 # User requested shutdown...
+3503:M 21 Jul 2020 17:59:29.107 * Saving the final RDB snapshot before exiting.
+3503:M 21 Jul 2020 17:59:29.109 * DB saved on disk
+3503:M 21 Jul 2020 17:59:29.109 * Removing the pid file.
+3503:M 21 Jul 2020 17:59:29.109 * Removing the unix socket file.
+3503:M 21 Jul 2020 17:59:29.109 # Redis is now ready to exit, bye bye...

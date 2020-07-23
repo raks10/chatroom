@@ -1,0 +1,111 @@
+3344:C 21 Jul 2020 17:59:16.818 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3344:C 21 Jul 2020 17:59:16.818 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3344, just started
+3344:C 21 Jul 2020 17:59:16.818 # Configuration loaded
+3344:M 21 Jul 2020 17:59:16.821 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27112
+ |    `-._   `._    /     _.-'    |     PID: 3344
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3344:M 21 Jul 2020 17:59:16.823 # Server initialized
+3344:M 21 Jul 2020 17:59:16.824 * DB loaded from disk: 0.000 seconds
+3344:M 21 Jul 2020 17:59:16.824 * Ready to accept connections
+3344:M 21 Jul 2020 17:59:16.824 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.4/socket
+3344:M 21 Jul 2020 17:59:16.824 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3344:M 21 Jul 2020 17:59:16.955 - Accepted 127.0.0.1:56259
+3344:M 21 Jul 2020 17:59:16.955 - Client closed connection
+3344:M 21 Jul 2020 17:59:16.984 - Accepted 127.0.0.1:56260
+3344:signal-handler (1595334557) Received SIGTERM scheduling shutdown...
+3344:M 21 Jul 2020 17:59:17.515 # User requested shutdown...
+3344:M 21 Jul 2020 17:59:17.515 * Saving the final RDB snapshot before exiting.
+3344:M 21 Jul 2020 17:59:17.517 * DB saved on disk
+3344:M 21 Jul 2020 17:59:17.517 * Removing the pid file.
+3344:M 21 Jul 2020 17:59:17.517 * Removing the unix socket file.
+3344:M 21 Jul 2020 17:59:17.517 # Redis is now ready to exit, bye bye...
+3390:C 21 Jul 2020 17:59:17.573 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3390:C 21 Jul 2020 17:59:17.573 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3390, just started
+3390:C 21 Jul 2020 17:59:17.573 # Configuration loaded
+3390:M 21 Jul 2020 17:59:17.576 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27113
+ |    `-._   `._    /     _.-'    |     PID: 3390
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3390:M 21 Jul 2020 17:59:17.578 # Server initialized
+3390:M 21 Jul 2020 17:59:17.579 * DB loaded from disk: 0.000 seconds
+3390:M 21 Jul 2020 17:59:17.579 * Ready to accept connections
+3390:M 21 Jul 2020 17:59:17.579 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.6/socket
+3390:M 21 Jul 2020 17:59:17.579 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3390:M 21 Jul 2020 17:59:17.731 - Accepted 127.0.0.1:56281
+3390:M 21 Jul 2020 17:59:17.732 - Client closed connection
+3390:M 21 Jul 2020 17:59:17.760 - Accepted 127.0.0.1:56282
+3390:signal-handler (1595334558) Received SIGTERM scheduling shutdown...
+3390:M 21 Jul 2020 17:59:18.592 # User requested shutdown...
+3390:M 21 Jul 2020 17:59:18.592 * Saving the final RDB snapshot before exiting.
+3390:M 21 Jul 2020 17:59:18.594 * DB saved on disk
+3390:M 21 Jul 2020 17:59:18.594 * Removing the pid file.
+3390:M 21 Jul 2020 17:59:18.594 * Removing the unix socket file.
+3390:M 21 Jul 2020 17:59:18.594 # Redis is now ready to exit, bye bye...
+3427:C 21 Jul 2020 17:59:18.652 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3427:C 21 Jul 2020 17:59:18.652 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3427, just started
+3427:C 21 Jul 2020 17:59:18.652 # Configuration loaded
+3427:M 21 Jul 2020 17:59:18.654 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27114
+ |    `-._   `._    /     _.-'    |     PID: 3427
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3427:M 21 Jul 2020 17:59:18.656 # Server initialized
+3427:M 21 Jul 2020 17:59:18.656 * DB loaded from disk: 0.000 seconds
+3427:M 21 Jul 2020 17:59:18.656 * Ready to accept connections
+3427:M 21 Jul 2020 17:59:18.656 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2075.8/socket
+3427:M 21 Jul 2020 17:59:18.656 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3427:M 21 Jul 2020 17:59:18.790 - Accepted 127.0.0.1:56291
+3427:M 21 Jul 2020 17:59:18.792 - Client closed connection
+3427:M 21 Jul 2020 17:59:18.819 - Accepted 127.0.0.1:56292
+3427:signal-handler (1595334559) Received SIGTERM scheduling shutdown...
+3427:M 21 Jul 2020 17:59:19.711 # User requested shutdown...
+3427:M 21 Jul 2020 17:59:19.711 * Saving the final RDB snapshot before exiting.
+3427:M 21 Jul 2020 17:59:19.713 * DB saved on disk
+3427:M 21 Jul 2020 17:59:19.713 * Removing the pid file.
+3427:M 21 Jul 2020 17:59:19.713 * Removing the unix socket file.
+3427:M 21 Jul 2020 17:59:19.713 # Redis is now ready to exit, bye bye...

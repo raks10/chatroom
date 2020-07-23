@@ -1,0 +1,37 @@
+3326:C 21 Jul 2020 17:59:16.452 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3326:C 21 Jul 2020 17:59:16.452 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3326, just started
+3326:C 21 Jul 2020 17:59:16.452 # Configuration loaded
+3326:M 21 Jul 2020 17:59:16.454 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26623
+ |    `-._   `._    /     _.-'    |     PID: 3326
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3326:M 21 Jul 2020 17:59:16.457 # Server initialized
+3326:M 21 Jul 2020 17:59:16.457 * Ready to accept connections
+3326:M 21 Jul 2020 17:59:16.457 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.26/socket
+3326:M 21 Jul 2020 17:59:16.592 - Accepted 127.0.0.1:56250
+3326:M 21 Jul 2020 17:59:16.592 - Client closed connection
+3326:M 21 Jul 2020 17:59:16.619 - Accepted 127.0.0.1:56251
+3326:M 21 Jul 2020 17:59:16.621 - Accepted 127.0.0.1:56252
+3326:signal-handler (1595334563) Received SIGTERM scheduling shutdown...
+3326:M 21 Jul 2020 17:59:23.342 # User requested shutdown...
+3326:M 21 Jul 2020 17:59:23.342 * Calling fsync() on the AOF file.
+3326:M 21 Jul 2020 17:59:23.342 * Saving the final RDB snapshot before exiting.
+3326:M 21 Jul 2020 17:59:23.363 * DB saved on disk
+3326:M 21 Jul 2020 17:59:23.363 * Removing the pid file.
+3326:M 21 Jul 2020 17:59:23.363 * Removing the unix socket file.
+3326:M 21 Jul 2020 17:59:23.363 # Redis is now ready to exit, bye bye...

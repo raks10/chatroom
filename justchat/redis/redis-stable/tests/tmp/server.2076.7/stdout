@@ -1,0 +1,47 @@
+3939:C 21 Jul 2020 17:59:28.297 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3939:C 21 Jul 2020 17:59:28.297 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3939, just started
+3939:C 21 Jul 2020 17:59:28.297 # Configuration loaded
+3939:M 21 Jul 2020 17:59:28.300 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27614
+ |    `-._   `._    /     _.-'    |     PID: 3939
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3939:M 21 Jul 2020 17:59:28.302 # Server initialized
+3939:M 21 Jul 2020 17:59:28.302 * Ready to accept connections
+3939:M 21 Jul 2020 17:59:28.302 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2076.7/socket
+3939:M 21 Jul 2020 17:59:28.440 - Accepted 127.0.0.1:56482
+3939:M 21 Jul 2020 17:59:28.440 - Client closed connection
+3939:M 21 Jul 2020 17:59:28.468 - Accepted 127.0.0.1:56483
+3939:S 21 Jul 2020 17:59:28.661 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3939:S 21 Jul 2020 17:59:28.661 * REPLICAOF 127.0.0.1:27615 enabled (user request from 'id=5 addr=127.0.0.1:56483 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3939:S 21 Jul 2020 17:59:29.310 * Connecting to MASTER 127.0.0.1:27615
+3939:S 21 Jul 2020 17:59:29.310 * MASTER <-> REPLICA sync started
+3939:S 21 Jul 2020 17:59:29.310 * Non blocking connect for SYNC fired the event.
+3939:S 21 Jul 2020 17:59:29.310 * Master replied to PING, replication can continue...
+3939:S 21 Jul 2020 17:59:29.310 * Trying a partial resynchronization (request ff0ef89cac2669a5323d261b6bb93c175a71f825:1).
+3939:S 21 Jul 2020 17:59:29.313 * Full resync from master: 239fb5854d06467f8074cd8c795d0bbf2fc8ed4d:0
+3939:S 21 Jul 2020 17:59:29.313 * Discarding previously cached master state.
+3939:S 21 Jul 2020 17:59:29.402 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+3939:S 21 Jul 2020 17:59:29.402 * MASTER <-> REPLICA sync: Flushing old data
+3939:S 21 Jul 2020 17:59:29.402 * MASTER <-> REPLICA sync: Loading DB in memory
+3939:S 21 Jul 2020 17:59:29.402 * Loading RDB produced by version 6.0.6
+3939:S 21 Jul 2020 17:59:29.402 * RDB age 0 seconds
+3939:S 21 Jul 2020 17:59:29.402 * RDB memory usage when created 2.03 Mb
+3939:S 21 Jul 2020 17:59:29.403 * MASTER <-> REPLICA sync: Finished with success
+3939:S 21 Jul 2020 17:59:33.327 - DB 9: 1128 keys (0 volatile) in 2048 slots HT.
+3939:S 21 Jul 2020 17:59:38.353 - DB 9: 2718 keys (0 volatile) in 4096 slots HT.
+3939:S 21 Jul 2020 17:59:41.707 - Client closed connection

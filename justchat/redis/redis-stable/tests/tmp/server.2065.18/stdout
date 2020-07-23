@@ -1,0 +1,126 @@
+3483:C 21 Jul 2020 17:59:19.643 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3483:C 21 Jul 2020 17:59:19.643 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3483, just started
+3483:C 21 Jul 2020 17:59:19.644 # Configuration loaded
+3483:M 21 Jul 2020 17:59:19.646 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 22119
+ |    `-._   `._    /     _.-'    |     PID: 3483
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3483:M 21 Jul 2020 17:59:19.648 # Server initialized
+3483:M 21 Jul 2020 17:59:19.648 * Ready to accept connections
+3483:M 21 Jul 2020 17:59:19.648 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2065.18/socket
+3483:M 21 Jul 2020 17:59:19.785 - Accepted 127.0.0.1:56317
+3483:M 21 Jul 2020 17:59:19.785 - Client closed connection
+3483:M 21 Jul 2020 17:59:19.813 - Accepted 127.0.0.1:56320
+3483:M 21 Jul 2020 17:59:20.061 - Accepted 127.0.0.1:56333
+3483:M 21 Jul 2020 17:59:20.061 * Replica 127.0.0.1:22116 asks for synchronization
+3483:M 21 Jul 2020 17:59:20.061 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '6f7cc4c767705544b83d4f065308910eb2542efc', my replication IDs are '6704ecec769ce37e3132b2d484bf73e433500d95' and '0000000000000000000000000000000000000000')
+3483:M 21 Jul 2020 17:59:20.061 * Replication backlog created, my new replication IDs are '88da3c3954885b69dd6e59b4a6f28161a593d43f' and '0000000000000000000000000000000000000000'
+3483:M 21 Jul 2020 17:59:20.061 * Starting BGSAVE for SYNC with target: disk
+3483:M 21 Jul 2020 17:59:20.063 * Background saving started by pid 3527
+3527:C 21 Jul 2020 17:59:20.065 * DB saved on disk
+3483:M 21 Jul 2020 17:59:20.155 * Background saving terminated with success
+3483:M 21 Jul 2020 17:59:20.155 * Synchronization with replica 127.0.0.1:22116 succeeded
+3483:M 21 Jul 2020 17:59:20.269 - Accepted 127.0.0.1:56338
+3483:M 21 Jul 2020 17:59:20.270 * Replica 127.0.0.1:22117 asks for synchronization
+3483:M 21 Jul 2020 17:59:20.270 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'f21d81a91798660876d9ef3b2cb1548e12e6fad5', my replication IDs are '88da3c3954885b69dd6e59b4a6f28161a593d43f' and '0000000000000000000000000000000000000000')
+3483:M 21 Jul 2020 17:59:20.270 * Starting BGSAVE for SYNC with target: disk
+3483:M 21 Jul 2020 17:59:20.271 * Background saving started by pid 3537
+3537:C 21 Jul 2020 17:59:20.274 * DB saved on disk
+3483:M 21 Jul 2020 17:59:20.366 * Background saving terminated with success
+3483:M 21 Jul 2020 17:59:20.366 * Synchronization with replica 127.0.0.1:22117 succeeded
+3483:M 21 Jul 2020 17:59:22.827 - Client closed connection
+3483:M 21 Jul 2020 17:59:22.827 # Connection with replica 127.0.0.1:22117 lost.
+3483:M 21 Jul 2020 17:59:23.293 - Accepted 127.0.0.1:56361
+3483:M 21 Jul 2020 17:59:23.294 * Replica 127.0.0.1:22117 asks for synchronization
+3483:M 21 Jul 2020 17:59:23.294 * Partial resynchronization request from 127.0.0.1:22117 accepted. Sending 29463 bytes of backlog starting from offset 56388.
+3483:M 21 Jul 2020 17:59:24.718 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3483:M 21 Jul 2020 17:59:26.837 - Client closed connection
+3483:M 21 Jul 2020 17:59:26.837 # Connection with replica 127.0.0.1:22117 lost.
+3483:M 21 Jul 2020 17:59:26.838 - Client closed connection
+3483:M 21 Jul 2020 17:59:26.838 # Connection with replica 127.0.0.1:22116 lost.
+3483:S 21 Jul 2020 17:59:26.843 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3483:S 21 Jul 2020 17:59:26.843 * REPLICAOF 127.0.0.1:22117 enabled (user request from 'id=5 addr=127.0.0.1:56320 fd=12 name= age=7 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3483:S 21 Jul 2020 17:59:27.795 * Connecting to MASTER 127.0.0.1:22117
+3483:S 21 Jul 2020 17:59:27.795 * MASTER <-> REPLICA sync started
+3483:S 21 Jul 2020 17:59:27.795 * Non blocking connect for SYNC fired the event.
+3483:S 21 Jul 2020 17:59:27.795 * Master replied to PING, replication can continue...
+3483:S 21 Jul 2020 17:59:27.796 * Trying a partial resynchronization (request 88da3c3954885b69dd6e59b4a6f28161a593d43f:244142).
+3483:S 21 Jul 2020 17:59:27.796 * Successful partial resynchronization with master.
+3483:S 21 Jul 2020 17:59:27.796 # Master replication ID changed to 1dced2d5f5244354ca69198cbb487e3c61aee9fb
+3483:S 21 Jul 2020 17:59:27.796 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3483:S 21 Jul 2020 17:59:28.850 # Connection with master lost.
+3483:S 21 Jul 2020 17:59:28.850 * Caching the disconnected master state.
+3483:S 21 Jul 2020 17:59:29.815 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3483:S 21 Jul 2020 17:59:29.815 * Connecting to MASTER 127.0.0.1:22117
+3483:S 21 Jul 2020 17:59:29.815 * MASTER <-> REPLICA sync started
+3483:S 21 Jul 2020 17:59:29.816 * Non blocking connect for SYNC fired the event.
+3483:S 21 Jul 2020 17:59:29.816 * Master replied to PING, replication can continue...
+3483:S 21 Jul 2020 17:59:29.816 * Trying a partial resynchronization (request 1dced2d5f5244354ca69198cbb487e3c61aee9fb:279032).
+3483:S 21 Jul 2020 17:59:29.816 * Successful partial resynchronization with master.
+3483:S 21 Jul 2020 17:59:29.816 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3483:S 21 Jul 2020 17:59:31.849 # Connection with master lost.
+3483:S 21 Jul 2020 17:59:31.849 * Caching the disconnected master state.
+3483:S 21 Jul 2020 17:59:32.826 * Connecting to MASTER 127.0.0.1:22117
+3483:S 21 Jul 2020 17:59:32.827 * MASTER <-> REPLICA sync started
+3483:S 21 Jul 2020 17:59:32.827 * Non blocking connect for SYNC fired the event.
+3483:S 21 Jul 2020 17:59:32.827 * Master replied to PING, replication can continue...
+3483:S 21 Jul 2020 17:59:32.827 * Trying a partial resynchronization (request 1dced2d5f5244354ca69198cbb487e3c61aee9fb:394602).
+3483:S 21 Jul 2020 17:59:32.827 * Successful partial resynchronization with master.
+3483:S 21 Jul 2020 17:59:32.827 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3483:S 21 Jul 2020 17:59:33.012 # Connection with master lost.
+3483:S 21 Jul 2020 17:59:33.012 * Caching the disconnected master state.
+3483:S 21 Jul 2020 17:59:33.012 * REPLICAOF 127.0.0.1:22118 enabled (user request from 'id=5 addr=127.0.0.1:56320 fd=12 name= age=14 idle=1 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3483:S 21 Jul 2020 17:59:33.183 - Accepted 127.0.0.1:56603
+3483:S 21 Jul 2020 17:59:33.184 - Client closed connection
+3483:S 21 Jul 2020 17:59:33.837 * Connecting to MASTER 127.0.0.1:22118
+3483:S 21 Jul 2020 17:59:33.838 * MASTER <-> REPLICA sync started
+3483:S 21 Jul 2020 17:59:33.838 * Non blocking connect for SYNC fired the event.
+3483:S 21 Jul 2020 17:59:33.838 * Master replied to PING, replication can continue...
+3483:S 21 Jul 2020 17:59:33.838 * Trying a partial resynchronization (request 1dced2d5f5244354ca69198cbb487e3c61aee9fb:435923).
+3483:S 21 Jul 2020 17:59:33.838 * Successful partial resynchronization with master.
+3483:S 21 Jul 2020 17:59:33.838 # Master replication ID changed to 48f98fb330d8868f3452e95601eb56e20069815f
+3483:S 21 Jul 2020 17:59:33.838 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3483:S 21 Jul 2020 17:59:34.193 - Accepted 127.0.0.1:56621
+3483:S 21 Jul 2020 17:59:34.193 * Replica 127.0.0.1:22116 asks for synchronization
+3483:S 21 Jul 2020 17:59:34.193 * Partial resynchronization request from 127.0.0.1:22116 accepted. Sending 14 bytes of backlog starting from offset 435923.
+3483:S 21 Jul 2020 17:59:34.847 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3483:S 21 Jul 2020 17:59:39.892 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3483:S 21 Jul 2020 17:59:40.067 - Client closed connection
+3483:S 21 Jul 2020 17:59:40.067 # Connection with replica 127.0.0.1:22116 lost.
+3483:S 21 Jul 2020 17:59:40.068 # Connection with master lost.
+3483:S 21 Jul 2020 17:59:40.068 * Caching the disconnected master state.
+3483:S 21 Jul 2020 17:59:40.068 * REPLICAOF 127.0.0.1:22117 enabled (user request from 'id=5 addr=127.0.0.1:56320 fd=12 name= age=21 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3483:S 21 Jul 2020 17:59:40.619 - Accepted 127.0.0.1:56708
+3483:S 21 Jul 2020 17:59:40.619 - Client closed connection
+3483:S 21 Jul 2020 17:59:40.900 * Connecting to MASTER 127.0.0.1:22117
+3483:S 21 Jul 2020 17:59:40.900 * MASTER <-> REPLICA sync started
+3483:S 21 Jul 2020 17:59:40.901 * Non blocking connect for SYNC fired the event.
+3483:S 21 Jul 2020 17:59:40.901 * Master replied to PING, replication can continue...
+3483:S 21 Jul 2020 17:59:40.902 * Trying a partial resynchronization (request 48f98fb330d8868f3452e95601eb56e20069815f:651364).
+3483:S 21 Jul 2020 17:59:40.902 * Successful partial resynchronization with master.
+3483:S 21 Jul 2020 17:59:40.902 # Master replication ID changed to 389b6eded90ea647e5bb6c7d747fe1c8f50a1601
+3483:S 21 Jul 2020 17:59:40.902 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3483:S 21 Jul 2020 17:59:41.589 - Client closed connection
+3483:S 21 Jul 2020 17:59:41.630 - Accepted 127.0.0.1:56731
+3483:S 21 Jul 2020 17:59:41.631 * Replica 127.0.0.1:22118 asks for synchronization
+3483:S 21 Jul 2020 17:59:41.631 * Partial resynchronization request from 127.0.0.1:22118 accepted. Sending 28 bytes of backlog starting from offset 651364.
+3483:S 21 Jul 2020 17:59:41.829 - Client closed connection
+3483:S 21 Jul 2020 17:59:41.829 # Connection with master lost.
+3483:S 21 Jul 2020 17:59:41.829 * Caching the disconnected master state.
+3483:S 21 Jul 2020 17:59:41.833 - Client closed connection
+3483:S 21 Jul 2020 17:59:41.833 # Connection with replica 127.0.0.1:22118 lost.

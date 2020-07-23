@@ -1,0 +1,51 @@
+2114:C 21 Jul 2020 17:58:31.084 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2114:C 21 Jul 2020 17:58:31.084 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2114, just started
+2114:C 21 Jul 2020 17:58:31.084 # Configuration loaded
+2114:M 21 Jul 2020 17:58:31.087 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26111
+ |    `-._   `._    /     _.-'    |     PID: 2114
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2114:M 21 Jul 2020 17:58:31.176 # Server initialized
+2114:M 21 Jul 2020 17:58:31.177 * Ready to accept connections
+2114:M 21 Jul 2020 17:58:31.177 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2073.1/socket
+2114:M 21 Jul 2020 17:58:31.267 - Accepted 127.0.0.1:55638
+2114:M 21 Jul 2020 17:58:31.268 - Client closed connection
+2114:M 21 Jul 2020 17:58:31.325 - Accepted 127.0.0.1:55652
+2114:M 21 Jul 2020 17:58:36.216 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:58:41.260 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:58:46.277 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:58:51.299 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:58:56.330 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:01.374 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:06.414 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:11.432 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:16.459 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:21.515 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:26.567 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:31.627 - DB 9: 3 keys (0 volatile) in 4 slots HT.
+2114:M 21 Jul 2020 17:59:32.031 * 10000 changes in 60 seconds. Saving...
+2114:M 21 Jul 2020 17:59:32.033 * Background saving started by pid 4134
+4134:C 21 Jul 2020 17:59:32.050 * DB saved on disk
+2114:M 21 Jul 2020 17:59:32.133 * Background saving terminated with success
+2114:signal-handler (1595334575) Received SIGTERM scheduling shutdown...
+2114:M 21 Jul 2020 17:59:35.125 # User requested shutdown...
+2114:M 21 Jul 2020 17:59:35.125 * Saving the final RDB snapshot before exiting.
+2114:M 21 Jul 2020 17:59:35.128 * DB saved on disk
+2114:M 21 Jul 2020 17:59:35.128 * Removing the pid file.
+2114:M 21 Jul 2020 17:59:35.128 * Removing the unix socket file.
+2114:M 21 Jul 2020 17:59:35.128 # Redis is now ready to exit, bye bye...

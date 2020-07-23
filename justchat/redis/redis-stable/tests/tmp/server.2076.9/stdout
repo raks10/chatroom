@@ -1,0 +1,50 @@
+3954:C 21 Jul 2020 17:59:28.494 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3954:C 21 Jul 2020 17:59:28.494 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3954, just started
+3954:C 21 Jul 2020 17:59:28.494 # Configuration loaded
+3954:M 21 Jul 2020 17:59:28.497 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 27615
+ |    `-._   `._    /     _.-'    |     PID: 3954
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3954:M 21 Jul 2020 17:59:28.499 # Server initialized
+3954:M 21 Jul 2020 17:59:28.499 * Ready to accept connections
+3954:M 21 Jul 2020 17:59:28.499 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2076.9/socket
+3954:M 21 Jul 2020 17:59:28.632 - Accepted 127.0.0.1:56486
+3954:M 21 Jul 2020 17:59:28.632 - Client closed connection
+3954:M 21 Jul 2020 17:59:28.660 - Accepted 127.0.0.1:56487
+3954:M 21 Jul 2020 17:59:29.310 - Accepted 127.0.0.1:56495
+3954:M 21 Jul 2020 17:59:29.310 * Replica 127.0.0.1:27614 asks for synchronization
+3954:M 21 Jul 2020 17:59:29.311 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'ff0ef89cac2669a5323d261b6bb93c175a71f825', my replication IDs are '0cd61f0e8ccc74d7eaffc388e1b99b1ef0683dab' and '0000000000000000000000000000000000000000')
+3954:M 21 Jul 2020 17:59:29.311 * Replication backlog created, my new replication IDs are '239fb5854d06467f8074cd8c795d0bbf2fc8ed4d' and '0000000000000000000000000000000000000000'
+3954:M 21 Jul 2020 17:59:29.311 * Starting BGSAVE for SYNC with target: disk
+3954:M 21 Jul 2020 17:59:29.312 * Background saving started by pid 4015
+4015:C 21 Jul 2020 17:59:29.315 * DB saved on disk
+3954:M 21 Jul 2020 17:59:29.402 * Background saving terminated with success
+3954:M 21 Jul 2020 17:59:29.402 * Synchronization with replica 127.0.0.1:27614 succeeded
+3954:M 21 Jul 2020 17:59:29.485 * Background append only file rewriting started by pid 4037
+3954:M 21 Jul 2020 17:59:29.885 * AOF rewrite child asks to stop sending diffs.
+4037:C 21 Jul 2020 17:59:29.885 * Parent agreed to stop sending diffs. Finalizing AOF...
+4037:C 21 Jul 2020 17:59:29.885 * Concatenating 0.02 MB of AOF diff received from parent.
+4037:C 21 Jul 2020 17:59:29.887 * SYNC append only file rewrite performed
+3954:M 21 Jul 2020 17:59:29.895 * Background AOF rewrite terminated with success
+3954:M 21 Jul 2020 17:59:29.895 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+3954:M 21 Jul 2020 17:59:29.895 * Background AOF rewrite finished successfully
+3954:M 21 Jul 2020 17:59:29.895 - Background AOF rewrite signal handler took 742us
+3954:M 21 Jul 2020 17:59:35.208 - DB 9: 1802 keys (0 volatile) in 2048 slots HT.
+3954:M 21 Jul 2020 17:59:41.708 - Reading from client: Connection reset by peer
+3954:M 21 Jul 2020 17:59:41.880 - Client closed connection
+3954:M 21 Jul 2020 17:59:41.880 # Connection with replica 127.0.0.1:27614 lost.

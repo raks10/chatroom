@@ -1,0 +1,184 @@
+3071:C 21 Jul 2020 17:59:09.150 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3071:C 21 Jul 2020 17:59:09.150 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3071, just started
+3071:C 21 Jul 2020 17:59:09.150 # Configuration loaded
+3071:M 21 Jul 2020 17:59:09.152 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23117
+ |    `-._   `._    /     _.-'    |     PID: 3071
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3071:M 21 Jul 2020 17:59:09.154 # Server initialized
+3071:M 21 Jul 2020 17:59:09.154 * Ready to accept connections
+3071:M 21 Jul 2020 17:59:09.154 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.15/socket
+3071:M 21 Jul 2020 17:59:09.285 - Accepted 127.0.0.1:56157
+3071:M 21 Jul 2020 17:59:09.285 - Client closed connection
+3071:M 21 Jul 2020 17:59:09.312 - Accepted 127.0.0.1:56158
+3071:M 21 Jul 2020 17:59:09.314 * DB saved on disk
+3071:signal-handler (1595334550) Received SIGTERM scheduling shutdown...
+3071:M 21 Jul 2020 17:59:10.338 # User requested shutdown...
+3071:M 21 Jul 2020 17:59:10.339 * Saving the final RDB snapshot before exiting.
+3071:M 21 Jul 2020 17:59:10.340 * DB saved on disk
+3071:M 21 Jul 2020 17:59:10.340 * Removing the pid file.
+3071:M 21 Jul 2020 17:59:10.340 * Removing the unix socket file.
+3071:M 21 Jul 2020 17:59:10.340 # Redis is now ready to exit, bye bye...
+3113:C 21 Jul 2020 17:59:10.388 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3113:C 21 Jul 2020 17:59:10.388 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3113, just started
+3113:C 21 Jul 2020 17:59:10.388 # Configuration loaded
+3113:M 21 Jul 2020 17:59:10.390 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23118
+ |    `-._   `._    /     _.-'    |     PID: 3113
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3113:M 21 Jul 2020 17:59:10.392 # Server initialized
+3113:M 21 Jul 2020 17:59:10.392 * Loading RDB produced by version 6.0.6
+3113:M 21 Jul 2020 17:59:10.392 * RDB age 0 seconds
+3113:M 21 Jul 2020 17:59:10.392 * RDB memory usage when created 0.97 Mb
+3113:M 21 Jul 2020 17:59:10.392 * DB loaded from disk: 0.000 seconds
+3113:M 21 Jul 2020 17:59:10.392 * Ready to accept connections
+3113:M 21 Jul 2020 17:59:10.392 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.17/socket
+3113:M 21 Jul 2020 17:59:10.525 - Accepted 127.0.0.1:56171
+3113:M 21 Jul 2020 17:59:10.526 - Client closed connection
+3113:M 21 Jul 2020 17:59:10.552 - Accepted 127.0.0.1:56172
+3113:signal-handler (1595334551) Received SIGTERM scheduling shutdown...
+3113:M 21 Jul 2020 17:59:11.550 # User requested shutdown...
+3113:M 21 Jul 2020 17:59:11.550 * Saving the final RDB snapshot before exiting.
+3113:M 21 Jul 2020 17:59:11.552 * DB saved on disk
+3113:M 21 Jul 2020 17:59:11.552 * Removing the pid file.
+3113:M 21 Jul 2020 17:59:11.553 * Removing the unix socket file.
+3113:M 21 Jul 2020 17:59:11.553 # Redis is now ready to exit, bye bye...
+3153:C 21 Jul 2020 17:59:11.603 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3153:C 21 Jul 2020 17:59:11.603 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3153, just started
+3153:C 21 Jul 2020 17:59:11.603 # Configuration loaded
+3153:M 21 Jul 2020 17:59:11.606 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23119
+ |    `-._   `._    /     _.-'    |     PID: 3153
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3153:M 21 Jul 2020 17:59:11.607 # Server initialized
+3153:M 21 Jul 2020 17:59:11.608 * Loading RDB produced by version 6.0.6
+3153:M 21 Jul 2020 17:59:11.608 * RDB age 0 seconds
+3153:M 21 Jul 2020 17:59:11.608 * RDB memory usage when created 0.97 Mb
+3153:M 21 Jul 2020 17:59:11.608 * DB loaded from disk: 0.000 seconds
+3153:M 21 Jul 2020 17:59:11.608 * Ready to accept connections
+3153:M 21 Jul 2020 17:59:11.608 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.19/socket
+3153:M 21 Jul 2020 17:59:11.742 - Accepted 127.0.0.1:56193
+3153:M 21 Jul 2020 17:59:11.742 - Client closed connection
+3153:M 21 Jul 2020 17:59:11.770 - Accepted 127.0.0.1:56194
+3153:M 21 Jul 2020 17:59:12.096 * DB saved on disk
+3153:M 21 Jul 2020 17:59:12.096 * Loading RDB produced by version 6.0.6
+3153:M 21 Jul 2020 17:59:12.096 * RDB age 0 seconds
+3153:M 21 Jul 2020 17:59:12.096 * RDB memory usage when created 1.03 Mb
+3153:M 21 Jul 2020 17:59:12.097 # DB reloaded by DEBUG RELOAD
+3153:signal-handler (1595334553) Received SIGTERM scheduling shutdown...
+3153:M 21 Jul 2020 17:59:13.164 # User requested shutdown...
+3153:M 21 Jul 2020 17:59:13.164 * Saving the final RDB snapshot before exiting.
+3153:M 21 Jul 2020 17:59:13.166 * DB saved on disk
+3153:M 21 Jul 2020 17:59:13.166 * Removing the pid file.
+3153:M 21 Jul 2020 17:59:13.166 * Removing the unix socket file.
+3153:M 21 Jul 2020 17:59:13.167 # Redis is now ready to exit, bye bye...
+3203:C 21 Jul 2020 17:59:13.220 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3203:C 21 Jul 2020 17:59:13.220 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3203, just started
+3203:C 21 Jul 2020 17:59:13.220 # Configuration loaded
+3203:M 21 Jul 2020 17:59:13.222 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23120
+ |    `-._   `._    /     _.-'    |     PID: 3203
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3203:M 21 Jul 2020 17:59:13.224 # Server initialized
+3203:M 21 Jul 2020 17:59:13.224 # Fatal error loading the DB: Permission denied. Exiting.
+3216:C 21 Jul 2020 17:59:13.403 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3216:C 21 Jul 2020 17:59:13.403 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3216, just started
+3216:C 21 Jul 2020 17:59:13.403 # Configuration loaded
+3216:M 21 Jul 2020 17:59:13.405 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23121
+ |    `-._   `._    /     _.-'    |     PID: 3216
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3216:M 21 Jul 2020 17:59:13.408 # Server initialized
+3216:M 21 Jul 2020 17:59:13.408 * Loading RDB produced by version 6.0.6
+3216:M 21 Jul 2020 17:59:13.408 * RDB age 0 seconds
+3216:M 21 Jul 2020 17:59:13.408 * RDB memory usage when created 0.97 Mb
+3216:M 21 Jul 2020 17:59:13.408 # Wrong RDB checksum expected: (c40a002889530024) but got (30307261626f6f66). Aborting now.
+3216:M 21 Jul 2020 17:59:13.408 # Internal error in RDB reading offset 0, function at rdb.c:2327 -> RDB CRC error
+[offset 0] Checking RDB file dump.rdb
+[offset 26] AUX FIELD redis-ver = '6.0.6'
+[offset 40] AUX FIELD redis-bits = '64'
+[offset 52] AUX FIELD ctime = '1595334553'
+[offset 67] AUX FIELD used-mem = '1021584'
+[offset 83] AUX FIELD aof-preamble = '0'
+--- RDB ERROR DETECTED ---
+[offset 92] RDB CRC error
+[additional info] While doing: check-sum
+[additional info] Reading type 0 (string)
+[info] 0 keys read
+[info] 0 expires
+[info] 0 already expired

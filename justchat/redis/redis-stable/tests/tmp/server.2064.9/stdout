@@ -1,0 +1,140 @@
+3995:C 21 Jul 2020 17:59:29.154 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3995:C 21 Jul 2020 17:59:29.155 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3995, just started
+3995:C 21 Jul 2020 17:59:29.155 # Configuration loaded
+3995:M 21 Jul 2020 17:59:29.157 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21615
+ |    `-._   `._    /     _.-'    |     PID: 3995
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3995:M 21 Jul 2020 17:59:29.159 # Server initialized
+3995:M 21 Jul 2020 17:59:29.159 * Ready to accept connections
+3995:M 21 Jul 2020 17:59:29.159 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.9/socket
+3995:M 21 Jul 2020 17:59:29.292 - Accepted 127.0.0.1:56494
+3995:M 21 Jul 2020 17:59:29.292 - Client closed connection
+3995:M 21 Jul 2020 17:59:29.322 - Accepted 127.0.0.1:56496
+3995:M 21 Jul 2020 17:59:30.364 - Accepted 127.0.0.1:56550
+3995:M 21 Jul 2020 17:59:30.364 * Replica 127.0.0.1:21616 asks for synchronization
+3995:M 21 Jul 2020 17:59:30.364 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '6e49eeaa286c23945c31a415651a6ad69581b543', my replication IDs are 'df8cfef562f8d9be32e664a32e63f0860fb5c3f9' and '0000000000000000000000000000000000000000')
+3995:M 21 Jul 2020 17:59:30.364 * Replication backlog created, my new replication IDs are '5b2865952f86360ae08a91d5b9a50871bdf2fd5e' and '0000000000000000000000000000000000000000'
+3995:M 21 Jul 2020 17:59:30.364 * Starting BGSAVE for SYNC with target: disk
+3995:M 21 Jul 2020 17:59:30.366 * Background saving started by pid 4090
+4090:C 21 Jul 2020 17:59:30.368 * DB saved on disk
+3995:M 21 Jul 2020 17:59:30.375 * Background saving terminated with success
+3995:M 21 Jul 2020 17:59:30.376 * Synchronization with replica 127.0.0.1:21616 succeeded
+3995:M 21 Jul 2020 17:59:30.601 - Accepted 127.0.0.1:56551
+3995:M 21 Jul 2020 17:59:30.602 * Replica 127.0.0.1:21617 asks for synchronization
+3995:M 21 Jul 2020 17:59:30.602 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '6a229767fac78f4a19e33aa55eaf9534f162a488', my replication IDs are '5b2865952f86360ae08a91d5b9a50871bdf2fd5e' and '0000000000000000000000000000000000000000')
+3995:M 21 Jul 2020 17:59:30.602 * Starting BGSAVE for SYNC with target: disk
+3995:M 21 Jul 2020 17:59:30.603 * Background saving started by pid 4091
+4091:C 21 Jul 2020 17:59:30.605 * DB saved on disk
+3995:M 21 Jul 2020 17:59:30.676 * Background saving terminated with success
+3995:M 21 Jul 2020 17:59:30.676 * Synchronization with replica 127.0.0.1:21617 succeeded
+3995:M 21 Jul 2020 17:59:30.780 - Accepted 127.0.0.1:56557
+3995:M 21 Jul 2020 17:59:30.780 * Replica 127.0.0.1:21618 asks for synchronization
+3995:M 21 Jul 2020 17:59:30.780 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'cd7a961fddaba6ff2d3693c51016b57f9bf7ca39', my replication IDs are '5b2865952f86360ae08a91d5b9a50871bdf2fd5e' and '0000000000000000000000000000000000000000')
+3995:M 21 Jul 2020 17:59:30.780 * Starting BGSAVE for SYNC with target: disk
+3995:M 21 Jul 2020 17:59:30.782 * Background saving started by pid 4092
+4092:C 21 Jul 2020 17:59:30.784 * DB saved on disk
+3995:M 21 Jul 2020 17:59:30.868 - Accepted 127.0.0.1:56558
+3995:M 21 Jul 2020 17:59:30.869 * Replica 127.0.0.1:21619 asks for synchronization
+3995:M 21 Jul 2020 17:59:30.869 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '92b3b89464bb422715a50df198109dfb2e66b7e9', my replication IDs are '5b2865952f86360ae08a91d5b9a50871bdf2fd5e' and '0000000000000000000000000000000000000000')
+3995:M 21 Jul 2020 17:59:30.869 * Waiting for end of BGSAVE for SYNC
+3995:M 21 Jul 2020 17:59:30.877 * Background saving terminated with success
+3995:M 21 Jul 2020 17:59:30.877 * Synchronization with replica 127.0.0.1:21618 succeeded
+3995:M 21 Jul 2020 17:59:30.877 * Synchronization with replica 127.0.0.1:21619 succeeded
+3995:M 21 Jul 2020 17:59:30.944 - Client closed connection
+3995:M 21 Jul 2020 17:59:30.944 # Connection with replica 127.0.0.1:21616 lost.
+3995:M 21 Jul 2020 17:59:30.944 - Client closed connection
+3995:M 21 Jul 2020 17:59:30.944 # Connection with replica 127.0.0.1:21617 lost.
+3995:M 21 Jul 2020 17:59:32.450 - Client closed connection
+3995:M 21 Jul 2020 17:59:32.450 # Connection with replica 127.0.0.1:21618 lost.
+3995:S 21 Jul 2020 17:59:32.450 # Connection with replica 127.0.0.1:21619 lost.
+3995:S 21 Jul 2020 17:59:32.450 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3995:S 21 Jul 2020 17:59:32.450 * REPLICAOF 127.0.0.1:21616 enabled (user request from 'id=5 addr=127.0.0.1:56496 fd=12 name= age=3 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=45 qbuf-free=32723 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+3995:S 21 Jul 2020 17:59:32.627 - Accepted 127.0.0.1:56590
+3995:S 21 Jul 2020 17:59:32.628 - Client closed connection
+3995:S 21 Jul 2020 17:59:32.884 - Accepted 127.0.0.1:56598
+3995:S 21 Jul 2020 17:59:32.885 - Client closed connection
+3995:S 21 Jul 2020 17:59:33.194 * Connecting to MASTER 127.0.0.1:21616
+3995:S 21 Jul 2020 17:59:33.194 * MASTER <-> REPLICA sync started
+3995:S 21 Jul 2020 17:59:33.195 * Non blocking connect for SYNC fired the event.
+3995:S 21 Jul 2020 17:59:33.195 * Master replied to PING, replication can continue...
+3995:S 21 Jul 2020 17:59:33.195 * Trying a partial resynchronization (request 5b2865952f86360ae08a91d5b9a50871bdf2fd5e:73).
+3995:S 21 Jul 2020 17:59:33.197 * Full resync from master: 76fdc368407582c8b0c77fd1c697be9304ebf0e1:44
+3995:S 21 Jul 2020 17:59:33.197 * Discarding previously cached master state.
+3995:S 21 Jul 2020 17:59:33.281 * MASTER <-> REPLICA sync: receiving 185 bytes from master to disk
+3995:S 21 Jul 2020 17:59:33.281 * MASTER <-> REPLICA sync: Flushing old data
+3995:S 21 Jul 2020 17:59:33.281 * MASTER <-> REPLICA sync: Loading DB in memory
+3995:S 21 Jul 2020 17:59:33.281 * Loading RDB produced by version 6.0.6
+3995:S 21 Jul 2020 17:59:33.281 * RDB age 0 seconds
+3995:S 21 Jul 2020 17:59:33.281 * RDB memory usage when created 2.05 Mb
+3995:S 21 Jul 2020 17:59:33.282 * MASTER <-> REPLICA sync: Finished with success
+3995:S 21 Jul 2020 17:59:33.633 - Accepted 127.0.0.1:56610
+3995:S 21 Jul 2020 17:59:33.634 * Replica 127.0.0.1:21617 asks for synchronization
+3995:S 21 Jul 2020 17:59:33.634 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '5b2865952f86360ae08a91d5b9a50871bdf2fd5e', my replication IDs are '76fdc368407582c8b0c77fd1c697be9304ebf0e1' and '0000000000000000000000000000000000000000')
+3995:S 21 Jul 2020 17:59:33.634 * Starting BGSAVE for SYNC with target: disk
+3995:S 21 Jul 2020 17:59:33.636 * Background saving started by pid 4160
+4160:C 21 Jul 2020 17:59:33.638 * DB saved on disk
+3995:S 21 Jul 2020 17:59:33.699 * Background saving terminated with success
+3995:S 21 Jul 2020 17:59:33.699 * Synchronization with replica 127.0.0.1:21617 succeeded
+3995:S 21 Jul 2020 17:59:33.888 - Accepted 127.0.0.1:56619
+3995:S 21 Jul 2020 17:59:33.888 * Replica 127.0.0.1:21619 asks for synchronization
+3995:S 21 Jul 2020 17:59:33.888 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '5b2865952f86360ae08a91d5b9a50871bdf2fd5e', my replication IDs are '76fdc368407582c8b0c77fd1c697be9304ebf0e1' and '0000000000000000000000000000000000000000')
+3995:S 21 Jul 2020 17:59:33.888 * Starting BGSAVE for SYNC with target: disk
+3995:S 21 Jul 2020 17:59:33.890 * Background saving started by pid 4168
+4168:C 21 Jul 2020 17:59:33.892 * DB saved on disk
+3995:S 21 Jul 2020 17:59:33.901 * Background saving terminated with success
+3995:S 21 Jul 2020 17:59:33.902 * Synchronization with replica 127.0.0.1:21619 succeeded
+3995:S 21 Jul 2020 17:59:34.202 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3995:S 21 Jul 2020 17:59:34.456 # Connection with master lost.
+3995:S 21 Jul 2020 17:59:34.456 * Caching the disconnected master state.
+3995:S 21 Jul 2020 17:59:34.457 - Client closed connection
+3995:S 21 Jul 2020 17:59:34.457 # Connection with replica 127.0.0.1:21617 lost.
+3995:S 21 Jul 2020 17:59:34.457 - Client closed connection
+3995:S 21 Jul 2020 17:59:34.457 # Connection with replica 127.0.0.1:21619 lost.
+3995:S 21 Jul 2020 17:59:34.646 - Accepted 127.0.0.1:56622
+3995:S 21 Jul 2020 17:59:34.647 - Client closed connection
+3995:S 21 Jul 2020 17:59:34.895 - Accepted 127.0.0.1:56632
+3995:S 21 Jul 2020 17:59:34.895 - Client closed connection
+3995:S 21 Jul 2020 17:59:35.212 * Connecting to MASTER 127.0.0.1:21616
+3995:S 21 Jul 2020 17:59:35.212 * MASTER <-> REPLICA sync started
+3995:S 21 Jul 2020 17:59:35.212 * Non blocking connect for SYNC fired the event.
+3995:S 21 Jul 2020 17:59:35.212 * Master replied to PING, replication can continue...
+3995:S 21 Jul 2020 17:59:35.212 * Trying a partial resynchronization (request 76fdc368407582c8b0c77fd1c697be9304ebf0e1:89).
+3995:S 21 Jul 2020 17:59:35.213 * Successful partial resynchronization with master.
+3995:S 21 Jul 2020 17:59:35.213 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+3995:S 21 Jul 2020 17:59:35.652 - Accepted 127.0.0.1:56643
+3995:S 21 Jul 2020 17:59:35.653 * Replica 127.0.0.1:21617 asks for synchronization
+3995:S 21 Jul 2020 17:59:35.653 * Partial resynchronization request from 127.0.0.1:21617 accepted. Sending 21 bytes of backlog starting from offset 89.
+3995:S 21 Jul 2020 17:59:35.909 - Accepted 127.0.0.1:56648
+3995:S 21 Jul 2020 17:59:35.909 * Replica 127.0.0.1:21619 asks for synchronization
+3995:S 21 Jul 2020 17:59:35.909 * Partial resynchronization request from 127.0.0.1:21619 accepted. Sending 21 bytes of backlog starting from offset 89.
+3995:S 21 Jul 2020 17:59:37.383 - Client closed connection
+3995:S 21 Jul 2020 17:59:37.383 # Connection with replica 127.0.0.1:21619 lost.
+3995:S 21 Jul 2020 17:59:39.242 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+3995:S 21 Jul 2020 17:59:39.244 - Client closed connection
+3995:S 21 Jul 2020 17:59:39.244 # Connection with replica 127.0.0.1:21617 lost.
+3995:S 21 Jul 2020 17:59:40.326 - Client closed connection
+3995:S 21 Jul 2020 17:59:40.326 # Connection with master lost.
+3995:S 21 Jul 2020 17:59:40.327 * Caching the disconnected master state.
+3995:signal-handler (1595334581) Received SIGTERM scheduling shutdown...
+3995:S 21 Jul 2020 17:59:41.142 # User requested shutdown...
+3995:S 21 Jul 2020 17:59:41.142 * Saving the final RDB snapshot before exiting.
+3995:S 21 Jul 2020 17:59:41.144 * DB saved on disk
+3995:S 21 Jul 2020 17:59:41.144 * Removing the pid file.
+3995:S 21 Jul 2020 17:59:41.144 * Removing the unix socket file.
+3995:S 21 Jul 2020 17:59:41.144 # Redis is now ready to exit, bye bye...

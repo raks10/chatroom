@@ -1,0 +1,80 @@
+3582:C 21 Jul 2020 17:59:23.416 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3582:C 21 Jul 2020 17:59:23.416 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3582, just started
+3582:C 21 Jul 2020 17:59:23.416 # Configuration loaded
+3582:M 21 Jul 2020 17:59:23.418 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26624
+ |    `-._   `._    /     _.-'    |     PID: 3582
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3582:M 21 Jul 2020 17:59:23.421 # Server initialized
+3582:M 21 Jul 2020 17:59:23.421 * Ready to accept connections
+3582:M 21 Jul 2020 17:59:23.421 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.28/socket
+3582:M 21 Jul 2020 17:59:23.552 - Accepted 127.0.0.1:56364
+3582:M 21 Jul 2020 17:59:23.552 - Client closed connection
+3582:M 21 Jul 2020 17:59:23.578 - Accepted 127.0.0.1:56365
+3582:M 21 Jul 2020 17:59:23.868 - Accepted 127.0.0.1:56371
+3582:M 21 Jul 2020 17:59:23.885 - Client closed connection
+3582:M 21 Jul 2020 17:59:23.895 - Accepted 127.0.0.1:56373
+3582:M 21 Jul 2020 17:59:23.915 - Client closed connection
+3582:M 21 Jul 2020 17:59:23.925 - Accepted 127.0.0.1:56374
+3582:M 21 Jul 2020 17:59:23.942 - Client closed connection
+3582:M 21 Jul 2020 17:59:23.952 - Accepted 127.0.0.1:56375
+3582:M 21 Jul 2020 17:59:23.968 - Client closed connection
+3582:M 21 Jul 2020 17:59:23.978 - Accepted 127.0.0.1:56376
+3582:M 21 Jul 2020 17:59:23.999 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.009 - Accepted 127.0.0.1:56377
+3582:M 21 Jul 2020 17:59:24.094 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.104 - Accepted 127.0.0.1:56378
+3582:M 21 Jul 2020 17:59:24.105 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.116 - Accepted 127.0.0.1:56379
+3582:M 21 Jul 2020 17:59:24.117 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.127 - Accepted 127.0.0.1:56380
+3582:M 21 Jul 2020 17:59:24.128 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.140 - Accepted 127.0.0.1:56381
+3582:M 21 Jul 2020 17:59:24.140 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.167 - Accepted 127.0.0.1:56382
+3582:M 21 Jul 2020 17:59:24.168 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.180 - Accepted 127.0.0.1:56383
+3582:M 21 Jul 2020 17:59:24.181 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.192 - Accepted 127.0.0.1:56384
+3582:M 21 Jul 2020 17:59:24.193 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.204 - Accepted 127.0.0.1:56385
+3582:M 21 Jul 2020 17:59:24.205 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.216 - Accepted 127.0.0.1:56386
+3582:M 21 Jul 2020 17:59:24.217 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.228 - Accepted 127.0.0.1:56387
+3582:M 21 Jul 2020 17:59:24.229 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.254 - Accepted 127.0.0.1:56388
+3582:M 21 Jul 2020 17:59:24.255 - Client closed connection
+3582:M 21 Jul 2020 17:59:24.267 - Accepted 127.0.0.1:56389
+3582:M 21 Jul 2020 17:59:24.268 - Client closed connection
+3582:M 21 Jul 2020 17:59:26.462 - Accepted 127.0.0.1:56418
+3582:M 21 Jul 2020 17:59:26.471 * Replica 127.0.0.1:<unknown-replica-port> asks for synchronization
+3582:M 21 Jul 2020 17:59:26.474 * Replication backlog created, my new replication IDs are '04a114ec4a791c1781b672b750c6429471878348' and '0000000000000000000000000000000000000000'
+3582:M 21 Jul 2020 17:59:26.474 * Starting BGSAVE for SYNC with target: disk
+3582:M 21 Jul 2020 17:59:26.482 * Background saving started by pid 3723
+3723:C 21 Jul 2020 17:59:30.498 * DB saved on disk
+3582:M 21 Jul 2020 17:59:30.596 - DB 9: 100000 keys (0 volatile) in 131072 slots HT.
+3582:M 21 Jul 2020 17:59:30.596 * Background saving terminated with success
+3582:M 21 Jul 2020 17:59:30.618 * Synchronization with replica 127.0.0.1:<unknown-replica-port> succeeded
+3582:M 21 Jul 2020 17:59:30.624 - Client closed connection
+3582:M 21 Jul 2020 17:59:30.624 # Connection with replica 127.0.0.1:<unknown-replica-port> lost.
+3582:M 21 Jul 2020 17:59:33.773 * Loading RDB produced by version 6.0.6
+3582:M 21 Jul 2020 17:59:33.825 * RDB age 7 seconds
+3582:M 21 Jul 2020 17:59:33.825 * RDB memory usage when created 105.27 Mb
+3582:M 21 Jul 2020 17:59:38.513 # DB reloaded by DEBUG RELOAD
+3582:M 21 Jul 2020 17:59:41.771 - Client closed connection

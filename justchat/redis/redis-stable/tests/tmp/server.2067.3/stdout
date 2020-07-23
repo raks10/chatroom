@@ -1,0 +1,114 @@
+2412:C 21 Jul 2020 17:58:33.412 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2412:C 21 Jul 2020 17:58:33.412 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2412, just started
+2412:C 21 Jul 2020 17:58:33.412 # Configuration loaded
+2412:M 21 Jul 2020 17:58:33.414 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23112
+ |    `-._   `._    /     _.-'    |     PID: 2412
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2412:M 21 Jul 2020 17:58:33.416 # Server initialized
+2412:M 21 Jul 2020 17:58:33.416 * Ready to accept connections
+2412:M 21 Jul 2020 17:58:33.416 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2067.3/socket
+2412:M 21 Jul 2020 17:58:33.548 - Accepted 127.0.0.1:55737
+2412:M 21 Jul 2020 17:58:33.549 - Client closed connection
+2412:M 21 Jul 2020 17:58:33.576 - Accepted 127.0.0.1:55743
+2412:M 21 Jul 2020 17:58:33.582 - Accepted 127.0.0.1:55744
+2412:M 21 Jul 2020 17:58:33.583 # WARNING: the new maxmemory value set via CONFIG SET (1) is smaller than the current memory usage (1128192). This will result in key eviction and/or the inability to accept new write commands depending on the maxmemory-policy.
+2412:M 21 Jul 2020 17:58:33.584 - Client closed connection
+2412:M 21 Jul 2020 17:58:33.595 * DB saved on disk
+2412:M 21 Jul 2020 17:58:33.597 * DB saved on disk
+2412:M 21 Jul 2020 17:58:34.706 - Accepted 127.0.0.1:55771
+2412:M 21 Jul 2020 17:58:34.706 * Replica 127.0.0.1:<unknown-replica-port> asks for synchronization
+2412:M 21 Jul 2020 17:58:34.706 * Replication backlog created, my new replication IDs are '7a7a5a405e7d59b28251bf1a9de57bc4cc5026f8' and '0000000000000000000000000000000000000000'
+2412:M 21 Jul 2020 17:58:34.706 * Starting BGSAVE for SYNC with target: disk
+2412:M 21 Jul 2020 17:58:34.707 * Background saving started by pid 2446
+2446:C 21 Jul 2020 17:58:34.709 * DB saved on disk
+2412:M 21 Jul 2020 17:58:34.722 * Background saving terminated with success
+2412:M 21 Jul 2020 17:58:34.723 * Synchronization with replica 127.0.0.1:<unknown-replica-port> succeeded
+2412:M 21 Jul 2020 17:58:34.723 - Client closed connection
+2412:M 21 Jul 2020 17:58:34.723 # Connection with replica 127.0.0.1:<unknown-replica-port> lost.
+2412:M 21 Jul 2020 17:58:34.724 - Accepted 127.0.0.1:55772
+2412:M 21 Jul 2020 17:58:34.724 * Replica 127.0.0.1:<unknown-replica-port> asks for synchronization
+2412:M 21 Jul 2020 17:58:34.724 * Starting BGSAVE for SYNC with target: disk
+2412:M 21 Jul 2020 17:58:34.725 * Background saving started by pid 2448
+2448:C 21 Jul 2020 17:58:34.727 * DB saved on disk
+2412:M 21 Jul 2020 17:58:34.827 * Background saving terminated with success
+2412:M 21 Jul 2020 17:58:34.827 * Synchronization with replica 127.0.0.1:<unknown-replica-port> succeeded
+2412:M 21 Jul 2020 17:58:34.828 - Client closed connection
+2412:M 21 Jul 2020 17:58:34.828 # Connection with replica 127.0.0.1:<unknown-replica-port> lost.
+2412:M 21 Jul 2020 17:58:34.829 - Accepted 127.0.0.1:55776
+2412:M 21 Jul 2020 17:58:34.829 * Replica 127.0.0.1:<unknown-replica-port> asks for synchronization
+2412:M 21 Jul 2020 17:58:34.829 * Starting BGSAVE for SYNC with target: disk
+2412:M 21 Jul 2020 17:58:34.830 * Background saving started by pid 2454
+2454:C 21 Jul 2020 17:58:34.832 * DB saved on disk
+2412:M 21 Jul 2020 17:58:34.932 * Background saving terminated with success
+2412:M 21 Jul 2020 17:58:34.932 * Synchronization with replica 127.0.0.1:<unknown-replica-port> succeeded
+2412:M 21 Jul 2020 17:58:34.934 - Client closed connection
+2412:M 21 Jul 2020 17:58:34.934 # Connection with replica 127.0.0.1:<unknown-replica-port> lost.
+2412:M 21 Jul 2020 17:58:34.935 - Accepted 127.0.0.1:55778
+2412:M 21 Jul 2020 17:58:34.935 * Replica 127.0.0.1:<unknown-replica-port> asks for synchronization
+2412:M 21 Jul 2020 17:58:34.935 * Starting BGSAVE for SYNC with target: disk
+2412:M 21 Jul 2020 17:58:34.936 * Background saving started by pid 2462
+2462:C 21 Jul 2020 17:58:34.939 * DB saved on disk
+2412:M 21 Jul 2020 17:58:35.032 * Background saving terminated with success
+2412:M 21 Jul 2020 17:58:35.032 * Synchronization with replica 127.0.0.1:<unknown-replica-port> succeeded
+2412:M 21 Jul 2020 17:58:35.033 - Client closed connection
+2412:M 21 Jul 2020 17:58:35.033 # Connection with replica 127.0.0.1:<unknown-replica-port> lost.
+2412:M 21 Jul 2020 17:58:35.033 - Accepted 127.0.0.1:55785
+2412:M 21 Jul 2020 17:58:35.034 # WARNING: the new maxmemory value set via CONFIG SET (1) is smaller than the current memory usage (2171760). This will result in key eviction and/or the inability to accept new write commands depending on the maxmemory-policy.
+2412:M 21 Jul 2020 17:58:35.034 - Client closed connection
+2412:M 21 Jul 2020 17:58:35.035 - Accepted 127.0.0.1:55786
+2412:M 21 Jul 2020 17:58:35.036 - Accepted 127.0.0.1:55787
+2412:M 21 Jul 2020 17:58:35.047 # Lua slow script detected: still in execution after 11 milliseconds. You can try killing the script using the SCRIPT KILL command. Script SHA1 is: 694a5fe1ddb97a4c6a1bf299d9537c7d3d0f84e7
+2412:M 21 Jul 2020 17:58:35.238 # Lua script killed by user with SCRIPT KILL.
+2412:M 21 Jul 2020 17:58:35.439 - Reading from client: Connection reset by peer
+2412:M 21 Jul 2020 17:58:35.439 - Client closed connection
+2412:M 21 Jul 2020 17:58:35.440 - Accepted 127.0.0.1:55788
+2412:M 21 Jul 2020 17:58:35.440 - Accepted 127.0.0.1:55789
+2412:M 21 Jul 2020 17:58:35.451 # Lua slow script detected: still in execution after 10 milliseconds. You can try killing the script using the SCRIPT KILL command. Script SHA1 is: 694a5fe1ddb97a4c6a1bf299d9537c7d3d0f84e7
+2412:M 21 Jul 2020 17:58:35.851 # Lua script killed by user with SCRIPT KILL.
+2412:M 21 Jul 2020 17:58:36.052 - Reading from client: Connection reset by peer
+2412:M 21 Jul 2020 17:58:36.052 - Client closed connection
+2412:M 21 Jul 2020 17:58:36.052 - Accepted 127.0.0.1:55802
+2412:M 21 Jul 2020 17:58:36.053 - Accepted 127.0.0.1:55803
+2412:M 21 Jul 2020 17:58:36.063 # Lua slow script detected: still in execution after 10 milliseconds. You can try killing the script using the SCRIPT KILL command. Script SHA1 is: 694a5fe1ddb97a4c6a1bf299d9537c7d3d0f84e7
+2412:M 21 Jul 2020 17:58:36.353 # Lua script killed by user with SCRIPT KILL.
+2412:M 21 Jul 2020 17:58:36.555 - Reading from client: Connection reset by peer
+2412:M 21 Jul 2020 17:58:36.555 - Client closed connection
+2412:M 21 Jul 2020 17:58:36.556 - Accepted 127.0.0.1:55804
+2412:M 21 Jul 2020 17:58:36.556 - Accepted 127.0.0.1:55807
+2412:M 21 Jul 2020 17:58:36.567 # Lua slow script detected: still in execution after 10 milliseconds. You can try killing the script using the SCRIPT KILL command. Script SHA1 is: 694a5fe1ddb97a4c6a1bf299d9537c7d3d0f84e7
+2412:M 21 Jul 2020 17:58:36.872 # Lua script killed by user with SCRIPT KILL.
+2412:M 21 Jul 2020 17:58:37.074 - Reading from client: Connection reset by peer
+2412:M 21 Jul 2020 17:58:37.074 - Client closed connection
+2412:M 21 Jul 2020 17:58:37.074 - Accepted 127.0.0.1:55821
+2412:M 21 Jul 2020 17:58:37.076 - Client closed connection
+2412:M 21 Jul 2020 17:58:37.076 - Accepted 127.0.0.1:55822
+2412:S 21 Jul 2020 17:58:37.077 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2412:S 21 Jul 2020 17:58:37.077 * REPLICAOF localhsot:0 enabled (user request from 'id=21 addr=127.0.0.1:55822 fd=13 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=41 qbuf-free=32727 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+2412:S 21 Jul 2020 17:58:37.077 * REPLICAOF would result into synchronization with the master we are already connected with. No operation performed.
+2412:M 21 Jul 2020 17:58:37.078 * Discarding previously cached master state.
+2412:M 21 Jul 2020 17:58:37.078 # Setting secondary replication ID to 7a7a5a405e7d59b28251bf1a9de57bc4cc5026f8, valid up to offset: 489. New replication ID is 21fca5f0badb45870c30fb307b18d21f952b6fc4
+2412:M 21 Jul 2020 17:58:37.078 * MASTER MODE enabled (user request from 'id=21 addr=127.0.0.1:55822 fd=13 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=36 qbuf-free=32732 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+2412:M 21 Jul 2020 17:58:37.078 - Client closed connection
+2412:signal-handler (1595334517) Received SIGTERM scheduling shutdown...
+2412:M 21 Jul 2020 17:58:38.082 # User requested shutdown...
+2412:M 21 Jul 2020 17:58:38.082 * Saving the final RDB snapshot before exiting.
+2412:M 21 Jul 2020 17:58:38.084 * DB saved on disk
+2412:M 21 Jul 2020 17:58:38.084 * Removing the pid file.
+2412:M 21 Jul 2020 17:58:38.084 * Removing the unix socket file.
+2412:M 21 Jul 2020 17:58:38.084 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,41 @@
+4360:C 21 Jul 2020 17:59:40.313 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4360:C 21 Jul 2020 17:59:40.313 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4360, just started
+4360:C 21 Jul 2020 17:59:40.313 # Configuration loaded
+4360:M 21 Jul 2020 17:59:40.315 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 22615
+ |    `-._   `._    /     _.-'    |     PID: 4360
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4360:M 21 Jul 2020 17:59:40.317 # Server initialized
+4360:M 21 Jul 2020 17:59:40.318 * Ready to accept connections
+4360:M 21 Jul 2020 17:59:40.318 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2066.9/socket
+4360:M 21 Jul 2020 17:59:40.460 - Accepted 127.0.0.1:56703
+4360:M 21 Jul 2020 17:59:40.461 - Client closed connection
+4360:M 21 Jul 2020 17:59:40.488 - Accepted 127.0.0.1:56704
+4360:M 21 Jul 2020 17:59:40.490 * Background append only file rewriting started by pid 4376
+4360:M 21 Jul 2020 17:59:40.513 * AOF rewrite child asks to stop sending diffs.
+4376:C 21 Jul 2020 17:59:40.513 * Parent agreed to stop sending diffs. Finalizing AOF...
+4376:C 21 Jul 2020 17:59:40.513 * Concatenating 0.00 MB of AOF diff received from parent.
+4376:C 21 Jul 2020 17:59:40.514 * SYNC append only file rewrite performed
+4360:M 21 Jul 2020 17:59:40.519 * Background AOF rewrite terminated with success
+4360:M 21 Jul 2020 17:59:40.519 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+4360:M 21 Jul 2020 17:59:40.519 * Background AOF rewrite finished successfully
+4360:M 21 Jul 2020 17:59:40.519 - Background AOF rewrite signal handler took 516us
+4360:M 21 Jul 2020 17:59:41.494 * Background append only file rewriting started by pid 4426
+4360:M 21 Jul 2020 17:59:41.494 * Killing running AOF rewrite child: 4426
+4360:M 21 Jul 2020 17:59:41.513 * DB saved on disk
+4360:M 21 Jul 2020 17:59:41.599 - Client closed connection

@@ -1,0 +1,60 @@
+2123:C 21 Jul 2020 17:58:31.085 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2123:C 21 Jul 2020 17:58:31.085 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2123, just started
+2123:C 21 Jul 2020 17:58:31.085 # Configuration loaded
+2123:M 21 Jul 2020 17:58:31.087 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 28111
+ |    `-._   `._    /     _.-'    |     PID: 2123
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2123:M 21 Jul 2020 17:58:31.177 # Server initialized
+2123:M 21 Jul 2020 17:58:31.178 * Ready to accept connections
+2123:M 21 Jul 2020 17:58:31.178 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2077.1/socket
+2123:M 21 Jul 2020 17:58:31.270 - Accepted 127.0.0.1:55640
+2123:M 21 Jul 2020 17:58:31.271 - Client closed connection
+2123:M 21 Jul 2020 17:58:31.328 - Accepted 127.0.0.1:55656
+2123:M 21 Jul 2020 17:58:36.758 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:58:41.811 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:58:46.867 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:58:51.914 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:58:56.931 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:01.976 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:04.266 - Accepted 127.0.0.1:56074
+2123:M 21 Jul 2020 17:59:04.268 - Accepted 127.0.0.1:56075
+2123:M 21 Jul 2020 17:59:04.270 - Accepted 127.0.0.1:56076
+2123:M 21 Jul 2020 17:59:04.307 - Accepted 127.0.0.1:56077
+2123:M 21 Jul 2020 17:59:04.310 - Accepted 127.0.0.1:56078
+2123:M 21 Jul 2020 17:59:04.315 - Accepted 127.0.0.1:56079
+2123:M 21 Jul 2020 17:59:04.317 - Accepted 127.0.0.1:56080
+2123:M 21 Jul 2020 17:59:07.022 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:12.077 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:17.120 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:22.196 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:27.258 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:32.009 * 10000 changes in 60 seconds. Saving...
+2123:M 21 Jul 2020 17:59:32.010 * Background saving started by pid 4133
+4133:C 21 Jul 2020 17:59:32.041 * DB saved on disk
+2123:M 21 Jul 2020 17:59:32.115 * Background saving terminated with success
+2123:M 21 Jul 2020 17:59:32.315 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:37.380 - DB 9: 4 keys (0 volatile) in 4 slots HT.
+2123:M 21 Jul 2020 17:59:41.727 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Client closed connection
+2123:M 21 Jul 2020 17:59:41.728 - Reading from client: Connection reset by peer

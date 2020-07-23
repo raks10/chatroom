@@ -1,0 +1,331 @@
+2936:C 21 Jul 2020 17:59:06.280 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2936:C 21 Jul 2020 17:59:06.280 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2936, just started
+2936:C 21 Jul 2020 17:59:06.280 # Configuration loaded
+2936:M 21 Jul 2020 17:59:06.283 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26612
+ |    `-._   `._    /     _.-'    |     PID: 2936
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2936:M 21 Jul 2020 17:59:06.285 # Server initialized
+2936:M 21 Jul 2020 17:59:06.285 # Revert incomplete MULTI/EXEC transaction in AOF file
+2936:M 21 Jul 2020 17:59:06.285 # !!! Warning: short read while loading the AOF file !!!
+2936:M 21 Jul 2020 17:59:06.285 # !!! Truncating the AOF at offset 33 !!!
+2936:M 21 Jul 2020 17:59:06.286 # AOF loaded anyway because aof-load-truncated is enabled
+2936:M 21 Jul 2020 17:59:06.286 * DB loaded from append only file: 0.001 seconds
+2936:M 21 Jul 2020 17:59:06.286 * Ready to accept connections
+2936:M 21 Jul 2020 17:59:06.286 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.4/socket
+2936:M 21 Jul 2020 17:59:06.286 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+2936:signal-handler (1595334547) Received SIGTERM scheduling shutdown...
+2936:M 21 Jul 2020 17:59:07.361 # User requested shutdown...
+2936:M 21 Jul 2020 17:59:07.361 * Calling fsync() on the AOF file.
+2936:M 21 Jul 2020 17:59:07.361 * Saving the final RDB snapshot before exiting.
+2936:M 21 Jul 2020 17:59:07.363 * DB saved on disk
+2936:M 21 Jul 2020 17:59:07.363 * Removing the pid file.
+2936:M 21 Jul 2020 17:59:07.363 * Removing the unix socket file.
+2936:M 21 Jul 2020 17:59:07.363 # Redis is now ready to exit, bye bye...
+2981:C 21 Jul 2020 17:59:07.423 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2981:C 21 Jul 2020 17:59:07.423 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2981, just started
+2981:C 21 Jul 2020 17:59:07.423 # Configuration loaded
+2981:M 21 Jul 2020 17:59:07.426 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26613
+ |    `-._   `._    /     _.-'    |     PID: 2981
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2981:M 21 Jul 2020 17:59:07.428 # Server initialized
+2981:M 21 Jul 2020 17:59:07.428 # !!! Warning: short read while loading the AOF file !!!
+2981:M 21 Jul 2020 17:59:07.428 # !!! Truncating the AOF at offset 115 !!!
+2981:M 21 Jul 2020 17:59:07.429 # AOF loaded anyway because aof-load-truncated is enabled
+2981:M 21 Jul 2020 17:59:07.429 * DB loaded from append only file: 0.001 seconds
+2981:M 21 Jul 2020 17:59:07.429 * Ready to accept connections
+2981:M 21 Jul 2020 17:59:07.429 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.6/socket
+2981:M 21 Jul 2020 17:59:07.429 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+2981:M 21 Jul 2020 17:59:07.563 - Accepted 127.0.0.1:56117
+2981:signal-handler (1595334548) Received SIGTERM scheduling shutdown...
+2981:M 21 Jul 2020 17:59:08.563 # User requested shutdown...
+2981:M 21 Jul 2020 17:59:08.563 * Calling fsync() on the AOF file.
+2981:M 21 Jul 2020 17:59:08.563 * Saving the final RDB snapshot before exiting.
+2981:M 21 Jul 2020 17:59:08.565 * DB saved on disk
+2981:M 21 Jul 2020 17:59:08.565 * Removing the pid file.
+2981:M 21 Jul 2020 17:59:08.565 * Removing the unix socket file.
+2981:M 21 Jul 2020 17:59:08.565 # Redis is now ready to exit, bye bye...
+3039:C 21 Jul 2020 17:59:08.611 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3039:C 21 Jul 2020 17:59:08.611 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3039, just started
+3039:C 21 Jul 2020 17:59:08.611 # Configuration loaded
+3039:M 21 Jul 2020 17:59:08.613 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26614
+ |    `-._   `._    /     _.-'    |     PID: 3039
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3039:M 21 Jul 2020 17:59:08.615 # Server initialized
+3039:M 21 Jul 2020 17:59:08.616 * DB loaded from append only file: 0.000 seconds
+3039:M 21 Jul 2020 17:59:08.616 * Ready to accept connections
+3039:M 21 Jul 2020 17:59:08.616 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.8/socket
+3039:M 21 Jul 2020 17:59:08.616 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3039:M 21 Jul 2020 17:59:08.752 - Accepted 127.0.0.1:56147
+3039:signal-handler (1595334549) Received SIGTERM scheduling shutdown...
+3039:M 21 Jul 2020 17:59:09.964 # User requested shutdown...
+3039:M 21 Jul 2020 17:59:09.964 * Calling fsync() on the AOF file.
+3039:M 21 Jul 2020 17:59:09.964 * Saving the final RDB snapshot before exiting.
+3039:M 21 Jul 2020 17:59:09.965 * DB saved on disk
+3039:M 21 Jul 2020 17:59:09.965 * Removing the pid file.
+3039:M 21 Jul 2020 17:59:09.966 * Removing the unix socket file.
+3039:M 21 Jul 2020 17:59:09.966 # Redis is now ready to exit, bye bye...
+3092:C 21 Jul 2020 17:59:10.026 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3092:C 21 Jul 2020 17:59:10.026 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3092, just started
+3092:C 21 Jul 2020 17:59:10.026 # Configuration loaded
+3092:M 21 Jul 2020 17:59:10.029 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26615
+ |    `-._   `._    /     _.-'    |     PID: 3092
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3092:M 21 Jul 2020 17:59:10.031 # Server initialized
+3092:M 21 Jul 2020 17:59:10.031 # Bad file format reading the append only file: make a backup of your AOF file, then use ./redis-check-aof --fix <filename>
+3099:C 21 Jul 2020 17:59:10.213 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3099:C 21 Jul 2020 17:59:10.213 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3099, just started
+3099:C 21 Jul 2020 17:59:10.213 # Configuration loaded
+3099:M 21 Jul 2020 17:59:10.216 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26616
+ |    `-._   `._    /     _.-'    |     PID: 3099
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3099:M 21 Jul 2020 17:59:10.218 # Server initialized
+3099:M 21 Jul 2020 17:59:10.218 # Revert incomplete MULTI/EXEC transaction in AOF file
+3099:M 21 Jul 2020 17:59:10.219 # Unexpected end of file reading the append only file. You can: 1) Make a backup of your AOF file, then use ./redis-check-aof --fix <filename>. 2) Alternatively you can set the 'aof-load-truncated' configuration option to yes and restart the server.
+3115:C 21 Jul 2020 17:59:10.400 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3115:C 21 Jul 2020 17:59:10.400 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3115, just started
+3115:C 21 Jul 2020 17:59:10.400 # Configuration loaded
+3115:M 21 Jul 2020 17:59:10.402 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26617
+ |    `-._   `._    /     _.-'    |     PID: 3115
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3115:M 21 Jul 2020 17:59:10.405 # Server initialized
+3115:M 21 Jul 2020 17:59:10.405 # Unexpected end of file reading the append only file. You can: 1) Make a backup of your AOF file, then use ./redis-check-aof --fix <filename>. 2) Alternatively you can set the 'aof-load-truncated' configuration option to yes and restart the server.
+3132:C 21 Jul 2020 17:59:10.775 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3132:C 21 Jul 2020 17:59:10.775 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3132, just started
+3132:C 21 Jul 2020 17:59:10.775 # Configuration loaded
+3132:M 21 Jul 2020 17:59:10.777 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26618
+ |    `-._   `._    /     _.-'    |     PID: 3132
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3132:M 21 Jul 2020 17:59:10.779 # Server initialized
+3132:M 21 Jul 2020 17:59:10.779 * DB loaded from append only file: 0.000 seconds
+3132:M 21 Jul 2020 17:59:10.779 * Ready to accept connections
+3132:M 21 Jul 2020 17:59:10.779 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.16/socket
+3132:M 21 Jul 2020 17:59:10.779 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3132:M 21 Jul 2020 17:59:10.914 - Accepted 127.0.0.1:56186
+3132:signal-handler (1595334551) Received SIGTERM scheduling shutdown...
+3132:M 21 Jul 2020 17:59:11.922 # User requested shutdown...
+3132:M 21 Jul 2020 17:59:11.922 * Calling fsync() on the AOF file.
+3132:M 21 Jul 2020 17:59:11.922 * Saving the final RDB snapshot before exiting.
+3132:M 21 Jul 2020 17:59:11.924 * DB saved on disk
+3132:M 21 Jul 2020 17:59:11.924 * Removing the pid file.
+3132:M 21 Jul 2020 17:59:11.924 * Removing the unix socket file.
+3132:M 21 Jul 2020 17:59:11.924 # Redis is now ready to exit, bye bye...
+3164:C 21 Jul 2020 17:59:11.967 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3164:C 21 Jul 2020 17:59:11.967 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3164, just started
+3164:C 21 Jul 2020 17:59:11.967 # Configuration loaded
+3164:M 21 Jul 2020 17:59:11.969 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26619
+ |    `-._   `._    /     _.-'    |     PID: 3164
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3164:M 21 Jul 2020 17:59:11.971 # Server initialized
+3164:M 21 Jul 2020 17:59:11.972 * DB loaded from append only file: 0.000 seconds
+3164:M 21 Jul 2020 17:59:11.972 * Ready to accept connections
+3164:M 21 Jul 2020 17:59:11.972 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.18/socket
+3164:M 21 Jul 2020 17:59:11.972 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3164:M 21 Jul 2020 17:59:12.107 - Accepted 127.0.0.1:56197
+3164:signal-handler (1595334553) Received SIGTERM scheduling shutdown...
+3164:M 21 Jul 2020 17:59:13.220 # User requested shutdown...
+3164:M 21 Jul 2020 17:59:13.220 * Calling fsync() on the AOF file.
+3164:M 21 Jul 2020 17:59:13.220 * Saving the final RDB snapshot before exiting.
+3164:M 21 Jul 2020 17:59:13.222 * DB saved on disk
+3164:M 21 Jul 2020 17:59:13.222 * Removing the pid file.
+3164:M 21 Jul 2020 17:59:13.222 * Removing the unix socket file.
+3164:M 21 Jul 2020 17:59:13.222 # Redis is now ready to exit, bye bye...
+3208:C 21 Jul 2020 17:59:13.282 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3208:C 21 Jul 2020 17:59:13.282 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3208, just started
+3208:C 21 Jul 2020 17:59:13.282 # Configuration loaded
+3208:M 21 Jul 2020 17:59:13.285 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26620
+ |    `-._   `._    /     _.-'    |     PID: 3208
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3208:M 21 Jul 2020 17:59:13.287 # Server initialized
+3208:M 21 Jul 2020 17:59:13.287 * DB loaded from append only file: 0.000 seconds
+3208:M 21 Jul 2020 17:59:13.287 * Ready to accept connections
+3208:M 21 Jul 2020 17:59:13.287 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.20/socket
+3208:M 21 Jul 2020 17:59:13.288 - DB 0: 1 keys (0 volatile) in 4 slots HT.
+3208:M 21 Jul 2020 17:59:13.426 - Accepted 127.0.0.1:56208
+3208:signal-handler (1595334554) Received SIGTERM scheduling shutdown...
+3208:M 21 Jul 2020 17:59:14.365 # User requested shutdown...
+3208:M 21 Jul 2020 17:59:14.365 * Calling fsync() on the AOF file.
+3208:M 21 Jul 2020 17:59:14.365 * Saving the final RDB snapshot before exiting.
+3208:M 21 Jul 2020 17:59:14.366 * DB saved on disk
+3208:M 21 Jul 2020 17:59:14.366 * Removing the pid file.
+3208:M 21 Jul 2020 17:59:14.367 * Removing the unix socket file.
+3208:M 21 Jul 2020 17:59:14.367 # Redis is now ready to exit, bye bye...
+3268:C 21 Jul 2020 17:59:14.415 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3268:C 21 Jul 2020 17:59:14.415 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3268, just started
+3268:C 21 Jul 2020 17:59:14.415 # Configuration loaded
+3268:M 21 Jul 2020 17:59:14.418 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 26621
+ |    `-._   `._    /     _.-'    |     PID: 3268
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3268:M 21 Jul 2020 17:59:14.420 # Server initialized
+3268:M 21 Jul 2020 17:59:14.420 * DB loaded from append only file: 0.000 seconds
+3268:M 21 Jul 2020 17:59:14.420 * Ready to accept connections
+3268:M 21 Jul 2020 17:59:14.420 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2074.22/socket
+3268:M 21 Jul 2020 17:59:14.420 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+3268:M 21 Jul 2020 17:59:14.561 - Accepted 127.0.0.1:56228
+3268:signal-handler (1595334555) Received SIGTERM scheduling shutdown...
+3268:M 21 Jul 2020 17:59:15.467 # User requested shutdown...
+3268:M 21 Jul 2020 17:59:15.467 * Calling fsync() on the AOF file.
+3268:M 21 Jul 2020 17:59:15.467 * Saving the final RDB snapshot before exiting.
+3268:M 21 Jul 2020 17:59:15.469 * DB saved on disk
+3268:M 21 Jul 2020 17:59:15.469 * Removing the pid file.
+3268:M 21 Jul 2020 17:59:15.469 * Removing the unix socket file.
+3268:M 21 Jul 2020 17:59:15.469 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,86 @@
+4019:C 21 Jul 2020 17:59:29.343 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4019:C 21 Jul 2020 17:59:29.343 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4019, just started
+4019:C 21 Jul 2020 17:59:29.343 # Configuration loaded
+4019:M 21 Jul 2020 17:59:29.345 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21125
+ |    `-._   `._    /     _.-'    |     PID: 4019
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4019:M 21 Jul 2020 17:59:29.347 # Server initialized
+4019:M 21 Jul 2020 17:59:29.347 * Ready to accept connections
+4019:M 21 Jul 2020 17:59:29.347 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2063.29/socket
+4019:M 21 Jul 2020 17:59:29.484 - Accepted 127.0.0.1:56501
+4019:M 21 Jul 2020 17:59:29.487 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.520 - Accepted 127.0.0.1:56503
+4019:M 21 Jul 2020 17:59:29.522 - Accepted 127.0.0.1:56504
+4019:M 21 Jul 2020 17:59:29.524 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.526 - Accepted 127.0.0.1:56505
+4019:M 21 Jul 2020 17:59:29.530 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.531 - Accepted 127.0.0.1:56506
+4019:M 21 Jul 2020 17:59:29.532 - Accepted 127.0.0.1:56507
+4019:M 21 Jul 2020 17:59:29.533 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.533 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.534 - Accepted 127.0.0.1:56508
+4019:M 21 Jul 2020 17:59:29.535 - Reading from client: Connection reset by peer
+4019:M 21 Jul 2020 17:59:29.537 - Accepted 127.0.0.1:56509
+4019:M 21 Jul 2020 17:59:29.541 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.542 - Accepted 127.0.0.1:56511
+4019:M 21 Jul 2020 17:59:29.543 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.544 - Accepted 127.0.0.1:56512
+4019:M 21 Jul 2020 17:59:29.548 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.550 - Accepted 127.0.0.1:56513
+4019:M 21 Jul 2020 17:59:29.550 - Accepted 127.0.0.1:56514
+4019:M 21 Jul 2020 17:59:29.551 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.552 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.552 - Accepted 127.0.0.1:56515
+4019:M 21 Jul 2020 17:59:29.554 - Reading from client: Connection reset by peer
+4019:M 21 Jul 2020 17:59:29.555 - Accepted 127.0.0.1:56516
+4019:M 21 Jul 2020 17:59:29.555 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.558 - Accepted 127.0.0.1:56517
+4019:M 21 Jul 2020 17:59:29.561 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.566 - Accepted 127.0.0.1:56518
+4019:M 21 Jul 2020 17:59:29.567 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.569 - Accepted 127.0.0.1:56521
+4019:M 21 Jul 2020 17:59:29.570 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.571 - Accepted 127.0.0.1:56522
+4019:M 21 Jul 2020 17:59:29.573 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.580 - Accepted 127.0.0.1:56523
+4019:M 21 Jul 2020 17:59:29.583 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.586 - Accepted 127.0.0.1:56524
+4019:M 21 Jul 2020 17:59:29.590 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.592 - Accepted 127.0.0.1:56525
+4019:M 21 Jul 2020 17:59:29.595 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.596 - Accepted 127.0.0.1:56526
+4019:M 21 Jul 2020 17:59:29.607 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.746 - Accepted 127.0.0.1:56535
+4019:M 21 Jul 2020 17:59:29.754 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.756 - Accepted 127.0.0.1:56536
+4019:M 21 Jul 2020 17:59:29.758 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.759 - Accepted 127.0.0.1:56537
+4019:M 21 Jul 2020 17:59:29.862 - Client closed connection
+4019:M 21 Jul 2020 17:59:29.863 - Accepted 127.0.0.1:56543
+4019:M 21 Jul 2020 17:59:30.059 - Client closed connection
+4019:M 21 Jul 2020 17:59:30.060 - Accepted 127.0.0.1:56549
+4019:M 21 Jul 2020 17:59:30.060 # WARNING: the new maxmemory value set via CONFIG SET (1) is smaller than the current memory usage (1128208). This will result in key eviction and/or the inability to accept new write commands depending on the maxmemory-policy.
+4019:M 21 Jul 2020 17:59:30.061 - Client closed connection
+4019:signal-handler (1595334570) Received SIGTERM scheduling shutdown...
+4019:M 21 Jul 2020 17:59:30.973 # User requested shutdown...
+4019:M 21 Jul 2020 17:59:30.973 * Saving the final RDB snapshot before exiting.
+4019:M 21 Jul 2020 17:59:30.975 * DB saved on disk
+4019:M 21 Jul 2020 17:59:30.975 * Removing the pid file.
+4019:M 21 Jul 2020 17:59:30.975 * Removing the unix socket file.
+4019:M 21 Jul 2020 17:59:30.975 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,31 @@
+4347:C 21 Jul 2020 17:59:40.186 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4347:C 21 Jul 2020 17:59:40.187 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4347, just started
+4347:C 21 Jul 2020 17:59:40.187 # Configuration loaded
+4347:M 21 Jul 2020 17:59:40.189 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 24616
+ |    `-._   `._    /     _.-'    |     PID: 4347
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4347:M 21 Jul 2020 17:59:40.191 # Server initialized
+4347:M 21 Jul 2020 17:59:40.191 * Ready to accept connections
+4347:M 21 Jul 2020 17:59:40.191 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2070.11/socket
+4347:M 21 Jul 2020 17:59:40.325 - Accepted 127.0.0.1:56700
+4347:M 21 Jul 2020 17:59:40.325 - Client closed connection
+4347:M 21 Jul 2020 17:59:40.353 - Accepted 127.0.0.1:56701
+4347:M 21 Jul 2020 17:59:40.355 - Accepted 127.0.0.1:56702
+4347:M 21 Jul 2020 17:59:41.644 - Reading from client: Connection reset by peer
+4347:M 21 Jul 2020 17:59:41.645 - Reading from client: Connection reset by peer

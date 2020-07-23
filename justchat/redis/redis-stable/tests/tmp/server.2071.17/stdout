@@ -1,0 +1,54 @@
+3023:C 21 Jul 2020 17:59:08.346 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3023:C 21 Jul 2020 17:59:08.346 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=3023, just started
+3023:C 21 Jul 2020 17:59:08.346 # Configuration loaded
+3023:M 21 Jul 2020 17:59:08.348 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25119
+ |    `-._   `._    /     _.-'    |     PID: 3023
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+3023:M 21 Jul 2020 17:59:08.350 # Server initialized
+3023:M 21 Jul 2020 17:59:08.351 * Ready to accept connections
+3023:M 21 Jul 2020 17:59:08.351 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.17/socket
+3023:M 21 Jul 2020 17:59:08.484 - Accepted 127.0.0.1:56133
+3023:M 21 Jul 2020 17:59:08.484 - Client closed connection
+3023:M 21 Jul 2020 17:59:08.512 - Accepted 127.0.0.1:56134
+3023:S 21 Jul 2020 17:59:13.960 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+3023:S 21 Jul 2020 17:59:13.960 * REPLICAOF 127.0.0.1:25118 enabled (user request from 'id=5 addr=127.0.0.1:56134 fd=12 name= age=5 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+3023:S 21 Jul 2020 17:59:14.421 * Connecting to MASTER 127.0.0.1:25118
+3023:S 21 Jul 2020 17:59:14.421 * MASTER <-> REPLICA sync started
+3023:S 21 Jul 2020 17:59:14.422 * Non blocking connect for SYNC fired the event.
+3023:S 21 Jul 2020 17:59:14.433 * Master replied to PING, replication can continue...
+3023:S 21 Jul 2020 17:59:14.433 * Trying a partial resynchronization (request 97dc6f8d897f14b3702a6d01e9598e2089fd3578:1).
+3023:S 21 Jul 2020 17:59:14.437 * Full resync from master: 8726947da0f822b8b7f49dc9f5095d6619f88994:0
+3023:S 21 Jul 2020 17:59:14.437 * Discarding previously cached master state.
+3023:S 21 Jul 2020 17:59:14.532 * MASTER <-> REPLICA sync: receiving 940362 bytes from master to disk
+3023:S 21 Jul 2020 17:59:14.534 * MASTER <-> REPLICA sync: Flushing old data
+3023:S 21 Jul 2020 17:59:14.534 * MASTER <-> REPLICA sync: Loading DB in memory
+3023:S 21 Jul 2020 17:59:14.535 * Loading RDB produced by version 6.0.6
+3023:S 21 Jul 2020 17:59:14.535 * RDB age 0 seconds
+3023:S 21 Jul 2020 17:59:14.535 * RDB memory usage when created 4.95 Mb
+3023:S 21 Jul 2020 17:59:14.713 * MASTER <-> REPLICA sync: Finished with success
+3023:S 21 Jul 2020 17:59:19.340 - DB 9: 20819 keys (0 volatile) in 32768 slots HT.
+3023:S 21 Jul 2020 17:59:19.340 - DB 11: 796 keys (0 volatile) in 1024 slots HT.
+3023:S 21 Jul 2020 17:59:19.340 - DB 12: 844 keys (0 volatile) in 1024 slots HT.
+3023:signal-handler (1595334564) Received SIGTERM scheduling shutdown...
+3023:S 21 Jul 2020 17:59:24.520 # User requested shutdown...
+3023:S 21 Jul 2020 17:59:24.520 * Saving the final RDB snapshot before exiting.
+3023:S 21 Jul 2020 17:59:24.602 * DB saved on disk
+3023:S 21 Jul 2020 17:59:24.602 * Removing the pid file.
+3023:S 21 Jul 2020 17:59:24.603 * Removing the unix socket file.
+3023:S 21 Jul 2020 17:59:24.603 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,52 @@
+2899:C 21 Jul 2020 17:59:05.023 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2899:C 21 Jul 2020 17:59:05.023 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2899, just started
+2899:C 21 Jul 2020 17:59:05.023 # Configuration loaded
+2899:M 21 Jul 2020 17:59:05.025 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 25117
+ |    `-._   `._    /     _.-'    |     PID: 2899
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2899:M 21 Jul 2020 17:59:05.027 # Server initialized
+2899:M 21 Jul 2020 17:59:05.027 * Ready to accept connections
+2899:M 21 Jul 2020 17:59:05.027 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2071.13/socket
+2899:M 21 Jul 2020 17:59:05.160 - Accepted 127.0.0.1:56092
+2899:M 21 Jul 2020 17:59:05.160 - Client closed connection
+2899:M 21 Jul 2020 17:59:05.187 - Accepted 127.0.0.1:56093
+2899:S 21 Jul 2020 17:59:05.189 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2899:S 21 Jul 2020 17:59:05.189 * REPLICAOF 127.0.0.1:25116 enabled (user request from 'id=5 addr=127.0.0.1:56093 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2899:S 21 Jul 2020 17:59:06.031 * Connecting to MASTER 127.0.0.1:25116
+2899:S 21 Jul 2020 17:59:06.032 * MASTER <-> REPLICA sync started
+2899:S 21 Jul 2020 17:59:06.032 * Non blocking connect for SYNC fired the event.
+2899:S 21 Jul 2020 17:59:06.032 * Master replied to PING, replication can continue...
+2899:S 21 Jul 2020 17:59:06.032 * Trying a partial resynchronization (request a998d5f22008d3b8d3e32c4f359e71d69a3957c0:1).
+2899:S 21 Jul 2020 17:59:06.034 * Full resync from master: 7cca4e7b0587bab4e3c532a0b5d0b28981f071be:0
+2899:S 21 Jul 2020 17:59:06.034 * Discarding previously cached master state.
+2899:S 21 Jul 2020 17:59:06.052 * MASTER <-> REPLICA sync: receiving 191 bytes from master to disk
+2899:S 21 Jul 2020 17:59:06.052 * MASTER <-> REPLICA sync: Flushing old data
+2899:S 21 Jul 2020 17:59:06.052 * MASTER <-> REPLICA sync: Loading DB in memory
+2899:S 21 Jul 2020 17:59:06.053 * Loading RDB produced by version 6.0.6
+2899:S 21 Jul 2020 17:59:06.053 * RDB age 0 seconds
+2899:S 21 Jul 2020 17:59:06.053 * RDB memory usage when created 2.03 Mb
+2899:S 21 Jul 2020 17:59:06.053 * MASTER <-> REPLICA sync: Finished with success
+2899:S 21 Jul 2020 17:59:06.063 * DB saved on disk
+2899:signal-handler (1595334547) Received SIGTERM scheduling shutdown...
+2899:S 21 Jul 2020 17:59:07.099 # User requested shutdown...
+2899:S 21 Jul 2020 17:59:07.099 * Saving the final RDB snapshot before exiting.
+2899:S 21 Jul 2020 17:59:07.100 * DB saved on disk
+2899:S 21 Jul 2020 17:59:07.100 * Removing the pid file.
+2899:S 21 Jul 2020 17:59:07.101 * Removing the unix socket file.
+2899:S 21 Jul 2020 17:59:07.101 # Redis is now ready to exit, bye bye...

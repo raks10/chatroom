@@ -1,0 +1,90 @@
+4078:C 21 Jul 2020 17:59:29.854 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4078:C 21 Jul 2020 17:59:29.854 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=4078, just started
+4078:C 21 Jul 2020 17:59:29.854 # Configuration loaded
+4078:M 21 Jul 2020 17:59:29.856 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 21619
+ |    `-._   `._    /     _.-'    |     PID: 4078
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+4078:M 21 Jul 2020 17:59:29.858 # Server initialized
+4078:M 21 Jul 2020 17:59:29.859 * Ready to accept connections
+4078:M 21 Jul 2020 17:59:29.859 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2064.17/socket
+4078:M 21 Jul 2020 17:59:29.904 - Accepted 127.0.0.1:56545
+4078:M 21 Jul 2020 17:59:29.905 - Client closed connection
+4078:M 21 Jul 2020 17:59:29.937 - Accepted 127.0.0.1:56547
+4078:S 21 Jul 2020 17:59:29.939 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+4078:S 21 Jul 2020 17:59:29.939 * REPLICAOF 127.0.0.1:21615 enabled (user request from 'id=5 addr=127.0.0.1:56547 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=45 qbuf-free=32723 obl=0 oll=0 omem=0 events=r cmd=replicaof user=default')
+4078:S 21 Jul 2020 17:59:30.868 * Connecting to MASTER 127.0.0.1:21615
+4078:S 21 Jul 2020 17:59:30.868 * MASTER <-> REPLICA sync started
+4078:S 21 Jul 2020 17:59:30.868 * Non blocking connect for SYNC fired the event.
+4078:S 21 Jul 2020 17:59:30.868 * Master replied to PING, replication can continue...
+4078:S 21 Jul 2020 17:59:30.869 * Trying a partial resynchronization (request 92b3b89464bb422715a50df198109dfb2e66b7e9:1).
+4078:S 21 Jul 2020 17:59:30.869 * Full resync from master: 5b2865952f86360ae08a91d5b9a50871bdf2fd5e:0
+4078:S 21 Jul 2020 17:59:30.869 * Discarding previously cached master state.
+4078:S 21 Jul 2020 17:59:30.877 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+4078:S 21 Jul 2020 17:59:30.877 * MASTER <-> REPLICA sync: Flushing old data
+4078:S 21 Jul 2020 17:59:30.877 * MASTER <-> REPLICA sync: Loading DB in memory
+4078:S 21 Jul 2020 17:59:30.878 * Loading RDB produced by version 6.0.6
+4078:S 21 Jul 2020 17:59:30.878 * RDB age 0 seconds
+4078:S 21 Jul 2020 17:59:30.878 * RDB memory usage when created 2.09 Mb
+4078:S 21 Jul 2020 17:59:30.878 * MASTER <-> REPLICA sync: Finished with success
+4078:S 21 Jul 2020 17:59:32.450 - Client closed connection
+4078:S 21 Jul 2020 17:59:32.450 # Connection with master lost.
+4078:S 21 Jul 2020 17:59:32.450 * Caching the disconnected master state.
+4078:S 21 Jul 2020 17:59:32.883 * Connecting to MASTER 127.0.0.1:21615
+4078:S 21 Jul 2020 17:59:32.884 * MASTER <-> REPLICA sync started
+4078:S 21 Jul 2020 17:59:32.884 * Non blocking connect for SYNC fired the event.
+4078:S 21 Jul 2020 17:59:32.884 * Master replied to PING, replication can continue...
+4078:S 21 Jul 2020 17:59:32.884 * Trying a partial resynchronization (request 5b2865952f86360ae08a91d5b9a50871bdf2fd5e:73).
+4078:S 21 Jul 2020 17:59:32.884 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+4078:S 21 Jul 2020 17:59:33.888 * Connecting to MASTER 127.0.0.1:21615
+4078:S 21 Jul 2020 17:59:33.888 * MASTER <-> REPLICA sync started
+4078:S 21 Jul 2020 17:59:33.888 * Non blocking connect for SYNC fired the event.
+4078:S 21 Jul 2020 17:59:33.888 * Master replied to PING, replication can continue...
+4078:S 21 Jul 2020 17:59:33.888 * Trying a partial resynchronization (request 5b2865952f86360ae08a91d5b9a50871bdf2fd5e:73).
+4078:S 21 Jul 2020 17:59:33.890 * Full resync from master: 76fdc368407582c8b0c77fd1c697be9304ebf0e1:44
+4078:S 21 Jul 2020 17:59:33.890 * Discarding previously cached master state.
+4078:S 21 Jul 2020 17:59:33.902 * MASTER <-> REPLICA sync: receiving 185 bytes from master to disk
+4078:S 21 Jul 2020 17:59:33.902 * MASTER <-> REPLICA sync: Flushing old data
+4078:S 21 Jul 2020 17:59:33.902 * MASTER <-> REPLICA sync: Loading DB in memory
+4078:S 21 Jul 2020 17:59:33.902 * Loading RDB produced by version 6.0.6
+4078:S 21 Jul 2020 17:59:33.902 * RDB age 0 seconds
+4078:S 21 Jul 2020 17:59:33.902 * RDB memory usage when created 2.06 Mb
+4078:S 21 Jul 2020 17:59:33.902 * MASTER <-> REPLICA sync: Finished with success
+4078:S 21 Jul 2020 17:59:34.457 # Connection with master lost.
+4078:S 21 Jul 2020 17:59:34.457 * Caching the disconnected master state.
+4078:S 21 Jul 2020 17:59:34.895 - DB 9: 1 keys (0 volatile) in 4 slots HT.
+4078:S 21 Jul 2020 17:59:34.895 * Connecting to MASTER 127.0.0.1:21615
+4078:S 21 Jul 2020 17:59:34.895 * MASTER <-> REPLICA sync started
+4078:S 21 Jul 2020 17:59:34.895 * Non blocking connect for SYNC fired the event.
+4078:S 21 Jul 2020 17:59:34.895 * Master replied to PING, replication can continue...
+4078:S 21 Jul 2020 17:59:34.895 * Trying a partial resynchronization (request 76fdc368407582c8b0c77fd1c697be9304ebf0e1:89).
+4078:S 21 Jul 2020 17:59:34.895 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+4078:S 21 Jul 2020 17:59:35.908 * Connecting to MASTER 127.0.0.1:21615
+4078:S 21 Jul 2020 17:59:35.909 * MASTER <-> REPLICA sync started
+4078:S 21 Jul 2020 17:59:35.909 * Non blocking connect for SYNC fired the event.
+4078:S 21 Jul 2020 17:59:35.909 * Master replied to PING, replication can continue...
+4078:S 21 Jul 2020 17:59:35.909 * Trying a partial resynchronization (request 76fdc368407582c8b0c77fd1c697be9304ebf0e1:89).
+4078:S 21 Jul 2020 17:59:35.909 * Successful partial resynchronization with master.
+4078:S 21 Jul 2020 17:59:35.909 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+4078:signal-handler (1595334577) Received SIGTERM scheduling shutdown...
+4078:S 21 Jul 2020 17:59:37.380 # User requested shutdown...
+4078:S 21 Jul 2020 17:59:37.380 * Saving the final RDB snapshot before exiting.
+4078:S 21 Jul 2020 17:59:37.382 * DB saved on disk
+4078:S 21 Jul 2020 17:59:37.382 * Removing the pid file.
+4078:S 21 Jul 2020 17:59:37.382 * Removing the unix socket file.
+4078:S 21 Jul 2020 17:59:37.382 # Redis is now ready to exit, bye bye...

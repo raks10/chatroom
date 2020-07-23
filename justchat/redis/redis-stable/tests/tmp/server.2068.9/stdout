@@ -1,0 +1,51 @@
+2944:C 21 Jul 2020 17:59:06.374 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2944:C 21 Jul 2020 17:59:06.374 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2944, just started
+2944:C 21 Jul 2020 17:59:06.374 # Configuration loaded
+2944:M 21 Jul 2020 17:59:06.377 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 23615
+ |    `-._   `._    /     _.-'    |     PID: 2944
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2944:M 21 Jul 2020 17:59:06.379 # Server initialized
+2944:M 21 Jul 2020 17:59:06.379 * Ready to accept connections
+2944:M 21 Jul 2020 17:59:06.379 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2068.9/socket
+2944:M 21 Jul 2020 17:59:06.516 - Accepted 127.0.0.1:56108
+2944:M 21 Jul 2020 17:59:06.517 - Client closed connection
+2944:M 21 Jul 2020 17:59:06.544 - Accepted 127.0.0.1:56109
+2944:S 21 Jul 2020 17:59:06.544 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+2944:S 21 Jul 2020 17:59:06.545 * REPLICAOF 127.0.0.1:23614 enabled (user request from 'id=5 addr=127.0.0.1:56109 fd=12 name= age=0 idle=0 flags=N db=9 sub=0 psub=0 multi=-1 qbuf=43 qbuf-free=32725 obl=0 oll=0 omem=0 events=r cmd=slaveof user=default')
+2944:S 21 Jul 2020 17:59:07.388 * Connecting to MASTER 127.0.0.1:23614
+2944:S 21 Jul 2020 17:59:07.388 * MASTER <-> REPLICA sync started
+2944:S 21 Jul 2020 17:59:07.388 * Non blocking connect for SYNC fired the event.
+2944:S 21 Jul 2020 17:59:07.388 * Master replied to PING, replication can continue...
+2944:S 21 Jul 2020 17:59:07.388 * Trying a partial resynchronization (request b106dea4fff762d3044a043b163d9ecf87ae1120:1).
+2944:S 21 Jul 2020 17:59:07.390 * Full resync from master: 6b220c3bece7a522c4ed86a248721319d670ac9c:0
+2944:S 21 Jul 2020 17:59:07.390 * Discarding previously cached master state.
+2944:S 21 Jul 2020 17:59:07.399 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+2944:S 21 Jul 2020 17:59:07.399 * MASTER <-> REPLICA sync: Flushing old data
+2944:S 21 Jul 2020 17:59:07.399 * MASTER <-> REPLICA sync: Loading DB in memory
+2944:S 21 Jul 2020 17:59:07.400 * Loading RDB produced by version 6.0.6
+2944:S 21 Jul 2020 17:59:07.400 * RDB age 0 seconds
+2944:S 21 Jul 2020 17:59:07.400 * RDB memory usage when created 2.03 Mb
+2944:S 21 Jul 2020 17:59:07.400 * MASTER <-> REPLICA sync: Finished with success
+2944:signal-handler (1595334552) Received SIGTERM scheduling shutdown...
+2944:S 21 Jul 2020 17:59:12.507 # User requested shutdown...
+2944:S 21 Jul 2020 17:59:12.508 * Saving the final RDB snapshot before exiting.
+2944:S 21 Jul 2020 17:59:12.509 * DB saved on disk
+2944:S 21 Jul 2020 17:59:12.509 * Removing the pid file.
+2944:S 21 Jul 2020 17:59:12.510 * Removing the unix socket file.
+2944:S 21 Jul 2020 17:59:12.510 # Redis is now ready to exit, bye bye...

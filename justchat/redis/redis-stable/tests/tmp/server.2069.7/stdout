@@ -1,0 +1,70 @@
+2837:C 21 Jul 2020 17:59:02.167 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2837:C 21 Jul 2020 17:59:02.167 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=2837, just started
+2837:C 21 Jul 2020 17:59:02.167 # Configuration loaded
+2837:M 21 Jul 2020 17:59:02.169 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 24114
+ |    `-._   `._    /     _.-'    |     PID: 2837
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+2837:M 21 Jul 2020 17:59:02.171 # Server initialized
+2837:M 21 Jul 2020 17:59:02.171 * Ready to accept connections
+2837:M 21 Jul 2020 17:59:02.171 * The server is now ready to accept connections at /Users/rakshagupta/Documents/Django/chatbot/justchat/redis/redis-stable/tests/tmp/server.2069.7/socket
+2837:M 21 Jul 2020 17:59:02.302 - Accepted 127.0.0.1:56054
+2837:M 21 Jul 2020 17:59:02.303 - Client closed connection
+2837:M 21 Jul 2020 17:59:02.330 - Accepted 127.0.0.1:56055
+2837:M 21 Jul 2020 17:59:02.542 - Accepted 127.0.0.1:56060
+2837:M 21 Jul 2020 17:59:02.545 - Accepted 127.0.0.1:56061
+2837:M 21 Jul 2020 17:59:02.549 - Accepted 127.0.0.1:56062
+2837:M 21 Jul 2020 17:59:03.391 - Accepted 127.0.0.1:56069
+2837:M 21 Jul 2020 17:59:03.398 * Replica 127.0.0.1:24115 asks for synchronization
+2837:M 21 Jul 2020 17:59:03.399 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '7bcf866413bd6b72d23e880568ce187bb2d1afa2', my replication IDs are '62fd534fa997537427bfe3de40cac1923822457a' and '0000000000000000000000000000000000000000')
+2837:M 21 Jul 2020 17:59:03.399 * Replication backlog created, my new replication IDs are '85e3d05a13fa53e2f171987e13725ae8412f1140' and '0000000000000000000000000000000000000000'
+2837:M 21 Jul 2020 17:59:03.400 * Starting BGSAVE for SYNC with target: disk
+2837:M 21 Jul 2020 17:59:03.402 * Background saving started by pid 2861
+2861:C 21 Jul 2020 17:59:03.406 * DB saved on disk
+2837:M 21 Jul 2020 17:59:03.517 * Background saving terminated with success
+2837:M 21 Jul 2020 17:59:03.518 * Synchronization with replica 127.0.0.1:24115 succeeded
+2837:M 21 Jul 2020 17:59:03.663 - Client closed connection
+2837:M 21 Jul 2020 17:59:03.663 # Connection with replica 127.0.0.1:24115 lost.
+2837:M 21 Jul 2020 17:59:04.392 - Accepted 127.0.0.1:56081
+2837:M 21 Jul 2020 17:59:04.393 * Replica 127.0.0.1:24115 asks for synchronization
+2837:M 21 Jul 2020 17:59:04.393 * Partial resynchronization request from 127.0.0.1:24115 accepted. Sending 113085 bytes of backlog starting from offset 25502.
+2837:M 21 Jul 2020 17:59:05.700 - Reading from client: Connection reset by peer
+2837:M 21 Jul 2020 17:59:05.700 # Connection with replica client id #10 lost.
+2837:M 21 Jul 2020 17:59:06.416 - Accepted 127.0.0.1:56107
+2837:M 21 Jul 2020 17:59:06.417 * Replica 127.0.0.1:24115 asks for synchronization
+2837:M 21 Jul 2020 17:59:06.417 * Partial resynchronization request from 127.0.0.1:24115 accepted. Sending 77232 bytes of backlog starting from offset 313364.
+2837:M 21 Jul 2020 17:59:07.750 - Client closed connection
+2837:M 21 Jul 2020 17:59:07.751 # Connection with replica 127.0.0.1:24115 lost.
+2837:M 21 Jul 2020 17:59:07.804 - DB 9: 818 keys (0 volatile) in 1024 slots HT.
+2837:M 21 Jul 2020 17:59:07.804 - DB 11: 825 keys (0 volatile) in 1024 slots HT.
+2837:M 21 Jul 2020 17:59:07.804 - DB 12: 847 keys (0 volatile) in 1024 slots HT.
+2837:M 21 Jul 2020 17:59:08.432 - Accepted 127.0.0.1:56132
+2837:M 21 Jul 2020 17:59:08.432 * Replica 127.0.0.1:24115 asks for synchronization
+2837:M 21 Jul 2020 17:59:08.432 * Partial resynchronization request from 127.0.0.1:24115 accepted. Sending 86360 bytes of backlog starting from offset 560831.
+2837:M 21 Jul 2020 17:59:09.737 - Client closed connection
+2837:M 21 Jul 2020 17:59:09.737 - Reading from client: Connection reset by peer
+2837:M 21 Jul 2020 17:59:10.005 - Client closed connection
+2837:M 21 Jul 2020 17:59:12.575 - Client closed connection
+2837:M 21 Jul 2020 17:59:12.575 # Connection with replica 127.0.0.1:24115 lost.
+2837:signal-handler (1595334557) Received SIGTERM scheduling shutdown...
+2837:M 21 Jul 2020 17:59:17.097 # User requested shutdown...
+2837:M 21 Jul 2020 17:59:17.097 * Saving the final RDB snapshot before exiting.
+2837:M 21 Jul 2020 17:59:17.135 * DB saved on disk
+2837:M 21 Jul 2020 17:59:17.137 * Removing the pid file.
+2837:M 21 Jul 2020 17:59:17.138 * Removing the unix socket file.
+2837:M 21 Jul 2020 17:59:17.138 # Redis is now ready to exit, bye bye...
